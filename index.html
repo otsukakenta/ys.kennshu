@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>HTMLの基礎</title>
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+<h1>HTMLの基礎</h1>
+</header>
+<article>
+<section>
+ここでは、XHTML文書の基礎を学びます。
+</section>
+<section>
+<h2>XHTMLタグ</h2>
+<b>■ブロックレベル要素</b>
+<b>■インラインレベル要素</b>
+  
+   <h3>ブロックレベル要素</h3>
+    <p>一つの文書のかたまりを表す要素で、通常前後で改行されます。</p>
+    <span class="border_black">見出し</span>
+    <span class="left">h1~h5</span>
+段落
+p
+順序のない箇条書き
+ul+li
+順序のない箇条書き
+ol+li
+定義リスト
+dl+dt+dd
+連絡先
+address
+フォーム
+form
+表
+table
+範囲
+div
+
+<h3>インラインレベル要素</h3>
+<p>文章の一部分を表す要素です。（通常は前後で開業されません）</p>
+強調
+em
+より強調
+strong
+リンク
+a
+範囲
+span
+画像挿入
+img
+</section>
+<section>
+<h2>ハイパーリンク</h2>
+<b>■サイト内リンク</b>
+<b>■外部リンク</b>
+<b>■ページ内リンク</b>
+
+<h4>サイト内リンク</h4>
+<p>サイト内でのページ移動は、通常相対パスを使ってリンクします。</p>
+同じフォルダ内のファイルを参照
+ファイル名
+フォルダ内のファイルを参照
+フォルダ名/ファイル名
+上の階層のフォルダ内にあるファイルを参照
+../フォルダ名/ファイル名
+
+<h4>外部リンク</h4>
+<p>外部サイトへのページ移動は、http://から始まる相対パスを使ってリンクします。</p>
+トップページ
+<u>ドメイン名を指定</u>
+各ページ
+<u>ドメイン名/ファイル名</u>
+
+ページ内リンク
+ページ内での移動は、ページ内のidに#でリンクします。
+ページ内移動
+<u>ページトップへ</u>
+</section>
+<section>
+<h2>要素と属性</h2>
+<b>■要素</b>
+<b>■属性</b>
+
+<h3>要素</h3>
+タグの名前を指します。
+
+<h3>属性</h3>
+開始タグの中に、タグを補足する要素として以下の形式で記述します。
+<img src="image.jpg"width"100"height"50"alt="代替え文字">
+</section>
+<section>
+<h2>補足</h2>
+
+<h3>単独タグ</h3>
+<p>終了タグの無いタグ(meta.br.imgなど)を単独タグ、または空タグと呼びます。
+HTML4まではタグの最後に/を入れていましたが、HTML5になってからは不要になりました。</p>
+
+<table>
+<tr>
+<th>HTML4まで</th><th>HTML5以降</th>
+</tr>
+<tr>
+    <td><meta /></td><td><meta></td>
+</tr>
+<tr>
+    <td><br /></td><td><br></td>
+</tr>
+<tr>
+    <td><img src=""/></td><td><img src=""></td>
+</tr>
+</table>
+<h3>コメント</h3>
+<p>HTML文書内にブラウザには表示されないコメントを記述します。書式は以下の通り。</p>
+<p><!--注意書き--></p>
+<h3>コーディングの手順</h3>
+
+<ol>
+<li>HTML文書構成タグマークアップ</li>
+<li>divタグによるセレクション付け</li>
+<li>CSSの設定</li>
+</ol>
+</section>
+</article>
+<footer>
+2019 All right reserverd
+</footer>
+<script>
+'use strict';
+console.log('よく柿食う客だ');
+</script>
+</body>
+</html>
