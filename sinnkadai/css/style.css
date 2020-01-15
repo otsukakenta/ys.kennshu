@@ -1,0 +1,14 @@
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    //横並び
+    display: inline-block;
+    //区切り線
+    border-left: 1px solid red;
+}
+nav li:first-child{
+    //初めの区切り線を削除
+    border-left:none;
+}
