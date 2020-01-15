@@ -6,130 +6,226 @@
 <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<header>
-<h1>HTMLの基礎</h1>
-</header>
-<article>
-<section>
-ここでは、XHTML文書の基礎を学びます。
-</section>
-<section>
-<h2>XHTMLタグ</h2>
-<b>■ブロックレベル要素</b>
-<b>■インラインレベル要素</b>
-  
-   <h3>ブロックレベル要素</h3>
-    <p>一つの文書のかたまりを表す要素で、通常前後で改行されます。</p>
-    <span class="border_black">見出し</span>
-    <span class="left">h1~h5</span>
-段落
-p
-順序のない箇条書き
-ul+li
-順序のない箇条書き
-ol+li
-定義リスト
-dl+dt+dd
-連絡先
-address
-フォーム
-form
-表
-table
-範囲
-div
-
-<h3>インラインレベル要素</h3>
-<p>文章の一部分を表す要素です。（通常は前後で開業されません）</p>
-強調
-em
-より強調
-strong
-リンク
-a
-範囲
-span
-画像挿入
-img
-</section>
-<section>
-<h2>ハイパーリンク</h2>
-<b>■サイト内リンク</b>
-<b>■外部リンク</b>
-<b>■ページ内リンク</b>
-
-<h4>サイト内リンク</h4>
-<p>サイト内でのページ移動は、通常相対パスを使ってリンクします。</p>
-同じフォルダ内のファイルを参照
-ファイル名
-フォルダ内のファイルを参照
-フォルダ名/ファイル名
-上の階層のフォルダ内にあるファイルを参照
-../フォルダ名/ファイル名
-
-<h4>外部リンク</h4>
-<p>外部サイトへのページ移動は、http://から始まる相対パスを使ってリンクします。</p>
-トップページ
-<u>ドメイン名を指定</u>
-各ページ
-<u>ドメイン名/ファイル名</u>
-
-ページ内リンク
-ページ内での移動は、ページ内のidに#でリンクします。
-ページ内移動
-<u>ページトップへ</u>
-</section>
-<section>
-<h2>要素と属性</h2>
-<b>■要素</b>
-<b>■属性</b>
-
-<h3>要素</h3>
-タグの名前を指します。
-
-<h3>属性</h3>
-開始タグの中に、タグを補足する要素として以下の形式で記述します。
-<img src="image.jpg"width"100"height"50"alt="代替え文字">
-</section>
-<section>
-<h2>補足</h2>
-
-<h3>単独タグ</h3>
-<p>終了タグの無いタグ(meta.br.imgなど)を単独タグ、または空タグと呼びます。
-HTML4まではタグの最後に/を入れていましたが、HTML5になってからは不要になりました。</p>
-
-<table>
-<tr>
-<th>HTML4まで</th><th>HTML5以降</th>
-</tr>
-<tr>
-    <td><meta /></td><td><meta></td>
-</tr>
-<tr>
-    <td><br /></td><td><br></td>
-</tr>
-<tr>
-    <td><img src=""/></td><td><img src=""></td>
-</tr>
-</table>
-<h3>コメント</h3>
-<p>HTML文書内にブラウザには表示されないコメントを記述します。書式は以下の通り。</p>
-<p><!--注意書き--></p>
-<h3>コーディングの手順</h3>
-
-<ol>
-<li>HTML文書構成タグマークアップ</li>
-<li>divタグによるセレクション付け</li>
-<li>CSSの設定</li>
-</ol>
-</section>
-</article>
-<footer>
-2019 All right reserverd
-</footer>
-<script>
-'use strict';
-console.log('よく柿食う客だ');
-</script>
+    <header>
+      <h1>HTMLの基礎</h1>
+      <p>ここでは、XHTML文書の基礎を学びます。</p>
+    </header>
+    <main>
+      <div class="main">
+        <div class="left">
+          <h2>XHTMLタグ</h2>
+            <p>
+              <b>■ブロックレベル要素</b><br>
+              <b>■インラインレベル要素</b>
+            </p>
+       
+            <h3>ブロックレベル要素</h3>
+              <p>ひとつの文書のかたまりを表す要素で、通常前後で改行されます。</p>
+              <table class="tb_block">
+               <tr>
+                 <td class="tb_left">見出し</td>
+               </tr>
+               <tr>
+                 <td class="tb_right">h1~h6</td>
+               </tr>
+               <tr>
+                 <td class="tb_left">段落</td>
+               </tr>
+               <tr>
+                 <td class="tb_right">p</td>
+               </tr>
+               <tr>
+                 <td class="tb_left">順序のない箇条書き</td>
+               </tr>
+               <tr>
+                 <td class="tb_right">ul+li</td>
+               </tr>
+               <tr>
+                 <td class="tb_left">順序のある箇条書き</td>
+               </tr>
+               <tr>
+                 <td class="tb_right">ol+li</td>
+               </tr>
+               <tr>
+                 <td class="tb_left">定義リスト</td>
+               </tr>
+               <tr>
+                 <td class="tb_right">dl+dt+dd</td>
+               </tr>
+               <tr>
+                 <td class="tb_left">連絡先</td>
+               </tr>
+               <tr>
+                 <td class="tb_right">address</td>
+               </tr>
+               <tr>
+                 <td class="tb_left">フォーム</td>
+               </tr>
+               <tr>
+                 <td class="tb_right">form</td>
+               </tr>
+               <tr>
+                 <td class="tb_left">表</td>
+               </tr>
+               <tr>
+                 <td class="tb_right">table</td>
+               </tr>
+               <tr>
+                 <td class="tb_left">範囲</td>
+               </tr>
+               <tr>
+                 <td class="tb_right">div</td>
+               </tr>
+              </table>
+            <h3>インラインレベル要素</h3>
+              <p>文章の一部分を表す要素です。（通常は前後で開業されません）</p>
+              <table class="tb_block">
+                <tr>
+                  <td class="tb_left">強調</td>
+                </tr>
+                <tr>
+                  <td class="tb_right">em</td>
+                </tr>
+                <tr>
+                  <td class="tb_left">より強調</td>
+                </tr>
+                <tr>
+                  <td class="tb_right">strong</td>
+                </tr>
+                <tr>
+                  <td class="tb_left">リンク</td>
+                </tr>
+                <tr>
+                  <td class="tb_right">a</td>
+                </tr>
+                <tr>
+                  <td class="tb_left">範囲</td>
+                </tr>
+                <tr>
+                  <td class="tb_right">span</td>
+                </tr>
+                <tr>
+                  <td class="tb_left">画像挿入</td>
+                </tr>
+                <tr>
+                  <td class="tb_right">img</td>
+                </tr>       
+              </table>
+        </div>
+        <div class="right">
+          <h2>ハイパーリンク</h2>
+            <p>
+              <b>■サイト内リンク</b><br>
+              <b>■外部リンク</b><br>
+              <b>■ページ内リンク</b><br>
+            </p>
+            <div class="link">    
+              <h4>サイト内リンク</h4>
+                <div class="yohaku">
+                <p>サイト内でのページ移動は、通常相対パスを使ってリンクします。</p>
+                <table class="tb_block">
+                  <tr>
+                    <td class="tb_left">同じフォルダ内のファイルを参照</td>
+                  </tr>
+                  <tr>
+                    <td class="tb_right">ファイル名</td>
+                  </tr>
+                  <tr>
+                    <td class="tb_left">フォルダ内のファイルを参照</td>
+                  </tr>
+                  <tr>
+                    <td class="tb_right">フォルダ名/ファイル名</td>
+                  </tr>
+                  <tr>
+                    <td class="tb_left">上の階層のフォルダ内にあるファイルを参照</td>
+                  </tr>
+                  <tr>
+                    <td class="tb_right">../フォルダ名/ファイル名</td>
+                  </tr>  
+                </table>
+                </div>
+            </div>
+            <div class="link">  
+              <h4>外部リンク</h4>
+                <div class="yohaku">
+                <p>外部サイトへのページ移動は、http://から始まる相対パスを使ってリンクします。</p>
+                <table class="tb_block">
+                  <tr>
+                    <td class="tb_left">トップページ</td>
+                  </tr>
+                  <tr>
+                    <td class="tb_right"><u>ドメイン名を指定</u></td>
+                  </tr>
+                  <tr>
+                    <td class="tb_left">各ページ</td>
+                  </tr>
+                  <tr>
+                    <td class="tb_right"><u>ドメイン名/ファイル名</u></td>
+                  </tr> 
+                </table> 
+                </div>
+            </div>
+            <div class="link">
+              <h4>ページ内リンク</h4>
+                <div class="yohaku">
+                <p>ページ内での移動は、ページ内のidに#でリンクします。</p>
+                <table class="tb_block">
+                  <tr>
+                    <td class="tb_left">ページ内移動</td>
+                  </tr>
+                  <tr>
+                    <td class="tb_right"><u>ページトップへ</u></td>
+                  </tr> 
+                </table> 
+                </div>
+            </div>
+          <h2>要素と属性</h2>
+            <p>
+              <b>■要素</b><br>
+              <b>■属性</b>
+            </p>    
+            <h3>要素</h3>
+            <p>タグの名前を指します。</p>
+            <h3>属性</h3>
+            <p>
+            開始タグの中に、タグを補足する要素として以下の形式で記述します。<br>
+            &lt;imgsrc=&quot;image.jpg&quot;width&quot;100&quot;height&quot;
+            50&quot;alt=&quot;代替え文字&quot;&gt;
+            </p>
+          <h2>補足</h2>
+            <h3>単独タグ</h3>
+            <p>
+            終了タグの無いタグ(meta.br.imgなど)を単独タグ、または空タグと呼びます。
+            HTML4まではタグの最後に/を入れていましたが、HTML5になってからは不要になりました。
+            </p>
+              <table class="tb">
+                <tr>
+                  <th class="tb_top">HTML4まで</th><th class="tb_top">HTML5以降</th>
+                </tr>
+                <tr>
+                  <td class="tb_bottom">&lt;meta /&gt;</td><td class="tb_bottom">&lt;meta&gt;</td>
+                </tr>
+                <tr>
+                  <td class="tb_bottom">&lt;br /&gt;</td><td class="tb_bottom">&lt;br&gt;</td>
+                </tr>
+                <tr>
+                  <td class="tb_bottom">&lt;img src=""/&gt;</td><td class="tb_bottom">&lt;img src=""&gt;</td>
+                </tr>
+              </table>
+            <h3>コメント</h3>
+            <p>HTML文書内にブラウザには表示されないコメントを記述します。書式は以下の通り。</p>
+            <p>&lt;!--注意書き--&gt;</p>
+            <h3>コーディングの手順</h3>
+              <ol>
+                <li>HTML文書構成タグマークアップ</li>
+                <li>divタグによるセレクション付け</li>
+                <li>CSSの設定</li>
+              </ol>
+         </div>
+      </div>
+    </main>
+    <footer>
+      <p>© 2019 All right reserverd</p>
+    </footer>
 </body>
 </html>
