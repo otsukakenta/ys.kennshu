@@ -74,13 +74,13 @@ margin: 0 auto;
     padding-top:8%;
     padding-bottom: 2%;
 }
-
+/*レイアウトがずれる*/
 .coment {
     position: absolute;
-    top:460px;;
-    left:67%;
-    right:33%;
-    margin:auto;
+    top:460px;
+    left: 800px;
+    right: 0;
+    margin: auto;
 }
 
 /*ここでホバー時に白くするはずがならない*/
