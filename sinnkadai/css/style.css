@@ -1,95 +1,105 @@
 @charset"utf-8";
 
-body{
-max-width: 80%;
+body {
+    max-width: 80%;
     text-align: center;
     background-image:url(../saiainodaichi/saiainodaichi/img_mainBg.jpg);
     margin: 0 auto;
     background-size: auto;
 }
-.top{
-background-image:url(../saiainodaichi/saiainodaichi/top_bg.jpg);
- background-size: cover;
-    width: 100%;
-    height: 80%;
-}
-.top_bottom{
-background-image:url(../saiainodaichi/saiainodaichi/img_containerBg.jpg);  
-width: 100%;
-    height: 100%;
-    background-size: auto;
-    
-}
-.icon{
-  text-align: left;
-    padding: 3% 0 0 3%;
-}
-.bun{
-     position: absolute;
-    top:8%;
-    left: 48%;
-}
-.bun img{
-    width: 80%;
-    height: auto;
-}
-.title{
-    position: absolute;
-    top:63%;
-    left: 28%;
-}
-.sabtitle{
-  text-align: center;
-    padding-top:7%;
-    padding-bottom: 2%;
-}
-.coment{
-    position: absolute;
-    top:73%;
-    right: 13%;   
-}
-??????
 
-.coment:hover{
-   opacity:0.8;
-filter:alpha(opacity=500);
-}
-nav{
+nav {
     background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);    
     background-size: cover;
     height:60px;
 }
-nav ul{
+nav ul {
     list-style-type: none;
     padding: 15px;
 }
-nav li{
-
+nav li {
     display: inline-block;
     border-left: 1px solid white;
     padding: 0 10px;
     
 }
-nav li:first-child{
-
+nav li:first-child {
     border-left:none;
 }
-.moji{
-padding: 3% 0;
+
+.top {
+    background-image:url(../saiainodaichi/saiainodaichi/top_bg.jpg);
+    background-size:contain;
+    width: 100%;
+    height: 73%;
 }
-.moji img{
+
+.top_bottom {
+    background-image:url(../saiainodaichi/saiainodaichi/img_containerBg.jpg);  
+    width: 100%;
+    height: 83%;
+    background-size: auto;
+}
+
+.icon {
+    text-align: left;
+    padding: 3% 0 0 3%;
+}
+
+.bun {
+     position: absolute;
+    top:8%;
+    left: 48%;
+}
+
+.bun img {
+    width: 80%;
+    height: auto;
+}
+
+.title {
+    position: absolute;
+    top:56%;
+    left: 26%;
+}
+
+.sabtitle {
+  text-align: center;
+    padding-top:6%;
+    padding-bottom: 2%;
+}
+
+.coment {
+    position: absolute;
+    top:68%;
+    right: 13%;   
+}
+
+/*ここでホバー時に白くするはずがならない*/
+.coment:hover {
+    opacity:0.8;
+    filter:alpha(opacity=500);
+}
+
+.moji {
+    padding: 3% 0;
+}
+
+.moji img {
     max-width: 80%;
 }
+
 .under{
-    max-width: 80%;
+    max-width: 85%;
     margin: 0 auto;
 }
-.under ul{
+
+.under ul {
     list-style-type: none;
     text-align: left;
 }
 
-.under li{
+.under li {
     display: inline-block;
     margin: 10px 15px;
 }

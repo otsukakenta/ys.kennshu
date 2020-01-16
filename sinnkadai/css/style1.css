@@ -1,0 +1,35 @@
+@charset"utf-8";
+
+body {
+    max-width: 80%;
+    text-align: center;
+    background-image:url(../saiainodaichi/saiainodaichi/img_mainBg.jpg);
+    margin: 0 auto;
+    background-size: auto;
+}
+
+nav {
+    background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);    
+    background-size: cover;
+    height:60px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 15px;
+}
+nav li {
+    display: inline-block;
+    border-left: 1px solid white;
+    padding: 0 10px;
+    
+}
+nav li:first-child {
+    border-left:none;
+}
+
+.top_bottom {
+    background-image:url(../saiainodaichi/saiainodaichi/img_containerBg.jpg);  
+    width: 100%;
+    height: 83%;
+    background-size: auto;
+}
