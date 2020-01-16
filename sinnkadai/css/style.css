@@ -30,15 +30,17 @@ nav li:first-child {
 .top {
     background-image:url(../saiainodaichi/saiainodaichi/top_bg.jpg);
     background-size:contain;
-    width: 100%;
-    height: 73%;
+    width: 1000px;;
+    height:500px;
+margin: 0 auto;
 }
 
 .top_bottom {
     background-image:url(../saiainodaichi/saiainodaichi/img_containerBg.jpg);  
-    width: 100%;
-    height: 83%;
+    width: 1000px;;
+    height:600px;
     background-size: auto;
+    margin: 0 auto;
 }
 
 .icon {
@@ -59,20 +61,20 @@ nav li:first-child {
 
 .title {
     position: absolute;
-    top:56%;
-    left: 26%;
+    top:35%;
+    left: 32%;
 }
 
 .sabtitle {
   text-align: center;
-    padding-top:6%;
+    padding-top:8%;
     padding-bottom: 2%;
 }
 
 .coment {
     position: absolute;
-    top:68%;
-    right: 13%;   
+    top:40%;
+    right: 26%;   
 }
 
 /*ここでホバー時に白くするはずがならない*/
