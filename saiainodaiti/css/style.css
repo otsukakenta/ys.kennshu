@@ -9,7 +9,7 @@ body {
 /*ここからINDEX*/
 
 #index nav {
-    background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);    
+    background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);
     background-size: cover;
     height:60px;
 }
@@ -39,7 +39,7 @@ margin: 0 auto;
 }
 #index .top_bottom {
     max-width: 80%;
-    background-image:url(../saiainodaichi/saiainodaichi/img_containerBg.jpg);  
+    background-image:url(../saiainodaichi/saiainodaichi/img_containerBg.jpg);
     width: 1000px;;
     height:600px;
     background-size: auto;
@@ -238,7 +238,7 @@ margin: 0 auto;
     font-weight: bold;
 }
 #theater nav {
-    background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);    
+    background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);
     background-size: cover;
     height:60px;
     position: relative;
@@ -291,7 +291,7 @@ margin: 0 auto;
     font-weight: bold;
 }
 #comment nav {
-    background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);    
+    background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);
     background-size: cover;
     height:60px;
     position: relative;
@@ -366,7 +366,7 @@ margin: 0 auto;
 /*COMMENTここまで
 storycastここから*/
 #storycast nav {
-    background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);    
+    background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);
     background-size: cover;
     height:60px;
     position: relative;
