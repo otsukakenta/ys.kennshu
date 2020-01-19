@@ -4,6 +4,7 @@ body {
     background-image:url(../saiainodaichi/saiainodaichi/img_mainBg.jpg);
     margin: 0 auto;
     background-size: auto;
+    font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
 }
 .top{
     display: flex;
@@ -16,6 +17,11 @@ ul {
     right:50px;
     top:30px;
 }
+li {
+    display: inline-block;
+    border-left: 1px solid black;
+    padding: 0 10px;
+}
 table {
     margin: 0 auto;
     border-collapse: collapse;
@@ -23,17 +29,17 @@ table {
 }
 .title{
     position: relative;
-    right:80px;
+    right:90px;
     top:40px;
 }
 .sabtitle{
     position: relative;
-    right:140px;
+    right:170px;
     top:140px;
 }
 .icon {
     position: relative;
-    right:200px;
+    right:230px;
     top:30px;
 }
 .center {
@@ -115,23 +121,25 @@ table {
     background-color: #FBEFEF;
     font-size: 8px;
     height: 20px;
+     font-weight: bold;
 }
 .city {
-    width: 90px;
+    width: 100px;
     height: 40px;
 }
 .theater {
-    width: 220px;
+    width: 230px;
 }
 .day {
-    width: 90px;
+    width: 100px;
 }
 .ticket{
-    width: 70px;
+    width: 80px;
 }
 td{
     border: 2px solid #cb4132;;
     font-size: 12px;
+     font-weight: bold;
 }
 nav {
     background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);    
@@ -155,7 +163,7 @@ li:first-child {
     border-left:none;
 }
 
-li {
+nav li {
     display: inline-block;
     border-left: 1px solid black;
     padding: 0 20px;
