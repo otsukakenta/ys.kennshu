@@ -5,31 +5,31 @@ body {
     background-size: auto;
     font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
 }
-p{
+/*
+ここからCOMMENT*/
+#comment p{
     font-weight: bold;
 }
-nav {
+#comment nav {
     background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);    
     background-size: cover;
     height:60px;
     position: relative;
     top:45px;
 }
-nav ul {
+#comment nav ul {
     list-style-type: none;
     padding: 15px 0;
 }
-nav li {
+#comment nav li {
     display: inline-block;
     border-left: 1px solid white;
     padding: 0 5px;
 }
-
-li:first-child {
+#comment li:first-child {
     border-left:none;
 }
-
-li {
+#comment li {
     display: inline-block;
     border-left: 1px solid black;
     padding: 0 20px;
@@ -37,45 +37,44 @@ li {
     bottom:0px;
     left: 60px;
 }
-.top{
+#comment .top{
     max-width: 900px;
     margin: 0 auto;
     display: flex;
-    
+
 }
-.main{
+#comment .main{
     max-width: 700px;
     margin: 0 auto;
     position: relative;
     bottom:90px;
 }
-.title{
+#comment .title{
     margin:30px 0 0;
 }
-.icon{
+#comment .icon{
     margin:20px 60px 0 0;
 }
-.comenter {
+#comment .comenter {
     display: flex;
     justify-content:flex-start;
-
 }
-.shozoku{
+#comment .shozoku{
     font-size: 16px;
     margin-right: 20px;
     color:#cb4132;
 }
-.name {
+#comment .name {
     font-size: 20px;
     position: relative;
     bottom:6px;
     color:#cb4132;
 }
-.bar{
+#comment .bar{
     margin-top:20px;
     margin-bottom: 30px;
 }
-.footer {
+#comment .footer {
     background-image:url(../saiainodaichi/saiainodaichi/img_containerBg.jpg);
     background-size: cover;
     margin: 0 auto;

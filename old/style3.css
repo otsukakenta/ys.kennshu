@@ -4,28 +4,30 @@ body {
     background-image:url(../saiainodaichi/saiainodaichi/img_mainBg.jpg);
     background-size: auto;
 }
-nav {
+/*
+storycastここから*/
+#storycast nav {
     background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);    
     background-size: cover;
     height:60px;
     position: relative;
     top:45px;
 }
-nav ul {
+#storycast nav ul {
     list-style-type: none;
     padding: 15px 0;
 }
-nav li {
+#storycast nav li {
     display: inline-block;
     border-left: 1px solid white;
     padding: 0 5px;
 }
 
-li:first-child {
+#storycast li:first-child {
     border-left:none;
 }
 
-li {
+#storycast li {
     display: inline-block;
     border-left: 1px solid black;
     padding: 0 20px;
@@ -33,57 +35,88 @@ li {
     bottom:0px;
     left: 60px;
 }
-.top_title {
+#storycast .top_title {
     display: flex;
     justify-content: flex-start;
     max-width: 1100px;
     margin: 0 auto;
 }
-.icon{
-    margin:20px 85px 0 20px;
+#storycast .icon{
+    margin:20px 85px 0 60px;
 }
-.title{
+#storycast .title1{
+    margin:40px 15px 20px 0;
+}
+#storycast .title2{
     margin:40px 15px 0 0;
 }
-.main{
+#storycast .title3{
+border-bottom: 3px solid #cb4132;
+}
+#storycast .main{
     max-width: 750px;
     margin: 0 auto;
     position: relative;
     bottom:70px;
 }
-.top{
+#storycast .top{
     display: flex;
     justify-content: center;
 }
-.txttop_left{
+#storycast .txttop_left{
     margin-right: 15px;
 }
-.txttop_right{
+#storycast .txttop_left1{
+    margin-bottom: 30px;
+}
+#storycast .txttop_left2{
+    margin: 20px 0;
+}
+#storycast .txttop_right{
     margin-left: 15px; 
 }
-.center{
+#storycast .txttop_right1{
+    margin-bottom: 10px;
+}
+#storycast .txttop_right2{
+    margin: 10px 0;
+}
+#storycast .center{
         display: flex;
     justify-content: center;
+    margin: 20px 0;
 }
-.center_center{
+#storycast .center_center{
     margin:0 28px;
 }
-.bottom{
+#storycast .bottom{
     display: flex;
     justify-content: center;
 }
-.txtbottom_left{
+#storycast .txtbottom_left{
     margin-right: 15px;
 }
-.txtbottom_right{
+#storycast .txtbottom_left1{
+    margin-top: 20px;
+}
+#storycast .txtbottom_left2{
+    margin-top: 15px;
+}
+#storycast .txtbottom_right{
     margin-left: 15px; 
 }
-.pagetop{
+#storycast .txtbottom_right1{
+    margin-top: 20px;
+}
+#storycast .txtbottom_right2{
+    margin-top: 15px;
+}
+#storycast .pagetop{
     text-align: right;
     position: relative;
     top:35px;
 }
-.footer {
+#storycast .footer {
     background-image:url(../saiainodaichi/saiainodaichi/img_containerBg.jpg);
     background-size: cover;
     margin: 0 auto;
@@ -92,3 +125,4 @@ li {
     height: 150px;
     background-size: auto;
 }
+/*storycastここまで*/

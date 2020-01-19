@@ -6,164 +6,164 @@ body {
     background-size: auto;
     font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
 }
-.top{
+/*
+ここからTHEATER*/
+#theater .top{
     display: flex;
     justify-content: center;
 }
-ul {
+#theater ul {
     list-style-type: none;
     padding: 15px 0;
     position: relative;
     right:50px;
     top:30px;
 }
-li {
+#theater li {
     display: inline-block;
     border-left: 1px solid black;
     padding: 0 10px;
 }
-table {
+#theater table {
     margin: 0 auto;
     border-collapse: collapse;
     text-align: center;
 }
-.title{
+#theater .title{
     position: relative;
     right:90px;
     top:40px;
 }
-.sabtitle{
+#theater .sabtitle{
     position: relative;
     right:170px;
     top:140px;
 }
-.icon {
+#theater .icon {
     position: relative;
     right:230px;
     top:30px;
 }
-.center {
+#theater .center {
     margin: 0 auto;
 }
-#hokkaidou {
+#theater #hokkaidou {
     font-size: 20px;
     color:#cb4132;
     position: relative;
     right:180px;
     margin: 30px 0;
 }
-#hokkaidou img{
+#theater #hokkaidou img{
     position: relative;
     top:10px;
     right: 7px;
 }
-#kanntou {
+#theater #kanntou {
     font-size: 20px;
     color: #cb4132;
     position: relative;
     right:180px;
     margin: 30px 0;
 }
-#kanntou img{
+#theater #kanntou img{
     position: relative;
     top:10px;
     right: 7px;
 }
-#chuubu {
+#theater #chuubu {
     font-size: 20px;
     color:#cb4132;
     position: relative;
     right:188px;
     margin: 30px 0;
 }
-#chuubu img{
+#theater #chuubu img{
     position: relative;
     top:9px;
     right: 7px;
 }
-#kinnki {
+#theater #kinnki {
     font-size: 20px;
     color:#cb4132;
     position: relative;
     right:212px;
     margin: 30px 0;
 }
-#kinnki img{
+#theater #kinnki img{
     position: relative;
     top:9px;
     right: 7px;
 }
-#sikoku {
+#theater #sikoku {
     font-size: 20px;
     color:#cb4132;
     position: relative;
     right:188px;
     margin: 30px 0;
 }
-#sikoku img{
+#theater #sikoku img{
     position: relative;
     top:9px;
     right: 7px;
 }
-#kyuushuu {
+#theater #kyuushuu {
     font-size: 20px;
     color: #cb4132;;
     position: relative;
     right:212px;
     margin: 30px 0;
 }
-#kyuushuu img{
+#theater #kyuushuu img{
     position: relative;
     top:9px;
     right: 7px;
 }
-.t_top td{
+#theater .t_top td{
     background-color: #FBEFEF;
     font-size: 8px;
     height: 20px;
      font-weight: bold;
 }
-.city {
+#theater .city {
     width: 100px;
     height: 40px;
 }
-.theater {
+#theater .theater {
     width: 230px;
 }
-.day {
+#theater .day {
     width: 100px;
 }
-.ticket{
+#theater .ticket{
     width: 80px;
 }
-td{
+#theater td{
     border: 2px solid #cb4132;;
     font-size: 12px;
      font-weight: bold;
 }
-nav {
+#theater nav {
     background-image:url(../saiainodaichi/saiainodaichi/img_menu_bg.png);    
     background-size: cover;
     height:60px;
     position: relative;
     top:45px;
 }
-nav ul {
+#theater nav ul {
     list-style-type: none;
     padding: 15px 0;
 }
-nav li {
+#theater nav li {
     display: inline-block;
     border-left: 1px solid white;
     padding: 0 5px;
     
 }
-
-li:first-child {
+#theater li:first-child {
     border-left:none;
 }
-
-nav li {
+#theater nav li {
     display: inline-block;
     border-left: 1px solid black;
     padding: 0 20px;
@@ -171,19 +171,18 @@ nav li {
     bottom:30px;
     left: 120px;
 }
-
-.main {
+#theater .main {
     max-width: 80%;
     text-align: center;
     margin: 0 auto;
     
 }
-.pagetop{
+#theater .pagetop{
     position: relative;
     left:320px;
     margin: 40px 0;
 }
-.footer {
+#theater .footer {
     background-image:url(../saiainodaichi/saiainodaichi/img_containerBg.jpg);
     background-size: cover;
     margin: 0 auto;
