@@ -32,15 +32,15 @@ body {
 #index .top {
     max-width: 80%;
     background-image:url(../saiainodaichi/saiainodaichi/top_bg.jpg);
-    background-size:contain;
-    width: 1000px;;
+    background-size:cover;
+    width: 1000px;
     height:500px;
 margin: 0 auto;
 }
 #index .top_bottom {
     max-width: 80%;
     background-image:url(../saiainodaichi/saiainodaichi/img_containerBg.jpg);
-    width: 1000px;;
+    width: 1000px;
     height:600px;
     background-size: auto;
     margin: 0 auto;
