@@ -1,0 +1,116 @@
+@charset"utf-8";
+.top{
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    position: relative;
+    right:230px;
+    top:30px;
+}
+.sabtitle{
+    position: relative;
+    right:170px;
+    top:140px;
+}
+.title{
+    position: relative;
+    right:90px;
+    top:40px;
+}
+.nav_top {
+    list-style-type: none;
+    padding: 15px 0;
+    position: relative;
+    right:50px;
+    top:30px;
+}
+.main {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.nav_top li {
+    display: inline-block;
+    border-left: 1px solid black;
+    padding: 0 10px;
+}
+.nav_top li:first-child {
+    border-left:none;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.eria {
+    color:#cb4132;
+    position: relative;
+    right:200px;
+    margin: 30px 0;
+}
+.eria2 {
+    color:#cb4132;
+    position: relative;
+    right:205px;
+    margin: 30px 0;
+}
+.eria3 {
+    color:#cb4132;
+    position: relative;
+    right:230px;
+    margin: 30px 0;
+}
+.eria::before{
+        content: "";
+        display: inline-block;
+    background: #cb4132;
+        width: 15px;
+        height: 15px;
+    margin-bottom:8px;
+}
+.eria2::before{
+    content: "";
+    display: inline-block;
+    background: #cb4132;
+    width: 15px;
+    height: 15px;
+    margin-bottom:8px;
+}
+.eria3::before{
+    content: "";
+    display: inline-block;
+    background: #cb4132;
+    width: 15px;
+    height: 15px;
+    margin-bottom:8px;
+}
+.t_top td{
+    background-color: #FBEFEF;
+    font-size: 8px;
+    height: 20px;
+    font-weight: bold;
+}
+.city {
+    width: 100px;
+    height: 40px;
+}
+.theater {
+    width: 230px;
+}
+.day {
+    width: 100px;
+}
+.ticket{
+    width: 80px;
+}
+td{
+    border: 2px solid #cb4132;;
+    font-size: 12px;
+    font-weight: bold;
+}
+.pagetop{
+    position: relative;
+    left:320px;
+    margin: 40px 0;
+}
