@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>HTMLの基礎</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <h1>HTMLの基礎</h1>
+      <p>ここでは、XHTML文書の基礎を学びます。</p>
+    </header>
+<!--clearfixが聞きません！！-->
+    <main class="claerfix">
+        <article class="left">
+          <h2>XHTMLタグ</h2>
+            <ul>
+                <li>ブロックレベル要素</li>
+                <li>インラインレベル要素</li>
+            </ul>
+            <h3>ブロックレベル要素</h3>
+              <p>ひとつの文書のかたまりを表す要素で、通常前後で改行されます。</p>
+              <dl class="rist">
+               <dt class="q_left">見出し</dt>
+               <dd class="q_right">h1~h6</dd>
+               <dt class="q_left">段落</dt>
+               <dd class="q_right">p</dd>
+               <dt class="q_left">順序のない箇条書き</dt>
+               <dd class="q_right">ul+li</dd>
+               <dt class="q_left">順序のある箇条書き</dt>
+               <dd class="q_right">ol+li</dd>
+               <dt class="q_left">定義リスト</dt>
+               <dd class="q_right">dl+dt+dd</dd>
+               <dt class="q_left">連絡先</dt>
+               <dd class="q_right">address</dd>
+               <dt class="q_left">フォーム</dt>
+               <dd class="q_right">form</dd>
+               <dt class="q_left">表</dt>
+               <dd class="q_right">table</dd>
+               <dt class="q_left">範囲</dt>
+               <dd class="q_right">div</dd>
+              </dl>
+            <h3>インラインレベル要素</h3>
+              <p>文章の一部分を表す要素です。（通常は前後で開業されません）</p>
+              <dl class="rist">
+               <dt class="q_left">強調</dt>
+               <dd class="q_right">em</dd>
+               <dt class="q_left">より強調</dt>
+               <dd class="q_right">strong</dd>
+               <dt class="q_left">リンク</dt>
+               <dd class="q_right">a</dd>
+               <dt class="q_left">範囲</dt>
+               <dd class="q_right">span</dd>
+               <dt class="q_left">画像挿入</dt>
+               <dd class="q_right">img</dd>
+              </dl>
+        </article>
+        <article class="right">
+          <h2>ハイパーリンク</h2>
+            <ul>
+              <li>サイト内リンク</li>
+              <li>外部リンク</li>
+              <li>ページ内リンク</li>
+            </ul>
+            <div class="link">
+              <h4>サイト内リンク</h4>
+                <div class="yohaku">
+                <p>サイト内でのページ移動は、通常相対パスを使ってリンクします。</p>
+                <dl class="rist">
+                 <dt class="q_left">同じフォルダ内のファイルを参照</dt>
+                 <dd class="q_right">ファイル名</dd>
+                 <dt class="q_left">フォルダ内のファイルを参照</dt>
+                 <dd class="q_right">フォルダ名/ファイル名</dd>
+                 <dt class="q_left">上の階層のフォルダ内にあるファイルを参照</dt>
+                 <dd class="q_right">../フォルダ名/ファイル名</dd>
+                 </dl>
+                </div>
+            </div>
+            <div class="link">
+              <h4>外部リンク</h4>
+                <div class="yohaku">
+                <p>外部サイトへのページ移動は、http://から始まる相対パスを使ってリンクします。</p>
+                    <dl class="rist">
+                     <dt class="q_left">トップページ</dt>
+                     <dd class="q_right"><u>ドメイン名を指定</u></dd>
+                     <dt class="q_left">各ページ</dt>
+                     <dd class="q_right"><u>ドメイン名/ファイル名</u></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="link">
+              <h4>ページ内リンク</h4>
+                <div class="yohaku">
+                <p>ページ内での移動は、ページ内のidに#でリンクします。</p>
+                <dl class="rist">
+                 <dt class="q_left">ページ内移動</dt>
+                 <dd class="q_right"><u>ページトップへ</u></dd>
+                </dl>
+                </div>
+            </div>
+          <h2>要素と属性</h2>
+              <ul>
+                <li>要素</li>
+                <li>属性</li>
+              </ul>
+            <h3>要素</h3>
+            <p>タグの名前を指します。</p>
+            <h3>属性</h3>
+            <p>
+            開始タグの中に、タグを補足する要素として以下の形式で記述します。<br>
+            &lt;img&nbsp;src=&quot;image.jpg&quot;width&quot;100&quot;height&quot;
+            50&quot;alt=&quot;代替え文字&quot;&gt;
+            </p>
+          <h2>補足</h2>
+            <h3>単独タグ</h3>
+            <p>
+            終了タグの無いタグ(meta.br.imgなど)を単独タグ、または空タグと呼びます。
+            HTML4まではタグの最後に/を入れていましたが、HTML5になってからは不要になりました。
+            </p>
+              <table class="tb">
+                <tr>
+                  <th class="tb_top">HTML4まで</th><th class="tb_top">HTML5以降</th>
+                </tr>
+                <tr>
+                  <td class="tb_bottom">&lt;meta /&gt;</td><td class="tb_bottom">&lt;meta&gt;</td>
+                </tr>
+                <tr>
+                  <td class="tb_bottom">&lt;br /&gt;</td><td class="tb_bottom">&lt;br&gt;</td>
+                </tr>
+                <tr>
+                  <td class="tb_bottom">&lt;img src=""/&gt;</td><td class="tb_bottom">&lt;img src=""&gt;</td>
+                </tr>
+              </table>
+            <h3>コメント</h3>
+            <p>HTML文書内にブラウザには表示されないコメントを記述します。書式は以下の通り。<br>&lt;!--注意書き--&gt;</p>
+            <h3>コーディングの手順</h3>
+              <ol>
+                <li>HTML文書構成タグマークアップ</li>
+                <li>divタグによるセレクション付け</li>
+                <li>CSSの設定</li>
+              </ol>
+        </article>
+    </main>
+    <footer>
+<address>&copy;&nbsp;2019&nbsp;All&nbsp;right&nbsp;reserverd</address>
+    </footer>
+</body>
+</html>
