@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 body{
     margin: 0;
@@ -17,4 +18,5 @@ ul{
 @media screen and (min-width:998px){
     
 }
+
 
