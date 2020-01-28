@@ -32,7 +32,7 @@ body{
 .none{
 display:none;
 }
-.map{
+.main{
     background-color:white;
     margin-top:20px;
     max-width:100%;
@@ -43,9 +43,10 @@ display:none;
     border-left:1px solid #EEEEEE;
     border-right:3px solid #EEEEEE;
 }
-.map img{
+.main img{
     width:100%;
     font-weight: normal;
+    margin-bottom: 20px;
 }
 h1{
     font-size: 24px;
@@ -54,20 +55,12 @@ h1{
 }
 p{
     padding-bottom: 20px;
-    font-size: 16px;
-}
-ol{
-    padding-left: 20px;
-    padding-bottom: 20px;
     font-size: 14px;
 }
 h2{
     font-size: 18px;
     padding: 10px 0;
     font-weight: normal;
-}
-h3{
-    font-size: 16px;
 }
 .link{
     background-color:white;
@@ -136,37 +129,26 @@ padding-bottom: 10px;
         background: none;
         opacity: 0.5;
     }
-    
-    .clearfix{
-        display: flex;
-        align-items:stretch;
-        justify-content:flex-start;
-    }
-    .map1{
-        width:50%;
-        height: auto;
-        margin-bottom: 20px;
-        margin-right: 20px;
-    }
-    .map{
+    .main{
         margin: 3% 3% 0;
         padding: 3%;
 }
     .link{
         margin: 0 3%;
+        padding: 3% 3%;
     }
 }
 @media screen and (min-width:998px){
     .top_logo{
         width: 100%;
-        height: 80px;
+        height: 90px;
         display: flex;
         align-items:center;
         justify-content:center;
     }
     .top_logo img{
-        width: 140px;
-        height: 50px;
+        width: 180px;
+        height: 60px;
         padding: 0 50px;
     }
     .top_logo ul {
@@ -176,11 +158,16 @@ padding-bottom: 10px;
         display: inline-block;
         margin-top: 10px;
     }
-    .map{
-        margin: 2% 15% 0;
-        padding: 3%;
+    .main{
+        max-width: 850px;
+        width: 850px;
+    height: auto;
+        margin: 2% auto 0;
     }
     .link{
-        margin: 0 15%;
+        max-width: 850px;
+        width: 850px;
+        height: auto;
+        margin: 0 auto;
     }
 }

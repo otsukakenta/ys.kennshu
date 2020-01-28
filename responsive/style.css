@@ -61,6 +61,9 @@
         padding:0 105px 0 120px;
         margin: 0;
     }
+    .top_logo img:hover{
+    opacity: 0.5;
+    }
     .top_logo ul {
         margin-top: 20px;
     }
@@ -75,6 +78,7 @@
     }
     .top_logo li:hover{
         opacity: 0.5;
+        background:none;
 }
 @media screen and (min-width:998px){
 .raberu{
