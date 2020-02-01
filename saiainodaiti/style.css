@@ -11,13 +11,11 @@
     max-width: 80%;
     background-image:url(image/img_containerBg.jpg);
     width: 1000px;
-    height:520px;
     background-size: auto;
     margin: 0 auto;
     position: relative;
 }
 .icon {
-    text-align: left;
     padding: 3% 0 0 3%;
 }
 .thumb {
@@ -49,6 +47,15 @@
     opacity:0.8;
     filter:alpha(opacity=500);
 }
+ul li:not(:first-child)::before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 18px;
+    background-color: white;
+    vertical-align:super;
+    margin: 0 5px;
+}
 .moji {
     text-align: center;
     padding-top: 3%;
@@ -65,6 +72,5 @@
     text-align: left;
 }
 .under li {
-    display: inline-block;
     margin: 10px 15px;
 }
