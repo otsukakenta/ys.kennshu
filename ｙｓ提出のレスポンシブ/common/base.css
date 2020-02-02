@@ -1,0 +1,22 @@
+@charset"utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+}
+ul{
+    list-style: none;
+}
+@media screen and (min-width:643px){
+
+}
+@media screen and (min-width:998px){
+    
+}
+
+

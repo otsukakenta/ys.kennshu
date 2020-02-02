@@ -1,0 +1,96 @@
+@charset"utf-8";
+.haikei{
+    background-image: url(image/topimage1.png);
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.top_logo{
+    display: block;
+    text-align: center;
+}
+.top_logo img{
+    width: 180px;
+    height: 60px;
+    margin:20px auto;
+}
+.border{
+    border-top: 1px solid white;
+}
+.top_logo ul{
+    color: white;
+}
+.top_logo li {
+    padding: 15px 0;
+    font-size: 15px;
+    color: white;
+    border-bottom: 1px solid white;
+    background-color:rgba(0,0,0,0.3);
+}
+.top_logo li:hover{
+    background-color:rgba(0,0,0,0.5);
+}
+@media screen and (min-width:643px){
+    .raberu{
+        width: 100%;
+        height: 150px;
+        background-color: black;
+        opacity: 0.2;
+        position: relative;
+        top:50%;
+        transform : translateY(-50%);
+    }
+    .center{
+        width: 998px;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform : translate(-50%,-50%);
+        text-align: center;
+    }
+    .top_image{
+        display: block;
+        text-align: center;
+    }
+    .top_logo img{
+        width: 180px;
+        height: 60px;
+        padding:0 105px 0 120px;
+        margin: 0;
+    }
+    .top_logo img:hover{
+    opacity: 0.5;
+    }
+    .top_logo ul {
+        margin-top: 20px;
+    }
+    .border{
+        border-top:none;
+    }
+    .top_logo li {
+        display: inline-block;
+        border-bottom:none;
+        padding: 0 5px;
+        background:none;
+    }
+    .top_logo li:hover{
+        opacity: 0.5;
+        background:none;
+}
+@media screen and (min-width:998px){
+.raberu{
+    height: 120px;
+}
+.center{
+    width: 1200px;
+}
+.top_logo{
+    display: flex;
+}
+    .top_logo li {
+        display: inline-block;
+    }
+}
