@@ -1,30 +1,38 @@
 @charset"utf-8";
-p{
-    font-weight: bold;
+
+p {
+	font-weight: bold;
 }
-h1{
-    margin-bottom: 30px;
+
+h1 {
+	margin-bottom: 30px;
 }
-p{
-    padding-bottom: 20px;
+
+p {
+	padding-bottom: 20px;
 }
-.main{
-    max-width: 90%;
+
+.main {
+	max-width: 90%;
 }
+
 .comenter {
-    display: flex;
-    justify-content:flex-start;
-    margin-top: 20px;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
 }
-.shozoku{
-    font-size: 16px;
-    color:#cb4132;
+
+.shozoku {
+	font-size: 16px;
+	color: #cb4132;
 }
+
 .name {
-    font-size: 20px;
-    color:#cb4132;
+	font-size: 20px;
+	color: #cb4132;
 }
-.bar{
-    margin-top:20px;
-    margin-bottom: 30px;
+
+.bar {
+	margin-top: 20px;
+	margin-bottom: 30px;
 }

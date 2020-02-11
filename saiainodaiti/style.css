@@ -1,76 +1,90 @@
 @charset"utf-8";
+
 .top {
-    max-width: 80%;
-    background-image:url(image/top_bg.jpg);
-    background-size:cover;
-    width: 1000px;
-    height:500px;
-    margin: 0 auto;
+	max-width: 80%;
+	background-image: url(image/top_bg.jpg);
+	background-size: cover;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
 }
+
 .bottom {
-    max-width: 80%;
-    background-image:url(image/img_containerBg.jpg);
-    width: 1000px;
-    background-size: auto;
-    margin: 0 auto;
-    position: relative;
+	max-width: 80%;
+	background-image: url(image/img_containerBg.jpg);
+	width: 1000px;
+	background-size: auto;
+	margin: 0 auto;
+	position: relative;
 }
+
 .icon {
-    padding: 3% 0 0 3%;
+	padding: 3% 0 0 3%;
 }
+
 .thumb {
-     position: absolute;
-    top:8%;
-    left: 48%;
+	position: absolute;
+	top: 8%;
+	left: 48%;
 }
+
 .thumb img {
-    width: 80%;
-    height: auto;
+	width: 80%;
+	height: auto;
 }
+
 .title {
-    position: absolute;
-    top:-20%;
-    right: 20%;
+	position: absolute;
+	top: -20%;
+	right: 20%;
 }
+
 .sabtitle {
-  text-align: center;
-    padding-top:7%;
-    padding-bottom: 3%;
+	text-align: center;
+	padding-top: 7%;
+	padding-bottom: 3%;
 }
+
 .coment {
-    position: absolute;
-    top:-10%;
-    right: 5%;
+	position: absolute;
+	top: -10%;
+	right: 5%;
 }
-/*ここでホバー時に白くするはずがならない*/
+
 .coment:hover {
-    opacity:0.8;
-    filter:alpha(opacity=500);
+	opacity: 0.8;
+	filter: alpha(opacity=500);
 }
-ul li:not(:first-child)::before{
-    content: "";
-    display: inline-block;
-    width: 1px;
-    height: 18px;
-    background-color: white;
-    vertical-align:super;
-    margin: 0 5px;
+
+nav ul li:not(:first-child)::before {
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 18px;
+	background-color: white;
+	vertical-align: super;
+	margin: 0 5px;
 }
+
 .moji {
-    text-align: center;
-    padding-top: 3%;
+	text-align: center;
+	padding-top: 3%;
 }
+
 .moji img {
-    max-width: 80%;
+	max-width: 80%;
 }
-.under{
-    max-width: 80%;
-    margin: 0 auto;
+
+.under {
+	max-width: 80%;
+	margin: 0 auto;
 }
+
 .under ul {
-    list-style-type: none;
-    text-align: left;
+	list-style-type: none;
+	text-align: left;
 }
+
 .under li {
-    margin: 10px 15px;
+	margin: 10px 15px;
 }

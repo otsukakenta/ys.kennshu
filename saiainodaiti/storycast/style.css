@@ -1,76 +1,97 @@
 @charset"utf-8";
-h1{
-    margin-bottom: 30px;
-}
-h1 ul li:first-child{
-    vertical-align: middle;
-}
-.top{
-    display: inline-block;
-    text-align: left;
-}
-.title1{
-    margin:0 15px 20px 0;
-}
-.title2{
-}
-.title3{
-    padding-bottom: 5px;
-    border-bottom: 3px solid #cb4132;
+
+h1 {
+	margin-bottom: 30px;
 }
 
-.top{
-    display: flex;
-    justify-content: center;
+h1 ul li:first-child {
+	vertical-align: middle;
 }
-.txttop_left{
-    margin-right: 15px;
+
+.top {
+	display: inline-block;
+	text-align: left;
 }
-.txttop_left1{
-    margin-bottom: 30px;
+
+.title1 {
+	margin: 0 15px 20px 0;
 }
-.txttop_left2{
-    margin: 20px 0;
+
+.title2 {}
+
+.title3 {
+	padding-bottom: 5px;
+	border-bottom: 3px solid #cb4132;
 }
-.txttop_right{
-    margin-left: 15px; 
+
+.top {
+	display: flex;
+	justify-content: center;
 }
-.txttop_right1{
-    margin-bottom: 10px;
+
+.txttop_left {
+	margin-right: 15px;
 }
-.txttop_right2{
-    margin: 10px 0;
+
+.txttop_left1 {
+	margin-bottom: 30px;
 }
-.center{
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
+
+.txttop_left2 {
+	margin: 20px 0;
 }
-.center_center{
-    margin:0 28px;
+
+.txttop_right {
+	margin-left: 15px;
 }
-.bottom{
-    display: flex;
-    justify-content: center;
+
+.txttop_right1 {
+	margin-bottom: 10px;
 }
-.txtbottom_left{
-    margin-right: 15px;
+
+.txttop_right2 {
+	margin: 10px 0;
 }
-.txtbottom_left1{
-    margin-top: 20px;
+
+.center {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
 }
-.txtbottom_left2{
-    margin-top: 15px;
+
+.center_center {
+	margin: 0 28px;
 }
-.txtbottom_right{
-    margin-left: 15px; 
+
+.bottom {
+	display: flex;
+	justify-content: center;
 }
-.txtbottom_right1{
-    margin-top: 20px;
+
+.txtbottom_left {
+	margin-right: 15px;
 }
-.txtbottom_right2{
-    margin-top: 15px;
+
+.txtbottom_left1 {
+	margin-top: 20px;
 }
-.pagetop{
-    text-align: right;
+
+.txtbottom_left2 {
+	margin-top: 15px;
+}
+
+.txtbottom_right {
+	margin-left: 15px;
+}
+
+.txtbottom_right1 {
+	margin-top: 20px;
+}
+
+.txtbottom_right2 {
+	margin-top: 15px;
+}
+
+.pagetop {
+	text-align: right;
 }
