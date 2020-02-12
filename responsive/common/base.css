@@ -19,22 +19,22 @@ ul {
     list-style: none;
 }
 
-.top_logo {
+.mainNav_logo {
     text-align: center;
     background: linear-gradient(90deg, #C2DFFD, #5891E6);
 }
 
-.top_logo img {
+.mainNav_logo img {
     width: 180px;
     height: 60px;
     margin: 20px auto;
 }
 
-.top_logo img:hover {
+.mainNav_logo img:hover {
     opacity: 0.5;
 }
 
-.top_logo li {
+.mainNav_logo li {
     padding: 15px 0;
     font-size: 15px;
     color: white;
@@ -42,7 +42,7 @@ ul {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.top_logo li:hover {
+.mainNav_logo li:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -65,14 +65,10 @@ ul {
     padding: 10px;
     border: 1px solid #0095D9;
     border-radius: 5px;
-}
-
-.link a {
     color: #0095D9;
 }
 
-.link li:hover,
-.link a:hover {
+.link li:hover {
     color: white;
     background-color: #0095D9;
 }
@@ -94,37 +90,33 @@ footer li {
     color: black;
 }
 
-footer a {
-    color: black;
-}
-
-footer a:hover {
+footer li:hover {
     text-decoration: underline black;
     opacity: 0.8;
 }
 
 @media screen and (min-width:643px) {
-    .top_logo img {
+    .mainNav_logo img {
         width: 160px;
         margin: 10px auto;
     }
 
-    .top_logo ul {
+    .mainNav_logo ul {
         padding-bottom: 10px;
     }
 
-    #none2 {
+    #mainNav_logo-item2 {
         display: none;
     }
 
-    .top_logo li {
+    .mainNav_logo li {
         display: inline-block;
         padding: 0 5px;
         border: none;
         background: none;
     }
 
-    .top_logo li:hover {
+    .mainNav_logo li:hover {
         background: none;
         opacity: 0.5;
     }
@@ -135,23 +127,23 @@ footer a:hover {
 }
 
 @media screen and (min-width:998px) {
-    .top_logo {
+    .mainNav_logo {
         height: 90px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .top_logo img {
+    .mainNav_logo img {
         width: 180px;
         padding: 0 50px;
     }
 
-    .top_logo ul {
+    .mainNav_logo ul {
         padding-left: 50px;
     }
 
-    .top_logo li {
+    .mainNav_logo li {
         margin-top: 10px;
     }
 

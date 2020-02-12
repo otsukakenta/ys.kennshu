@@ -1,5 +1,6 @@
 @charset"utf-8";
-.map {
+
+.main {
     background-color: white;
     margin-top: 20px;
     max-width: 100%;
@@ -11,7 +12,7 @@
     border-right: 3px solid #EEEEEE;
 }
 
-.map img {
+.main img {
     width: 100%;
     font-weight: normal;
 }
@@ -46,20 +47,20 @@ h3 {
         display: flex;
     }
 
-    .map1 {
+    .mainMap {
         width: 50%;
         margin-bottom: 20px;
         margin-right: 20px;
     }
 
-    .map {
+    .main {
         margin: 3% 3% 0;
         padding: 3%;
     }
 }
 
 @media screen and (min-width:998px) {
-    .map {
+    .main {
         width: 850px;
         margin: 2% auto 0;
     }
