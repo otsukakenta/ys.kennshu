@@ -1,12 +1,5 @@
 @charset"utf-8";
 
-body {
-    background-image: url(../image/backgroundimage.png);
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-}
-
 a:hover {
     opacity: 0.5;
 }
@@ -14,8 +7,6 @@ a:hover {
 .main {
     background-color: white;
     margin-top: 20px;
-    max-width: 100%;
-    height: auto;
     padding: 5%;
     box-shadow: 1px;
     border-top: 1px solid #EEEEEE;
@@ -26,13 +17,9 @@ a:hover {
 
 .main img {
     display: none;
-    width: 100%;
-    font-weight: normal;
-    margin-bottom: 20px;
 }
 
 h1 {
-    font-size: 24px;
     padding-bottom: 10px;
     font-weight: normal;
 }
@@ -106,8 +93,7 @@ h3 {
 
     .main img {
         display: inline;
-        width: 100%;
-        height: auto;
+    margin-bottom: 20px;
     }
 
     .kiji {
@@ -115,21 +101,14 @@ h3 {
     }
 
     .naiyou {
-        width: 65%;
-        display: block;
         margin-left: 20px;
     }
 }
 
 @media screen and (min-width:998px) {
-    .naiyou {
-        width: 60%;
-    }
-
     .main {
         padding: 4% 0 4% 6%;
         width: 700px;
-        height: auto;
         margin-right: 0;
         box-shadow: 1px;
         border-right: none;
@@ -138,13 +117,9 @@ h3 {
     .content {
         display: flex;
         margin: 0 auto;
-        max-width: 950px;
         width: 950px;
     }
 
-    .border {
-        width: 100%;
-    }
 
     .side {
         width: 250px;

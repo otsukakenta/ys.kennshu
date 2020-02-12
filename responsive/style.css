@@ -3,8 +3,6 @@
 .haikei {
     height: 100%;
     background-image: url(image/topimage1.png);
-    background-size: cover;
-    background-position: center;
 }
 
 .top_logo {
@@ -21,11 +19,13 @@
     text-align: center;
     background: rgba(0, 0, 0, 0.3);
     padding-top: 20px;
+    border-top: 1px solid white;
 }
 
 .sns li {
     display: block;
     padding: 3px 0;
+
 }
 
 .sns a {

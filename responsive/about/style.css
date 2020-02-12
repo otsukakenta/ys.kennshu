@@ -1,11 +1,4 @@
 @charset"utf-8";
-
-body {
-    background-image: url(../image/backgroundimage.png);
-    background-size: cover;
-    background-position: center;
-}
-
 .main {
     background-color: white;
     margin-top: 20px;

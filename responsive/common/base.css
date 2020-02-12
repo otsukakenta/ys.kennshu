@@ -10,6 +10,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
+    background-image: url(../image/backgroundimage.png);
+    background-size: cover;
+    background-position: center;
 }
 
 ul {
@@ -36,7 +39,6 @@ ul {
     font-size: 15px;
     color: white;
     border-top: 1px solid white;
-    border-bottom: 1px solid white;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
