@@ -7,8 +7,6 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
     font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
     background-image: url(../image/backgroundimage.png);
     background-size: cover;
@@ -17,6 +15,10 @@ body {
 
 ul {
     list-style: none;
+}
+
+a{
+	display: block;
 }
 
 .mainNav_logo {
@@ -34,16 +36,16 @@ ul {
     opacity: 0.5;
 }
 
-.mainNav_logo li {
+.mainNav_logo a {
     padding: 15px 0;
     font-size: 15px;
     color: white;
     border-top: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.3);
+
 }
 
-.mainNav_logo li:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+.mainNav_logo a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .link {
@@ -98,25 +100,24 @@ footer li:hover {
 @media screen and (min-width:643px) {
     .mainNav_logo img {
         width: 160px;
-        margin: 10px auto;
+        margin: 0px auto;
     }
-
-    .mainNav_logo ul {
-        padding-bottom: 10px;
-    }
-
-    #mainNav_logo-item2 {
+	
+    .mainNav_logo p {
         display: none;
     }
 
     .mainNav_logo li {
         display: inline-block;
         padding: 0 5px;
-        border: none;
-        background: none;
-    }
 
-    .mainNav_logo li:hover {
+    }
+	
+	    .mainNav_logo a {
+			        border: none;
+	}
+
+    .mainNav_logo a:hover {
         background: none;
         opacity: 0.5;
     }

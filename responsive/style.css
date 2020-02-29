@@ -1,6 +1,6 @@
 @charset"utf-8";
 
-.main {
+body {
     height: 100%;
     background-image: url(image/topimage1.png);
 }
@@ -27,11 +27,16 @@
     height: 25px;
     margin: 5px auto;
     display: block;
-    color: white;
     background: blue;
     border-radius: 5px;
 }
+.main_sns a {
+    color: white;
+}
 
+.main_sns a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
 @media screen and (min-width:643px) {
     .mainNav {
         background: rgba(0, 0, 0, 0.3);
