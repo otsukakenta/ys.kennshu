@@ -1,13 +1,4 @@
 @charset"utf-8";
-.main {
-    background-color: white;
-    margin-top: 20px;
-    padding: 5%;
-    box-shadow: 1px;
-    border-top: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
-    border-right: 3px solid #EEEEEE;
-}
 
 .main img {
     width: 100%;
@@ -30,18 +21,6 @@ h2 {
     font-weight: normal;
 }
 
-@media screen and (min-width:643px) {
+@media screen and (min-width:643px) {}
 
-    .main {
-        margin: 3% 3% 0;
-        padding: 3%;
-    }
-}
-
-@media screen and (min-width:998px) {
-
-    .main {
-        width: 850px;
-        margin: 2% auto 0;
-    }
-}
+@media screen and (min-width:998px) {}

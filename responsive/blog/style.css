@@ -1,29 +1,18 @@
 @charset"utf-8";
 
-a:hover {
-    opacity: 0.5;
-}
-
-
 h1 {
     padding-bottom: 10px;
     font-weight: normal;
 }
 
-.main p {
-    padding-bottom: 20px;
-    font-size: 14px;
-    opacity: 0.5;
-}
-
-h2 {
+h2 a {
     font-size: 20px;
     font-weight: normal;
     opacity: 0.8;
     color: #00B2EA;
 }
 
-h2:hover {
+h2 a:hover {
     text-decoration: underline #00B2EA;
 }
 
@@ -33,19 +22,16 @@ h3 {
     opacity: 0.8;
 }
 
-.mainLeft {
-    background-color: white;
-    margin-top: 20px;
-    padding: 5%;
-    box-shadow: 1px;
-    border-top: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
-    border-right: 3px solid #EEEEEE;
-    border-bottom: 3px solid #EEEEEE;
+.main p {
+    padding-bottom: 20px;
+    font-size: 14px;
+    opacity: 0.5;
 }
 
 .mainLeft img {
-    display: none;
+    width: 100%;
+    height: 100%;
+    height: 30vh;
 }
 
 .mainLeft_text-item02 {
@@ -54,29 +40,27 @@ h3 {
     font-size: 15px;
 }
 
-.mainLeft_text-item02 a {
+.mainLeft_text-item02 {
     color: #00B2EA;
 }
 
-.mainLeft_text-item02 a:hover {
+.mainLeft_text-item02 :hover {
     text-decoration: underline #00B2EA;
 }
 
-.mainLeft-border {
+.mainLeft_text {
+    padding-bottom: 20px;
     margin: 20px 0;
     border-bottom: 1px dotted black;
 }
 
 .main-articles {
+    color: black;
     padding: 10px 0 40px;
     opacity: 0.8;
 }
 
-.main-articles a {
-    color: black;
-}
-
-.mainLeft-articles a:hover {
+.mainLeft-articles :hover {
     text-decoration: underline black;
 }
 
@@ -84,86 +68,84 @@ h3 {
     display: none;
 }
 
-
 @media screen and (min-width:643px) {
-    .mainLeft {
-        margin: 3% 3% 0;
-        padding: 3%;
-    }
 
     .mainLeft img {
         display: inline;
         margin-bottom: 20px;
         margin-right: 20px;
+        width: 25vw;
+        height: 25vh;
     }
 
     .mainLeft_text {
         display: flex;
     }
+}
 
-    @media screen and (min-width:998px) {
-        .mainLeft {
-            padding: 4% 0 4% 6%;
-            width: 750px;
-            margin-right: 0;
-            box-shadow: 1px;
-            border-right: none;
-        }
-
-        .main {
-            display: flex;
-            margin: 0 auto;
-            width: 1000px;
-        }
-
-
-        .mainRight {
-            width: 250px;
-            display: block;
-            padding: 7% 2% 0 1%;
-            margin-top: 3%;
-            box-shadow: 1px;
-            background: white;
-            border-top: 1px solid #EEEEEE;
-            border-bottom: 3px solid #EEEEEE;
-            border-right: 3px solid #EEEEEE;
-        }
-
-        #mainRight_border {
-            border-left: 1px solid #DDDDDD;
-            height: 95%;
-        }
-
-        .mainRight h2 {
-            color: black;
-            margin-bottom: 10px;
-        }
-
-        .mainRight p {
-            color: #00B2EA;
-        }
-
-        .mainRight p:hover {
-            text-decoration: underline #00B2EA;
-        }
-
-        .mainRight h2,
-        h3,
-        p {
-            padding-left: 15px;
-        }
-
-        .mainRight-articles {
-            text-align: right;
-            font-size: 15px;
-            opacity: 0.8;
-        }
-
-        .mainRight-articles a {
-            color: black;
-        }
-
-        .mainRight-articles a:hover {
-            text-decoration: underline black;
-        }
+@media screen and (min-width:998px) {
+    .main {
+        margin: 20px auto;
+        width: 1000px;
     }
+
+    .mainCenter {
+        display: flex;
+    }
+
+    .mainLeft {
+        width: 750px;
+        margin-right: 0;
+        border-right: none;
+    }
+
+    .mainLeft img {
+        width: 230px;
+        height: 230px;
+        ;
+    }
+
+    .mainRight {
+        width: 250px;
+        display: block;
+        margin-left: 20px;
+    }
+
+    #mainRight_border {
+        border-left: 1px solid #DDDDDD;
+        height: 95%;
+    }
+
+    .mainRight h2 {
+        color: black;
+        margin-bottom: 10px;
+    }
+
+    .mainRight a {
+        color: #00B2EA;
+    }
+
+    .mainRight a:hover {
+        text-decoration: underline #00B2EA;
+    }
+
+    .mainRight h2,
+    h3,
+    p {
+        padding-left: 15px;
+    }
+
+    #mainRight-articles {
+        text-align: right;
+        font-size: 15px;
+        opacity: 0.8;
+    }
+
+    #mainRight-articles {
+        color: black;
+    }
+
+    #mainRight-articles :hover {
+        text-decoration: underline black;
+    }
+}
