@@ -40,11 +40,11 @@ h3 {
     font-size: 15px;
 }
 
-.mainLeft_text-item02 {
+.mainLeft_text-item02 a {
     color: #00B2EA;
 }
 
-.mainLeft_text-item02 :hover {
+.mainLeft_text-item02 a:hover {
     text-decoration: underline #00B2EA;
 }
 
@@ -54,13 +54,13 @@ h3 {
     border-bottom: 1px dotted black;
 }
 
-.main-articles {
+.main-articles a {
     color: black;
     padding: 10px 0 40px;
     opacity: 0.8;
 }
 
-.mainLeft-articles :hover {
+.mainLeft-articles a:hover {
     text-decoration: underline black;
 }
 
@@ -135,17 +135,14 @@ h3 {
         padding-left: 15px;
     }
 
-    #mainRight-articles {
+    .mainRight-articles a {
         text-align: right;
         font-size: 15px;
         opacity: 0.8;
-    }
-
-    #mainRight-articles {
         color: black;
     }
 
-    #mainRight-articles :hover {
+    .mainRight-articles a:hover {
         text-decoration: underline black;
     }
 }
