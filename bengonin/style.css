@@ -1,0 +1,17 @@
+@charset utf-8;
+
+header {
+    background-color: black;
+}
+
+.main_top {
+    background-image: url(image/mv_top.png)
+}
+
+.main_bottom {
+    background-color: white;
+}
+
+.banner {
+    background-color: white;
+}
