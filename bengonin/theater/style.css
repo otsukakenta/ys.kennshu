@@ -7,5 +7,96 @@ body {
         heigth:100%;
 }
 main {
+    max-width:850px;
+    margin:0 auto;
+    padding-top:50px;
+}
+h1{
+	font-size: 14px;
+	color: #ad9149;
+	text-align: center;
+	border-bottom: 1px solid #ad9149;
+	padding-bottom: 15px;
+}
+.main_content{
+padding: 50px 0;
+display: flex;
+	width: 850px;
+	border-bottom: 1px solid #ad9149;
+}
+.main_content-left {
+}
+.main_content-left img{
+	display: block;
+	width: 500px;
+	padding:20px 20px 20px 0;
+}
+.main_content-right img{
+	width: 330px;
+}
+.main_nav{
+	padding: 40px 0;
+	text-align: center;
+}
+.main_nav li {
+    display: inline-block;
+    padding: 2px 20px;
+	text-decoration: underline;
+}
+.main_nav a{
+		color:black;
+	font-weight: lighter;
+}
 
+.main_nav li + li {
+    border-left: 2px solid black;
+}
+
+.main_schedule-eria{
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+.main_schedule-eria::before {
+	content: "";
+	display: inline-block;
+	background: black;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+table {
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.t_top th {
+	background-color: #8c6400;
+	font-size: 16px;
+	height: 40px;
+	font-weight: bold;
+}
+
+.city {
+	width: 100px;
+	height: 40px;
+}
+
+.theater {
+	width: 230px;
+}
+
+.day {
+	width: 100px;
+}
+
+.ticket {
+	width: 80px;
+}
+
+th,
+td {
+	border: 1px solid black;
+	font-size: 14px;
 }
