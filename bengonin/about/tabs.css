@@ -1,0 +1,24 @@
+#tab1_box {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.tab1_box-text {
+    display: flex;
+
+}
+
+.tab1_box-textLeft {
+    width: 350px;
+    padding-right: 40px;
+}
+
+.tab1_box-textRight {
+    width: 350px;
+}
+
+ul#tab_list li a {
+    display: block;
+    padding: 10px 0;
+
+}

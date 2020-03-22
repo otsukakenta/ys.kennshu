@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title>タブ切り替えメニューを作ろう</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen,tv" />
+    <link rel="stylesheet" type="text/css" href="css/tabs.css" media="screen,tv" />
+    <script type="text/javascript" src="js/tabs.js"></script>
+  </head>
+    <body>
+        <noscript>
+          <p class="center">このページはJavaScriptを使用しています。JavaScriptを有効にしてください。</p>
+        </noscript>
+        <div id="header">
+          <h1>
+            <a href="index.html">
+              JavaScript for Web Designer
+            </a>
+          </h1>
+        </div>
+        <div id="box">
+          <ul id="menu" class="clearfix">
+            <li><a href="index.html">トップ</a></li>
+            <li><a href="colortable.html">カラーコード表</a></li>
+            <li><a href="mailform.html">メールフォーム</a></li>
+            <li class="active"><a href="tabs.html">タブ切り替えメニュー</a></li>
+            <li><a href="map.html">地図</a></li>
+           </ul>
+          <div id="main">
+            <h2 class="tab-bar">タブ切り替えメニュー</h2>
+            <ul id="tab_list" class="clearfix">
+              <li><a href="#tab1_box">タブ1</a></li>
+              <li><a href="#tab2_box">タブ2</a></li>
+             <li><a href="#tab3_box">タブ3</a></li>
+           </ul>
+           <div id="tab1_box" class="tabbox">
+             タブ1の内容が表示されます。
+           </div>
+           <div id="tab2_box" class="tabbox">
+             タブ2の内容が表示されます。
+           </div>
+           <div id="tab3_box" class="tabbox">
+             タブ3の内容が表示されます。
+           </div>
+         </div>
+         <p class="copy">
+           &copy; 2010 JavaScript for Web Designer. All rights reserved.
+         </p>
+       </div>
+<script>
+       var tabs = document.getElementById('tab_list').getElementsByTagName('a');
+       //tabsに、tab_list内すべてのa要素を格納する、
+       var pages = document.getElementById('main').getElementsByTagName('div');
+       //pagesに、main内すべてのdivを格納する
+
+       function changeTab() {
+       //タブの切り替えを実行する、changeTab関数を作成
+
+       var targetid = this.href.substring(this.href.indexOf('#')+1,this.href.length);
+       //href属性値から対象のid名を抜き出す。この下で＃は邪魔なので取る。
+
+       for(var i=0; i<pages.length; i++) {
+          if( pages[i].id != targetid ) {
+              pages[i].style.display = "none";
+          }else {
+                pages[i].style.display = "block";
+               }
+       }
+       //上の分で＃をとった値と、一致していないものを非表示、それ以外をblockで表示する。
+
+           
+          return false;
+         }
+         //URLが動かないように固定する
+
+         for(var i=0; i<tabs.length; i++) {
+             tabs[i].onclick = changeTab;
+          }
+          //tabs内のすべてのa要素にchangeTab関数が実行されるよう、for文を使う。
+
+         tabs[0].onclick();
+         //tabs[0]は初めの部なのでページが読み込まれたときにここを表示するように記載。
+
+</script>
+</body>
+</html>

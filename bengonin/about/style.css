@@ -1,5 +1,29 @@
 @charset"utf-8";
 
 main {
+    background-image: url(../image/bg_about.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #E88A1D;
+    font-weight: lighter;
+    font-size: 14px;
+    border-bottom: 1px solid white;
 
 }
+
+p {
+    color: white;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+#tab2_box {}
+
+#tab3_box {}
