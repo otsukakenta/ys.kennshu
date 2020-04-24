@@ -3,8 +3,8 @@
 .main_top {
     background-image: url(image/mv_top.png);
     background-size: cover;
-background-position: center;
-height:870px;
+    background-position: center;
+    height: 870px;
     padding-top: 70px;
 }
 
@@ -44,4 +44,13 @@ height:870px;
 .banner img {
     height: 60px;
     padding: 30px 10px 20px;
+}
+
+#youtube_content {
+
+    display: block;
+}
+
+#oll {
+    display: block;
 }

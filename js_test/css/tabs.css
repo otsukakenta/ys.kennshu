@@ -1,40 +1,36 @@
 /* タブ部分のCSS */
-ul#tab_list {
-    width: 600px;
-    margin: 20px auto 0 auto;
-    border-left: solid 1px #ccc;
+ul#tab_list{
+  width : 600px;
+  margin : 20px auto 0 auto;
+  border-left : solid 1px #ccc;
+}
+ul#tab_list li{
+  float : left;
+  display : inline;
+  border : solid 1px #ccc;
+  border-left : none;
+  border-bottom : none;
+}
+ul#tab_list li a{
+  display : block;
+  text-align : center;
+  padding : 5px 10px;
+  font-size : 0.8em;
+  text-decoration : none;
+  outline : none;
+}
+ul#tab_list li a:hover{
+  background : #d0ffa2;
+  
+}
+ul#tab_list li a.active{
+  background : #0cc6ef;
+  color : #fff;
+}
+div.tabbox{
+  border : solid 1px #ccc;
+  width : 579px;
+  margin : 0 auto;
+  padding : 10px;
 }
 
-ul#tab_list li {
-    float: left;
-    display: inline;
-    border: solid 1px #ccc;
-    border-left: none;
-    border-bottom: none;
-}
-
-ul#tab_list li a {
-    display: block;
-    text-align: center;
-    padding: 5px 10px;
-    font-size: 0.8em;
-    text-decoration: none;
-    outline: none;
-}
-
-ul#tab_list li a:hover {
-    background: #d0ffa2;
-
-}
-
-ul#tab_list li a.active {
-    background: #0cc6ef;
-    color: #fff;
-}
-
-div.tabbox {
-    border: solid 1px #ccc;
-    width: 579px;
-    margin: 0 auto;
-    padding: 10px;
-}

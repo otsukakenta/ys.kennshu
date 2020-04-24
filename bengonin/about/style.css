@@ -10,20 +10,22 @@ main {
     padding-top: 50px;
 }
 
-h1 {
+h2{
     color: #E88A1D;
     font-weight: lighter;
     font-size: 14px;
     border-bottom: 1px solid white;
 
 }
+h6{
+    padding-top: 30px;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #707942;
+}
 
 p {
     color: white;
     font-size: 12px;
-    padding: 10px 0;
+    padding: 15px 0;
 }
-
-#tab2_box {}
-
-#tab3_box {}
