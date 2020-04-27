@@ -17,6 +17,8 @@ header{
 	}
 main{
 	background:url(../image/special_bg_01.png);
+	position: relative;
+	z-index: 1;
 	}
 	h1{
 		padding: 40px 0;
@@ -38,23 +40,109 @@ main{
 	.main_content img{
 		width: 300px;
 		border: 4px solid red;
+		position: relative;
+		z-index: 3;
 	}
 	.main_content-txt p{
 	color:white;
 	font-weight:bold;
 	font-size: 32px;
+		position: relative;
+		z-index: 3;
 	}
 	.main_pagelink{
-		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		color: white;
+		padding: 50px 0 150px;
+		opacity: 0.5;
 	}
 		.main_pagelink p{
 			font-size: 50px;
 			font-weight: bold;
-			padding-top: 80px;
-			padding-bottom: 150px;
+			padding: 0 50px;
+	}
+		.main_pagelink img{
+			width: 36px;
+	}
+	.main_666-animation01{
+	position: fixed;
+    top: 420px;
+	right: 200px;
+    width: 100%;
+    	z-index: 2;
+    opacity: 0.7;
+	animation: right 8s linear infinite;
+	}
+	.main_666-animation01 img{
+	height: 60px;
+	}
+		.main_666-animation02{
+	position: fixed;
+    top: 620px;
+    left: 400px;
+    width: 100%;
+    	z-index: 2;
+    opacity: 0.7;
+  animation: left 10s linear infinite;
+  transform: translateX(100%);
+	}
+	.main_666-animation02 img{
+	height: 80px;
+	}
+		.main_666-animation03{
+	position: fixed;
+    top: 900px;
+    left: 400px;
+    width: 100%;
+    	z-index: 2;
+    opacity: 0.7;
+  animation: left 15s linear infinite;
+  transform: translateX(100%);
+	}
+	.main_666-animation03 img{
+	height: 40px;
 	}
 footer{
 	background-color: black;
+	padding: 100px 0 20px 0;
+	}
+	.shere ul{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.footer_icon img{
+		width: 100px;
+	}
+	.footer_name img{
+		width: 250px;
+	}
+	.footer_border img{
+		width: 160px;
+		margin: 0 20px;
+	}
+	.to_top{
+		padding: 100px 0;
+		text-align: center;
+	}
+	.to_top img{
+		width: 220px;
+	}
+	.footer{
+		text-align: center;
+		color: white;
+		font-size: 25px;
 	}
 }
+	@keyframes left {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+	@keyframes right {
+  100% {
+    transform: translateX(100%);
+  }
+	}
