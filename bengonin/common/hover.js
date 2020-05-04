@@ -3,13 +3,13 @@ function hover() {
     var images = document.getElementsByTagName("img");
 
     for(var i=0; i < images.length; i++) {
-      if(images[i].getAttribute("src").match("_.001"))
+      if(images[i].getAttribute("src").match("_001."))
       {
         images[i].onmouseover = function() {
-          this.setAttribute("src", this.getAttribute("src").replace("_.001", "_.002"));
+          this.setAttribute("src", this.getAttribute("src").replace("_001.", "_002."));
         }
         images[i].onmouseout = function() {
-          this.setAttribute("src", this.getAttribute("src").replace("_.002", "_.001"));
+          this.setAttribute("src", this.getAttribute("src").replace("_002.", "_001."));
         }
       }
     }
