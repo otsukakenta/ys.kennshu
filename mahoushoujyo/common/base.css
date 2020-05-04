@@ -170,11 +170,11 @@ ul{
 		justify-content: flex-start;
 	}
 
-	.header_btn {
+	#header_btn {
 		padding-right: 10%;
 	}
 
-	.header_btn img {
+	#header_btn img {
 		width: 150px;
 	}
 
