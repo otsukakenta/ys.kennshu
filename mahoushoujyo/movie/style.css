@@ -23,15 +23,60 @@
 		text-align: center;
 	}
 
-	.main_content-txt {
-		padding-left: 20px;
-	}
-
-	.main_content img {
+	.main_content-image img {
 		width: 900px;
 		border: 4px solid white;
 		position: relative;
 		z-index: 4;
+	}
+
+	.main_content-icon {
+		position: relative;
+		z-index: 5;
+	}
+
+	.main_content-icon img {
+		width: 200px;
+	}
+
+	.main_content-img1 {
+		position: absolute;
+		bottom: 200px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_content-img2 {
+		position: absolute;
+		bottom: 200px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_content-img3 {
+		position: absolute;
+		bottom: 200px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_content-txt {
+		padding-left: 20px;
 	}
 
 	.main_content-txt p {
@@ -42,50 +87,52 @@
 		z-index: 4;
 		padding-top: 40px;
 	}
-#oll {
-    display: none;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.9;
-    z-index: 9998;
-}
 
-#mybutton,
-	#mybutton2{
-	width: 30px;
-    position: absolute;
-    top: -20px;
-    left: 815px;
-    ;
-}
-#mybutton img,
-#mybutton2 img{
-	width: 30px;
+	#oll {
+		display: none;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		opacity: 0.9;
+		z-index: 9998;
 	}
-#youtube_content,
-#youtube_content2
-{
 
-    display: none;
-}
+	#mybutton,
+	#mybutton2 {
+		width: 30px;
+		position: absolute;
+		top: -20px;
+		left: 815px;
+		;
+	}
 
-.youtube_content-eria {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    margin: auto;
-    z-index: 9999;
-}
+	#mybutton img,
+	#mybutton2 img {
+		width: 30px;
+	}
 
-.youtube_content-eria iframe {
-    width: 853px;
-    height: 490px;
-}
+	#youtube_content,
+	#youtube_content2 {
+
+		display: none;
+	}
+
+	.youtube_content-eria {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		margin: auto;
+		z-index: 9999;
+	}
+
+	.youtube_content-eria iframe {
+		width: 853px;
+		height: 490px;
+	}
 
 
 }

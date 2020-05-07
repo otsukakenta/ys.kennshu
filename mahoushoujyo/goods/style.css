@@ -115,4 +115,68 @@
 	.main_pagelink li:nth-child(2){
 	opacity:0.5;
 }
+	#oll {
+		display: none;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		opacity: 0.7;
+		z-index: 9998;
+	}
+	#close_btn_01,#close_btn_02,#close_btn_03,#close_btn_04,#close_btn_05,#close_btn_06,#close_btn_07,#close_btn_08,#close_btn_09,#close_btn_10{
+		position: absolute;
+		top: -150px;
+		left: 700px;
+	}
+	#close_btn_01 img,#close_btn_02 img,#close_btn_03 img,#close_btn_04 img,#close_btn_05 img,#close_btn_06 img,#close_btn_07 img,#close_btn_08 img,#close_btn_09 img,#close_btn_10 img{
+		width: 150px;
+	}
+
+	#modal_content_01,#modal_content_02,#modal_content_03,#modal_content_04,#modal_content_05,#modal_content_06,#modal_content_07,#modal_content_08,#modal_content_09,#modal_content_10{
+		display: none;
+	}
+
+	.modal_content-eria {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		margin: auto;
+		z-index: 9999;
+	}
+
+	.modal_content-image {
+		text-align: center;
+		width: 830px;
+		height: 900px;
+		background-color: black;
+		border: 3px solid red;
+		color:white;
+		padding: 60px 30px;
+		overflow: scroll;
+	}
+	.modal_content-image img{
+width: 600px;
+	}
+	.modal_content-image h1{
+	font-size:  55px;
+		padding-top: 120px;
+	border-bottom: 3px solid red;
+		margin-bottom: 100px;
+	}
+		.modal_content-image span{
+	font-size: 35px;
+	}
+			.modal_content-image p{
+	font-size: 40px;
+				font-weight: bold;
+	}
+	.modal_content-image a{
+		color: white;
+		text-decoration:underline;
+		text-decoration-color: white;
+	}
 }
