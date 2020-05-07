@@ -7,14 +7,6 @@
 		z-index: 1;
 	}
 
-	h1 {
-		padding: 40px 0;
-		text-align: center;
-	}
-
-	h1 img {
-		height: 80px;
-	}
 
 	.main_content {
 		display: flex;

@@ -1,4 +1,6 @@
 @charset "utf-8";
+
+/*666のkeyframes*/
 @keyframes left {
 	100% {
 		transform: translateX(-100%);
@@ -11,11 +13,12 @@
 	}
 }
 
-/* keyframes */
+/* header_titleのkeyframes*/
 @keyframes changeImage1 {
 	0% {
 		opacity: 1;
 	}
+
 	20% {
 		opacity: 0;
 	}
@@ -43,9 +46,11 @@
 	71% {
 		opacity: 1;
 	}
-	75%{
+
+	75% {
 		opacity: 0;
 	}
+
 	95% {
 		opacity: 1;
 	}
@@ -150,19 +155,21 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
 
 body {
-    font-family: sans-serif;
+	font-family: sans-serif;
 }
-ul{
+
+ul {
 	list-style: none;
 }
 
 @media screen and (min-width:643px) {
+/*	ここからヘッダー*/
 	header {
 		background-color: black;
 		display: flex;
@@ -182,6 +189,7 @@ ul{
 		position: relative;
 		z-index: 2;
 		overflow: hidden;
+		display: block;
 	}
 
 	.header_title img {
@@ -190,7 +198,12 @@ ul{
 		margin: auto;
 	}
 
-	.heder_title-img1 {
+	.header_title-sub img {
+		width: 300px;
+		padding-top: 10px;
+	}
+
+	.header_title-img1 {
 		opacity: 0;
 
 		animation-name: changeImage1;
@@ -198,9 +211,81 @@ ul{
 		animation-iteration-count: infinite;
 	}
 
-	.heder_title-img2{
+	.header_title-img2 {
 		position: absolute;
 		top: 0;
+		left: 0;
+		right: 0;
+
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.header_title-img3 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.header_title-img4 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage4;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+/*ここまでヘッダー
+	ここからメイン*/
+	.main_bg {
+		text-align: center;
+		padding: 50px 0;
+	}
+
+	.main_bg img {
+		width: 650px;
+	}
+
+	.main_title {
+		text-align: center;
+	}
+
+	.main_title img {
+		height: 90px;
+	}
+
+	.main_title-img1 {
+		position: absolute;
+		top: 50px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_title-img2 {
+		position: absolute;
+		top: 50px;
 		left: 0;
 		right: 0;
 		width: 100%;
@@ -212,9 +297,9 @@ ul{
 		animation-iteration-count: infinite;
 	}
 
-	.heder_title-img3 {
+	.main_title-img3 {
 		position: absolute;
-		top: 0;
+		top: 50px;
 		left: 0;
 		right: 0;
 		width: 100%;
@@ -226,25 +311,12 @@ ul{
 		animation-iteration-count: infinite;
 	}
 
-	.heder_title-img4 {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		width: 100%;
-		opacity: 0;
-		z-index: 2;
-
-		animation-name: changeImage4;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
 	.main_pagelink {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		color: white;
-		padding: 50px 0 150px;
+		padding: 50px 0 200px;
 		opacity: 0.5;
 	}
 
@@ -262,7 +334,6 @@ ul{
 		position: fixed;
 		top: 420px;
 		right: 200px;
-		width: 100%;
 		z-index: 3;
 		opacity: 0.7;
 		animation: right 8s linear infinite;
@@ -276,7 +347,6 @@ ul{
 		position: fixed;
 		top: 620px;
 		left: 400px;
-		width: 100%;
 		z-index: 3;
 		opacity: 0.7;
 		animation: left 10s linear infinite;
@@ -291,7 +361,6 @@ ul{
 		position: fixed;
 		top: 900px;
 		left: 400px;
-		width: 100%;
 		z-index: 2;
 		opacity: 0.7;
 		animation: left 15s linear infinite;
@@ -301,7 +370,8 @@ ul{
 	.main_666-animation03 img {
 		height: 40px;
 	}
-
+/*ここまで
+	ここからフッター*/
 	footer {
 		background-color: black;
 		padding: 100px 0 20px 0;
@@ -318,9 +388,42 @@ ul{
 	.footer_icon img {
 		width: 100px;
 	}
-
+	.header_title-sub img {
+		width: 300px;
+		padding-top: 10px;
+	}
+	.footer_name{
+		position: relative;
+		bottom: 20px;
+		width: 250px;
+	}
 	.footer_name img {
 		width: 250px;
+	}
+	.footer_share-img1 {
+		position: absolute;
+		opacity: 0;
+
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.footer_share-img2 {
+		position: absolute;
+		opacity: 0;
+
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+	.footer_share-img3 {
+		position: absolute;
+		opacity: 0;
+		
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
 	}
 
 	.footer_border img {
@@ -329,17 +432,51 @@ ul{
 	}
 
 	.to_top {
-		padding: 100px 0;
-		text-align: center;
+		position: relative;
+		padding: 150px 0;
 	}
 
 	.to_top img {
-		width: 220px;
+		width: 250px;
+	}
+	.footer_totop-img1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+		opacity: 0;
+
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
 	}
 
+	.footer_totop-img2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+		opacity: 0;
+
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+	.footer_totop-img3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+		opacity: 0;
+		
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
 	.footer {
 		text-align: center;
 		color: white;
 		font-size: 25px;
 	}
+/*	ここまで*/
 }
