@@ -1,118 +1,140 @@
 @charset"utf-8";
 
-@media screen and (min-width:643px) {
 
+@media screen and (min-width:643px) {
 	main {
-		background: url(../image/bg.png);
+		background: url(../image/special_bg_01.png);
 		position: relative;
 		z-index: 1;
 	}
-
-	h1 {
-		padding: 40px 0;
-		text-align: center;
-	}
-
-	h1 img {
-		height: 80px;
-	}
-
-	.main_content {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 80px 40px;
-		text-align: center;
-	}
-	
-	.main_content img {
-		width: 400px;
-		height: 35px;
+	.main_content{
+		margin: 100px 50px;
 		position: relative;
-		z-index: 4;
-	}
-
-	.main_content-search{
-		font-weight: bold;
-		font-size: 36px;
-		position: relative;
-		z-index: 4;
-		padding-top: 50px;
+		z-index: 9999;
 		text-align: center;
-	}
-	.main_content-search li{
-		display: inline-block;
-		border: 3px solid white;
-		margin: 0 10px 40px;
-	}
-		.main_content-search li:first-child{
-			background-color: red;
-			border: none;
-	}
-	.main_content-search a{
 		color: white;
-		display: block;
-		padding: 40px 20px;
 	}
-		.main_content-image {
+		.main_content img{
+		text-align: center;
+			width: 700px;
+	}
+	.main_content span{
+		font-size: 20px;
+		font-weight: normal;
+	}
+	.main_content h2{
+		text-align: left;
+		padding: 50px 0;
+	font-size:36px;
+	}
+	.main_content p{
+	text-align: left;
+			padding: 50px 0;
+		font-size: 14px;
+	}
+		.main_content p a{
+			color: white;
+			font-weight: bold;
+			text-decoration: underline;
+	}
+		.link{
+	display: block;
+			color:white;
+			padding-top: 40px;
+			margin: 0 200px;
+	}
+	.link::before {
+	content: "";
+	display: inline-block;
 		position: relative;
-		z-index: 4;
-		padding-top: 50px;
+		top:5px;
+		left: 5px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 40px solid white;
 	}
-	
-	.main_content-image ul{
+		.link::after {
+	content: "";
+	display: inline-block;
+		position: relative;
+		top:8px;
+		right: 8px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 40px solid white;
+  border-bottom: 20px solid transparent;
+  border-left: 40px solid transparent;
+	}
+	.main_pagelink{
+		opacity: 1;
+	}
+		.main_pagelink a{
+	color: white;
+	}
+	#oll {
+		display: none;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		opacity: 0.9;
+		z-index: 9998;
+	}
+#close_btn{
+		position: absolute;
+		top: -150px;
+		left: 700px;
+	}
+	#close_btn img{
+		width: 150px;
+	}
+
+	#modal_content{
+		display: none;
+	}
+
+	.modal_content-eria {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		margin: auto;
+		z-index: 9999;
+	}
+
+	.modal_content-image {
+		text-align: center;
+		width: 830px;
+		height: 900px;
+		background-color: black;
+		border: 5px solid red;
+		color:white;
+		padding: 60px 30px;
+		overflow: scroll;
+	}
+	.modal_content-image img{
+width: 300px;
+	}
+	.modal_content-image h3{
+	font-size:  50px;
+		padding-bottom: 60px;
+	}
+	.modal_content-image ul{
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-wrap: wrap;
-	}
-	.main_content-image li{
-		border: 5px solid white;
-		margin: 20px;
-		width: 400px;
-		height: 620px;
-	}
-		.main_content-image li img{
-			width: 300px;
-	}
-		.image-pd{
-		padding:40px 0;
-	}
-			.image-pd2{
-		padding:65px 0;
-	}
-		.main_content-image li p{
-			text-align: center;
-			font-weight: bold;
-			font-size: 30px;
-			width: 300px;
-			padding-top: 80px;
-	}
-		.main_content-image a{
-		color: white;
-		display: block;
-		padding: 100px 50px 50px;
-	}
-	
-	.main_pagelink {
-		position: relative;
-		z-index: 4;
-		margin-top:  100px;
-		opacity: 1;
-	}
-	.main_pagelink li{
-		display: inline-block;
-		font-size: 50px;
-		font-weight: bold;
-		padding: 0 20px;
-
-	}
-	.main_pagelink li a{
-		color: white;
-		display: block;
-	}
-	.main_pagelink li:nth-child(1),
-	.main_pagelink li:nth-child(2){
-	opacity:0.5;
 }
+	.modal_content-image li{
+		margin: 20px 15px;
+	}
+	.modal_content-image img{
+		width: 380px;
+	}
 }

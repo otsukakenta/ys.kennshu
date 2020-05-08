@@ -1,4 +1,4 @@
-var ollcontent = document.getElementById("oll");
+var oll = document.getElementById("oll");
 
 var close_btn1 = document.getElementById("close_btn_01");
 var close_btn2 = document.getElementById("close_btn_02");
