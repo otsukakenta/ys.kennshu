@@ -5,6 +5,7 @@
 	.all_content {
 		background: url(image/bg.png);
 		background-size: contain;
+		background-attachment: fixed;
 		position: relative;
 		z-index: 1;
 	}
@@ -85,7 +86,7 @@
 	}
 
 	.main_bg {
-		padding: 0 0 100px;
+		padding: 0px;
 		;
 	}
 
@@ -104,7 +105,7 @@
 
 	.main_toptitle-img1 {
 		position: absolute;
-		bottom: 110px;
+		bottom: 0;
 		left: 0;
 		right: 0;
 		width: 100%;
@@ -118,7 +119,7 @@
 
 	.main_toptitle-img2 {
 		position: absolute;
-		bottom: 110px;
+		bottom: 0;
 		left: 0;
 		right: 0;
 		width: 100%;
@@ -132,7 +133,7 @@
 
 	.main_toptitle-img3 {
 		position: absolute;
-		bottom: 110px;
+		bottom: 0;
 		left: 0;
 		right: 0;
 		width: 100%;
@@ -143,18 +144,19 @@
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
 	}
-
-	.container {
-		margin: 0 auto;
-		padding: 40px;
+	.slideshow{
+		height: 400px;
 		background-color: black;
 	}
-
-	.slick-slide {
-		text-align: center;
-		width: 420px;
-		height: 120px;
-	}
+.slider{
+    margin: 100px auto;
+    width: 60%;
+	height: 300px;
+}
+.slider img{
+    height: auto;
+    width: 100%;
+}
 
 	.introdction {
 		background: url(image/top_bg2.png);
