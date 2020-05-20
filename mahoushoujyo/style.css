@@ -1,0 +1,168 @@
+@charset"utf-8";
+
+
+@media screen and (min-width:643px) {
+	.all_content {
+		background: url(image/bg.png);
+		background-size: contain;
+		position: relative;
+		z-index: 1;
+	}
+
+	header {
+		background: url(image/top_bg1.png);
+		background-size: contain;
+		height: 1600px;
+		display: block;
+	}
+
+	.header_title-main {
+		width: 500px;
+		position: relative;
+		padding: 200px 0 0 60px;
+	}
+
+	.header_title-main img {
+		width: 500px;
+	}
+
+	.header_toptitle-img1 {
+
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.header_toptitle-img2 {
+		position: absolute;
+
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.header_toptitle-img3 {
+		position: absolute;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.header_toptitle-img4 {
+		position: absolute;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage4;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.header_title-sub img {
+		width: 300px;
+		padding-left: 150px;
+	}
+
+	.header_txt {
+		text-align: right;
+		padding: 100px 50px 0 0;
+	}
+
+	.header_txt img {
+		height: 800px;
+	}
+
+	.main_bg {
+		padding: 0 0 100px;
+		;
+	}
+
+	.main_bg img {
+		width: 950px;
+		padding: 20px;
+	}
+
+	.main_title {
+		position: relative;
+	}
+
+	.main_title img {
+		height: 160px;
+	}
+
+	.main_toptitle-img1 {
+		position: absolute;
+		bottom: 110px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_toptitle-img2 {
+		position: absolute;
+		bottom: 110px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_toptitle-img3 {
+		position: absolute;
+		bottom: 110px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.container {
+		margin: 0 auto;
+		padding: 40px;
+		background-color: black;
+	}
+
+	.slick-slide {
+		text-align: center;
+		width: 420px;
+		height: 120px;
+	}
+
+	.introdction {
+		background: url(image/top_bg2.png);
+		background-size: contain;
+	}
+
+	.news {
+		background: url(image/top_bg3.png);
+		background-size: co;
+	}
+}
