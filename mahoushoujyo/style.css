@@ -2,12 +2,12 @@
 
 
 @media screen and (min-width:643px) {
-	.all_content {
+	.all_content1 {
 		background: url(image/bg.png);
 		background-size: contain;
 		background-attachment: fixed;
 		position: relative;
-		z-index: 1;
+		z-index: 3;
 	}
 
 	header {
@@ -100,7 +100,7 @@
 	}
 
 	.main_title img {
-		height: 160px;
+		height: 180px;
 	}
 
 	.main_toptitle-img1 {
@@ -144,27 +144,246 @@
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
 	}
-	.slideshow{
+
+	.main_slideshow {
 		height: 400px;
 		background-color: black;
 	}
-.slider{
-    margin: 100px auto;
-    width: 60%;
-	height: 300px;
-}
-.slider img{
-    height: auto;
-    width: 100%;
-}
 
-	.introdction {
-		background: url(image/top_bg2.png);
-		background-size: contain;
+	.slider {
+		margin: 100px auto;
+		width: 60%;
+		height: 300px;
 	}
 
-	.news {
+	.slider img {
+		height: auto;
+		width: 100%;
+	}
+	#main_youtube{
+		display:none;
+	}
+	#main_youtube iframe {
+		width:100%;
+		height: 500px;
+		margin-bottom: 50px;
+	}
+	.main_youtube-eria{
+		display: block;
+	}
+	.main_youtube-thumb img {
+		width: 100%;
+		position: relative;
+		z-index: 4;
+		opacity: 0.8;
+		margin-bottom: 50px;
+	}
+
+	.main_youtube-icon {
+		position: relative;
+		z-index: 5;
+	}
+
+	.main_youtube-icon img {
+		width: 200px;
+	}
+
+	.main_youtube-img1 {
+		position: absolute;
+		bottom: 250px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_youtube-img2 {
+		position: absolute;
+		bottom: 250px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_youtube-img3 {
+		position: absolute;
+		bottom: 250px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+	}
+	.all_content2 {
 		background: url(image/top_bg3.png);
-		background-size: co;
+		background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+		background-attachment: fixed;
+		position: relative;
+		z-index: 1;
+	}
+	
+	
+	.main_introdction{
+		background: url(image/top_bg2.png);
+		background-size: contain;
+		padding:100px 0 150px;
+		position: relative;
+		z-index: 5;
+		
+	}
+	
+		.main_introdction-bg ,
+	.main_news-bg{
+		text-align: center;
+			padding: 100px 50px ;
+		;
+	}
+
+	.main_introdction-bg img,
+	.main_news-bg img{
+		width: 600px;
+	}
+	.main_introdction-title,
+	.main_news-title{
+		position: relative;
+	}
+
+	.main_introdction-title img,
+	.main_news-title img {
+		height: 80px;
+	}
+		.main_introdction-img1,
+	.main_news-img1 {
+		position: absolute;
+		bottom: 100px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_introdction-img2,
+	.main_news-img2 {
+		position: absolute;
+		bottom: 100px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_introdction-img3,
+	.main_news-img3 {
+		position: absolute;
+		bottom: 100px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+	.main_introdction p{
+		color:white;
+		font-size: 12px;
+		text-align: center;
+		line-height: 5em;
+		padding: 30px 0;
+		font-weight: bold;
+	}
+	.main_introdction span{
+		color:red;
+	}
+	.main_news {
+		background: url(image/bg.png);
+		background-size: cover;
+		position: relative;
+		z-index: 2;
+		opacity: 0.8;
+		padding:100px 50px 150px;
+	}
+	.main_news h2{
+		background: red;
+		color: black;
+		font-size: 40px;
+		width: 250px;
+		height: 60px;
+	}
+		.main_news p{
+		color: white;
+			font-size: 14px;
+			font-weight: bold;
+			border-bottom: 3px solid white;
+			line-height: 3.5em;
+			padding: 20px 0;
+			margin-bottom: 20px;
+	}
+	.main_more-title{
+		position: relative;
+		height: 200px;
+	}
+	.main_more-title img{
+		height: 60px;
+	}
+		.main_more-img1 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_more-img2 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_more-img3 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
 	}
 }
