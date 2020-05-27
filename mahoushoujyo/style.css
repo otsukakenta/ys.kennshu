@@ -1,5 +1,12 @@
 @charset"utf-8";
-
+@keyframes loop {
+    0% {
+        transform: translateX(100%);
+    }
+    to {
+        transform:  translateX(-100%);
+    }
+}
 
 @media screen and (min-width:643px) {
     .all_content1 {
@@ -377,16 +384,61 @@
         font-size: 45px;
     }
     
+    .introdction_pistol01{
+        position: absolute;
+        top:-100px;
+        transform: rotate(-20deg)scale(1.2, 1);
+        width:100%;
+        height: 300px;
+        overflow: hidden;
+
+    }
     
+    .introdction_pistol02{
+        position: absolute;
+        bottom:-150px;
+        left: 20%;
+        transform: rotate(-20deg)scale(1.2, 1);
+        width:100%;
+        height: 300px;
+        overflow: hidden;
+    }
+    .introdction_pistol img{
+        width: 300px;
+        animation: loop 3s linear infinite;
+    }
     .main_news {
         background: url(image/bg.png);
         background-size: cover;
         position: relative;
-        z-index: 2;
-        opacity: 0.8;
+        z-index: 5;
+        opacity: 1;
         padding: 100px 50px 150px;
     }
+    .main_666-animation01 {
+        position: absolute;
+        top:300px;
 
+        opacity: 0.7;
+        animation: right 8s linear infinite;
+    }
+
+
+    .main_666-animation02 {
+        position: absolute;
+        top:650px;
+        opacity: 0.7;
+        animation: left 10s linear infinite;
+        transform: translateX(100%);
+    }
+    .main_666-animation03 {
+        position: absolute;
+        top:1000px;
+        opacity: 0.7;
+        animation: left 15s linear infinite;
+        transform: translateX(100%);
+    }
+    
     .main_news h2 {
         background: red;
         color: black;
