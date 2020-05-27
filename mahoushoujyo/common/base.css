@@ -173,17 +173,7 @@ ul {
 	/*	ここからヘッダー*/
 	header {
 		background-color: black;
-		display: flex;
-		align-items: center;
-		justify-content: flex-start;
-	}
-
-	#header_btn {
-		padding-right: 10%;
-	}
-
-	#header_btn img {
-		width: 150px;
+		padding: 20px;
 	}
 
 	.header_title {
@@ -541,7 +531,7 @@ ul {
 
 	.menu-trigger.active {
 		transform: translate(500px);
-		transition: all .5s;
+		transition: all .3s;
 		width: 150px;
 		height: 150px;
 		background-color: red;
@@ -552,7 +542,7 @@ ul {
 		box-sizing: border-box;
 		position: absolute;
 		background-color: #000;
-		transition: all .5s;
+		transition: all .3s;
 	}
 
 	.menu-trigger.active span {
@@ -579,7 +569,7 @@ ul {
 	}
 
 	.menu-trigger {
-		transition: all .5s;
+		transition: all .3s;
 	}
 
 	nav {
@@ -592,7 +582,7 @@ ul {
 		left: 0;
 		z-index: 10;
 		transform: translate(-500px);
-		transition: all .5s;
+		transition: all .3s;
 	}
 
 	nav.open {

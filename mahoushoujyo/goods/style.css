@@ -129,7 +129,7 @@
 	#close_btn_01,#close_btn_02,#close_btn_03,#close_btn_04,#close_btn_05,#close_btn_06,#close_btn_07,#close_btn_08,#close_btn_09,#close_btn_10{
 		position: absolute;
 		top: -150px;
-		left: 700px;
+		left: 750px;
 	}
 	#close_btn_01 img,#close_btn_02 img,#close_btn_03 img,#close_btn_04 img,#close_btn_05 img,#close_btn_06 img,#close_btn_07 img,#close_btn_08 img,#close_btn_09 img,#close_btn_10 img{
 		width: 150px;
@@ -140,8 +140,8 @@
 	}
 
 	.modal_content-eria {
-		position: absolute;
-		top: 50%;
+		position: fixed;
+		top: 38%;
 		left: 50%;
 		transform: translateY(-50%) translateX(-50%);
 		margin: auto;

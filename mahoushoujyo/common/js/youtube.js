@@ -12,12 +12,14 @@ button.addEventListener("click", myfunc);
 
 
 var button2 = document.getElementById("yt_button");
+var button5 = document.getElementById("yt_button3");
 var myfunc2 = function () {
 	youtube.style.display = "block";
 	oll.style.display = "block";
 	youtube2.style.display = "none";
 }
 button2.addEventListener("click", myfunc2);
+button5.addEventListener("click", myfunc2);
 
 
 
@@ -30,10 +32,11 @@ var myfunc3 = function () {
 button3.addEventListener("click", myfunc3);
 
 var button4 = document.getElementById("yt_button2");
+var button6 = document.getElementById("yt_button4");
 var myfunc4 = function () {
 	youtube.style.display = "none";
 	oll.style.display = "block";
 	youtube2.style.display = "block";
 }
-
 button4.addEventListener("click", myfunc4);
+button6.addEventListener("click", myfunc4);

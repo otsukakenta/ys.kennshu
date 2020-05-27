@@ -89,7 +89,7 @@
 #close_btn{
 		position: absolute;
 		top: -150px;
-		left: 700px;
+		left: 750px;
 	}
 	#close_btn img{
 		width: 150px;
@@ -100,8 +100,8 @@
 	}
 
 	.modal_content-eria {
-		position: absolute;
-		top: 50%;
+		position: fixed;
+		top: 38%;
 		left: 50%;
 		transform: translateY(-50%) translateX(-50%);
 		margin: auto;

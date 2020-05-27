@@ -13,6 +13,8 @@
     header {
         background: url(image/top_bg1.png);
         background-size: contain;
+		background-repeat: no-repeat;
+		width: 100%;
         height: 1600px;
         display: block;
     }
