@@ -324,8 +324,60 @@
 
     .main_introdction span {
         color: red;
-    }
+        display: inline-block;
 
+    }
+    .main_introdction p:first-of-type span:first-of-type,
+    .main_introdction p:nth-of-type(2) span:first-of-type,
+    .main_introdction p:nth-of-type(3) span:first-of-type,
+    .main_introdction p:nth-of-type(4) span:nth-of-type(8),
+    .main_introdction p:nth-of-type(5) span:nth-of-type(2),
+    .main_introdction p:nth-of-type(6) span:nth-of-type(2){
+        font-size: 45px;
+        -webkit-transform: rotate(-8deg) translateY(-2px);
+        transform: rotate(-8deg) translateY(-2px);
+    }
+    .main_introdction p:first-of-type span:nth-of-type(2),
+    .main_introdction p:nth-of-type(4) span:nth-of-type(7),
+    .main_introdction p:nth-of-type(5) span:first-of-type,
+    .main_introdction p:nth-of-type(6) span:first-of-type,
+    .main_introdction p:nth-of-type(6) span:nth-of-type(3){
+        font-size: 45px;
+        -webkit-transform: rotate(12deg) translateY(2px);
+    transform: rotate(12deg) translateY(2px);
+    }
+    .main_introdction p:first-of-type span:nth-of-type(3),
+    .main_introdction p:nth-of-type(2) span:nth-of-type(3),
+    .main_introdction p:nth-of-type(2) span:nth-of-type(6),
+    .main_introdction p:nth-of-type(4) span:first-of-type,
+    .main_introdction p:nth-of-type(5) span:nth-of-type(3),
+    .main_introdction p:nth-of-type(5) span:nth-of-type(4),
+    .main_introdction p:nth-of-type(5) span:nth-of-type(6),
+    .main_introdction p:nth-of-type(5) span:nth-of-type(9){
+        font-size: 35px;
+        -webkit-transform: rotate(12deg) translateY(2px);
+        transform: rotate(12deg) translateY(2px);
+    }
+    .main_introdction p:nth-of-type(2) span:nth-of-type(5),
+    .main_introdction p:nth-of-type(4) span:nth-of-type(2),
+    .main_introdction p:nth-of-type(5) span:nth-of-type(7){
+        font-size: 35px;
+        -webkit-transform: rotate(-8deg) translateY(-2px);
+        transform: rotate(-8deg) translateY(-2px);
+    }
+    .main_introdction p:nth-of-type(2) span:nth-of-type(2),
+    .main_introdction p:nth-of-type(2) span:nth-of-type(4),
+    .main_introdction p:nth-of-type(4) span:nth-of-type(3),
+    .main_introdction p:nth-of-type(5) span:nth-of-type(5),
+    .main_introdction p:nth-of-type(5) span:nth-of-type(10){
+        font-size: 35px;
+    }
+    .main_introdction p:nth-of-type(4) span:nth-of-type(5),
+    .main_introdction p:nth-of-type(4) span:nth-of-type(6){
+        font-size: 45px;
+    }
+    
+    
     .main_news {
         background: url(image/bg.png);
         background-size: cover;
