@@ -4,7 +4,6 @@
 
 	main {
 		background: url(../image/bg.png);
-		background-attachment: fixed;
 		position: relative;
 		z-index: 1;
 	}
