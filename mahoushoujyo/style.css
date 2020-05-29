@@ -101,7 +101,6 @@
 		z-index: 7;
 	}
 
-	}
 	header {
 		background: url(image/top_bg1.png);
 		background-size: contain;
@@ -612,7 +611,7 @@
 	}
 
 	.footer {
-		font-size: 10px;
+padding-bottom: 10px;
 	}
 
 

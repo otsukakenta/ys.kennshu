@@ -2,12 +2,6 @@
 
 @media screen and (min-width:643px) {
 
-	main {
-		background: url(../image/bg.png);
-		position: relative;
-		z-index: 1;
-	}
-
 	.main_bg {
 		padding: 50px 0 100px;
 	}

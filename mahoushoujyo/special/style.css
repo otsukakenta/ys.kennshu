@@ -1,10 +1,8 @@
 @charset"utf-8";
 
 @media screen and (min-width:643px) {
-	main {
+	body {
 		background: url(../image/special_bg_01.png);
-		position: relative;
-		z-index: 1;
 	}
 
 	.main_content {

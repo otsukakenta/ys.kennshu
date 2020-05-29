@@ -283,6 +283,12 @@ ul {
 
 	/*ここまでヘッダー
 	ここからメイン*/
+    
+    main {
+        background: url(../image/bg.png);
+        position: relative;
+        z-index: 1;
+    }
 	.main_bg {
 		text-align: center;
 		padding: 50px 0;

@@ -2,11 +2,6 @@
 
 @media screen and (min-width:643px) {
 
-	main {
-		background: url(../image/bg.png);
-		position: relative;
-		z-index: 1;
-	}
 
 	h1 {
 		padding: 40px 0;
