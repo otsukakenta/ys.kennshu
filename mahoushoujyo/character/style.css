@@ -17,19 +17,45 @@
 		position: absolute;
 		top:320px;
 		width: 100%;
-		height: 2000px;
+		height: 2030px;
 		z-index: 4;
 		transform: rotate(-5deg) scaleX(2);;
 	}
 
-	.main_character {
+	.main_character{
 
 		height: 2000px;
 		position: relative;
 		z-index: 5;
 		padding: 20px;
 	}
-
+		.main_character2,
+	.main_character3,
+	.main_character4,
+	.main_character5,
+	.main_character6,
+	.main_character7,
+	.main_character8,
+	.main_character9,
+	.main_character10,
+	.main_character11,
+	.main_character12,
+	.main_character13
+	{
+display: none;
+		height: 2000px;
+		position: relative;
+		z-index: 5;
+		padding: 20px;
+	}
+	.main_character-title12{
+		background: url(../image/bg_character12_sp.png);
+		background-size: cover;
+		position: relative;
+		
+		z-index: 1;
+		height: 1600px;
+	}
 	.character-image {
 		position: relative;
 		z-index: 2;
@@ -57,6 +83,14 @@
 		position: relative;
 		z-index: 2;
 	}
+		.comment-11 {
+		font-size: 36px;
+		line-height: 1em;
+		color: black;
+		transform: translate(60px, 100px) rotate(-6deg) scale(1, 2);
+		position: relative;
+		z-index: 2;
+	}
 
 	.character_bg {
 		text-align: right;
@@ -73,7 +107,14 @@
 	.main_character-content {
 		display: flex;
 	}
-
+	.main_character-content-12 img{
+				width: 750px;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-5%);
+		z-index: 1;
+	}
 	.main_character-left img {
 		width: 500px;
 		position: relative;
@@ -98,6 +139,13 @@
 	.sub_character img {
 		width: 400px;
 	}
+	.sub_character-men{
+		text-align: center;
+		padding-top:90px;
+	}
+		.sub_character-men img{
+		width: 250px;
+	}
 
 	p {
 		color: white;
@@ -115,7 +163,29 @@
 		margin: 15px;
 		line-height: 1.5em;
 	}
-
+		.story-12 {
+		background-color: black;
+		font-size: 30px;
+		padding: 15px;
+		margin: 15px;
+		line-height: 1.5em;
+		position: relative;
+		top:-110px;
+			z-index: 1;
+	}
+	.character_comment{
+		padding: 30px 40px;
+		color: white;
+		font-size: 28px;
+	}
+		.character_comment-12{
+		padding: 30px 40px;
+		color: white;
+		font-size: 28px;
+			position: relative;
+			top:-130px;
+			z-index: 1;
+	}
 	.main_select {
 		height: 1000px;
 
