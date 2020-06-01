@@ -1,99 +1,102 @@
 @charset"utf-8";
 
 @media screen and (min-width:643px) {
-	.main_bg {
-		padding: 50px 0 100px;
-	}
+    .main_bg {
+        padding: 50px 0 100px;
+    }
 
-	.main_staff,
-	.main_cast {
-		text-align: center;
-		padding: 20px 0 120px;
-	}
+    .main_staff,
+    .main_cast {
+        text-align: center;
+        padding: 20px 0 120px;
+    }
 
-	.main_staff .main_staff-image,
-	.main_cast .main_cast-image {
-		position: relative;
-		height: 150px;
-	}
+    .main_staff .main_staff-image,
+    .main_cast .main_cast-image {
+        position: relative;
+        height: 150px;
+    }
 
-	.main_staff img,
-	.main_cast img {
-		height: 50px;
-	}
+    .main_staff img,
+    .main_cast img {
+        height: 50px;
+    }
 
-	h2 {
-		color: red;
-		font-size: 18px;
-		padding: 20px 0;
-	}
+    h2 {
+        color: red;
+        font-size: 18px;
+        padding: 20px 0;
+    }
 
-	p {
-		color: white;
-		font-weight: bold;
-		font-size: 36px;
-		padding: 20px 0;
-	}
+    p {
+        color: white;
+        font-weight: bold;
+        font-size: 36px;
+        padding: 20px 0;
+    }
 
-	span {
-		font-size: 16px;
-	}
+    span {
+        font-size: 16px;
+    }
 
-	.main_cast ul {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
+    .main_cast ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
-	.main_cast li {
-		width: 400px;
-	}
+    .main_cast li {
+        width: 400px;
+    }
 
-	.main_cast p {
-		padding: 0 0 40px;
-	}
+    .main_cast p {
+        padding: 0 0 40px;
+    }
 
-	.footer {
-		font-size: 10px;
-	}
+    .footer {
+        font-size: 10px;
+    }
 
-	.main_staffcast-img1 {
-		position: absolute;
-		top: 0px;
-		left: 0;
-		right: 0;
-		width: 100%;
-		opacity: 0;
-		z-index: 2;
-		animation-name: changeImage1;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
+    .main_staffcast-img1 {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        opacity: 0;
+        z-index: 2;
+        animation-name: main1;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+    }
 
-	.main_staffcast-img2 {
-		position: absolute;
-		top: 0px;
-		left: 0;
-		right: 0;
-		width: 100%;
-		opacity: 0;
-		z-index: 2;
-		animation-name: changeImage2;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
+    .main_staffcast-img2 {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        opacity: 0;
+        z-index: 2;
+        animation-name: main2;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+    }
 
-	.main_staffcast-img3 {
-		position: absolute;
-		top: 0px;
-		left: 0;
-		right: 0;
-		width: 100%;
-		opacity: 0;
-		z-index: 2;
-		animation-name: changeImage3;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
+    .main_staffcast-img3 {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        opacity: 0;
+        z-index: 2;
+        animation-name: main3;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+    }
 }
