@@ -1,5 +1,3 @@
-@charset"utf-8";
-
 @keyframes loop {
 	0% {
 		transform: translateX(100%);
@@ -9,27 +7,31 @@
 		transform: translateX(-100%);
 	}
 }
+
 @keyframes fadeout {
-	0%{
+	0% {
 		opacity: 1;
 	}
-	99%{
+
+	99% {
 		opacity: 1;
 	}
-    100% {
-        opacity:0;
-    }
+
+	100% {
+		opacity: 0;
+	}
 }
 
-
-@media screen and (min-width:643px) {
-		body{
+@media screen and (min-width: 643px) {
+	body {
 		-webkit-text-size-adjust: 100%;
 	}
+
 	.anime_bg {
 		animation-name: fadein;
 		animation-duration: 6s;
 	}
+
 	.anime_txt {
 		position: absolute;
 		top: 50%;
@@ -61,38 +63,46 @@
 	.anime_txt1 li:nth-of-type(6) {
 		padding-left: 30px;
 	}
-	
-	.anime_txt1 li:nth-child(1) {
-  animation: txt 0.5s ease 0.2s 1 forwards;
-}
-	.anime_txt1 li:nth-child(2) {
-  animation: txt 0.5s ease 0.4s 1 forwards;
-}
-	.anime_txt1 li:nth-child(3) {
-  animation: txt 0.5s ease 0.6s 1 forwards;
-}
-	.anime_txt1 li:nth-child(4) {
-  animation: txt 0.5s ease 0.8s 1 forwards;
-}
-	.anime_txt1 li:nth-child(5) {
-  animation: txt 0.5s ease 1s 1 forwards;
-}
-	.anime_txt1 li:nth-child(6) {
-  animation: txt 0.5s ease 1.4s 1 forwards;
-}
-	.anime_txt1 li:nth-child(7) {
-  animation: txt 0.5s ease 1.6s 1 forwards;
-}
-	.anime_txt1 li:nth-child(8) {
-  animation: txt 0.5s ease 1.8s 1 forwards;
-}
-	.anime_txt1 li:nth-child(9) {
-  animation: txt 0.5s ease 2s 1 forwards;
-}
-	.anime_txt1 li:nth-child(10) {
-  animation: txt 0.5s ease 2.2s 1 forwards;
-}
 
+	.anime_txt1 li:nth-child(1) {
+		animation: txt 0.5s ease 0.2s 1 forwards;
+	}
+
+	.anime_txt1 li:nth-child(2) {
+		animation: txt 0.5s ease 0.4s 1 forwards;
+	}
+
+	.anime_txt1 li:nth-child(3) {
+		animation: txt 0.5s ease 0.6s 1 forwards;
+	}
+
+	.anime_txt1 li:nth-child(4) {
+		animation: txt 0.5s ease 0.8s 1 forwards;
+	}
+
+	.anime_txt1 li:nth-child(5) {
+		animation: txt 0.5s ease 1s 1 forwards;
+	}
+
+	.anime_txt1 li:nth-child(6) {
+		animation: txt 0.5s ease 1.4s 1 forwards;
+	}
+
+	.anime_txt1 li:nth-child(7) {
+		animation: txt 0.5s ease 1.6s 1 forwards;
+	}
+
+	.anime_txt1 li:nth-child(8) {
+		animation: txt 0.5s ease 1.8s 1 forwards;
+	}
+
+	.anime_txt1 li:nth-child(9) {
+		animation: txt 0.5s ease 2s 1 forwards;
+	}
+
+	.anime_txt1 li:nth-child(10) {
+		animation: txt 0.5s ease 2.2s 1 forwards;
+	}
 
 	.content1 {
 		background: url(image/bg.png);
@@ -109,69 +119,29 @@
 		height: 1600px;
 		display: block;
 	}
+
 	.menu-trigger {
-  animation: txt 0.5s ease 1s 1 forwards;
-				opacity: 0;
-}
+		animation: txt 0.5s ease 1s 1 forwards;
+		opacity: 0;
+	}
+
 	.header_title-main {
 		width: 500px;
 		position: relative;
 		padding: 200px 0 0 60px;
-		  animation: txt 0.5s ease 1s 1 forwards;
-				opacity: 0;
+		animation: txt 0.5s ease 1s 1 forwards;
+		opacity: 0;
 	}
 
 	.header_title-main img {
 		width: 500px;
 	}
 
-	.header_toptitle-img1 {
-
+	.header_title-sub {
+		animation: txt 0.5s ease 1s 1 forwards;
 		opacity: 0;
-		z-index: 2;
-
-		animation-name: changeImage1;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
 	}
 
-	.header_toptitle-img2 {
-		position: absolute;
-
-		right: 0;
-		opacity: 0;
-		z-index: 2;
-
-		animation-name: changeImage2;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
-	.header_toptitle-img3 {
-		position: absolute;
-		right: 0;
-		opacity: 0;
-		z-index: 2;
-
-		animation-name: changeImage3;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
-	.header_toptitle-img4 {
-		position: absolute;
-		right: 0;
-		opacity: 0;
-		z-index: 2;
-
-		animation-name: changeImage4;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-.header_title-sub {
-			  animation: txt 0.5s ease 1s 1 forwards;
-			opacity: 0;
-}
 	.header_title-sub img {
 		width: 300px;
 		padding-left: 150px;
@@ -180,7 +150,7 @@
 	.header_txt {
 		text-align: right;
 		padding: 100px 50px 0 0;
-				  animation: txt 0.5s ease 2s 1 forwards;
+		animation: txt 0.5s ease 2s 1 forwards;
 		opacity: 0;
 	}
 
@@ -190,7 +160,6 @@
 
 	.main_bg {
 		padding: 0px;
-		;
 	}
 
 	.main_bg img {
@@ -204,48 +173,6 @@
 
 	.main_title img {
 		height: 180px;
-	}
-
-	.main_toptitle-img1 {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		width: 100%;
-		opacity: 0;
-		z-index: 2;
-
-		animation-name: changeImage1;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
-	.main_toptitle-img2 {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		width: 100%;
-		opacity: 0;
-		z-index: 2;
-
-		animation-name: changeImage2;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
-	.main_toptitle-img3 {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		width: 100%;
-		opacity: 0;
-		z-index: 2;
-
-		animation-name: changeImage3;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
 	}
 
 	.main_slideshow {
@@ -295,51 +222,18 @@
 		width: 200px;
 	}
 
-	.main_youtube-img1 {
-		position: absolute;
-		bottom: 250px;
-		left: 50%;
-		transform: translateX(-50%);
-		opacity: 0;
-
-		animation-name: changeImage1;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
-	.main_youtube-img2 {
-		position: absolute;
-		bottom: 250px;
-		left: 50%;
-		transform: translateX(-50%);
-		opacity: 0;
-
-		animation-name: changeImage2;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
-	.main_youtube-img3 {
-		position: absolute;
-		bottom: 250px;
-		left: 50%;
-		transform: translateX(-50%);
-		opacity: 0;
-	}
 	.main_introdction {
 		background: url(image/top_bg2.png);
 		background-size: contain;
 		padding: 100px 0 150px;
 		position: relative;
 		z-index: 5;
-
 	}
 
 	.main_introdction-bg,
 	.main_news-bg {
 		text-align: center;
 		padding: 100px 50px;
-		;
 	}
 
 	.main_introdction-bg img,
@@ -357,51 +251,6 @@
 		height: 80px;
 	}
 
-	.main_introdction-img1,
-	.main_news-img1 {
-		position: absolute;
-		bottom: 100px;
-		left: 0;
-		right: 0;
-		width: 100%;
-		opacity: 0;
-		z-index: 2;
-
-		animation-name: changeImage1;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
-	.main_introdction-img2,
-	.main_news-img2 {
-		position: absolute;
-		bottom: 100px;
-		left: 0;
-		right: 0;
-		width: 100%;
-		opacity: 0;
-		z-index: 2;
-
-		animation-name: changeImage2;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
-	.main_introdction-img3,
-	.main_news-img3 {
-		position: absolute;
-		bottom: 100px;
-		left: 0;
-		right: 0;
-		width: 100%;
-		opacity: 0;
-		z-index: 2;
-
-		animation-name: changeImage3;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
 	.main_introdction p {
 		color: white;
 		font-size: 27px;
@@ -414,7 +263,6 @@
 	.main_introdction span {
 		color: red;
 		display: inline-block;
-
 	}
 
 	.main_introdction p:first-of-type span:first-of-type,
@@ -472,26 +320,6 @@
 		font-size: 45px;
 	}
 
-	.introdction_pistol01 {
-		position: absolute;
-		top: -100px;
-		transform: rotate(-20deg)scale(1.2, 1);
-		width: 100%;
-		height: 300px;
-		overflow: hidden;
-
-	}
-
-	.introdction_pistol02 {
-		position: absolute;
-		bottom: -150px;
-		left: 20%;
-		transform: rotate(-20deg)scale(1.2, 1);
-		width: 100%;
-		height: 300px;
-		overflow: hidden;
-	}
-
 	.introdction_pistol img {
 		width: 300px;
 		animation: loop 3s linear infinite;
@@ -506,6 +334,7 @@
 		position: relative;
 		z-index: 5;
 	}
+
 	.main_news {
 		background: url(image/top_bg3.png);
 		background-size: cover;
@@ -514,31 +343,6 @@
 		z-index: 5;
 		opacity: 0.8;
 		padding: 100px 50px 0;
-	}
-
-	.main_666-animation01 {
-		position: absolute;
-		top: 300px;
-
-		opacity: 0.7;
-		animation: right 8s linear infinite;
-	}
-
-
-	.main_666-animation02 {
-		position: absolute;
-		top: 650px;
-		opacity: 0.7;
-		animation: left 10s linear infinite;
-		transform: translateX(100%);
-	}
-
-	.main_666-animation03 {
-		position: absolute;
-		top: 1000px;
-		opacity: 0.7;
-		animation: left 15s linear infinite;
-		transform: translateX(100%);
 	}
 
 	.main_news h2 {
@@ -561,11 +365,206 @@
 
 	.main_more-title {
 		position: relative;
-		top:200px;
+		top: 200px;
 	}
 
 	.main_more-title img {
 		height: 60px;
+	}
+
+	.footer {
+		padding-bottom: 10px;
+	}
+
+	.header_toptitle-img1 {
+		opacity: 0;
+		z-index: 2;
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.header_toptitle-img2 {
+		position: absolute;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.header_toptitle-img3 {
+		position: absolute;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.header_toptitle-img4 {
+		position: absolute;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+		animation-name: changeImage4;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_toptitle-img1 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_toptitle-img2 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_toptitle-img3 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_youtube-img1 {
+		position: absolute;
+		bottom: 250px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_youtube-img2 {
+		position: absolute;
+		bottom: 250px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_youtube-img3 {
+		position: absolute;
+		bottom: 250px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+	}
+
+	.main_introdction-img1,
+	.main_news-img1 {
+		position: absolute;
+		bottom: 100px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_introdction-img2,
+	.main_news-img2 {
+		position: absolute;
+		bottom: 100px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_introdction-img3,
+	.main_news-img3 {
+		position: absolute;
+		bottom: 100px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.introdction_pistol01 {
+		position: absolute;
+		top: -100px;
+		transform: rotate(-20deg) scale(1.2, 1);
+		width: 100%;
+		height: 300px;
+		overflow: hidden;
+	}
+
+	.introdction_pistol02 {
+		position: absolute;
+		bottom: -150px;
+		left: 20%;
+		transform: rotate(-20deg) scale(1.2, 1);
+		width: 100%;
+		height: 300px;
+		overflow: hidden;
+	}
+
+	.main_666-animation01 {
+		position: absolute;
+		top: 300px;
+		opacity: 0.7;
+		animation: right 8s linear infinite;
+	}
+
+	.main_666-animation02 {
+		position: absolute;
+		top: 650px;
+		opacity: 0.7;
+		animation: left 10s linear infinite;
+		transform: translateX(100%);
+	}
+
+	.main_666-animation03 {
+		position: absolute;
+		top: 1000px;
+		opacity: 0.7;
+		animation: left 15s linear infinite;
+		transform: translateX(100%);
 	}
 
 	.main_more-img1 {
@@ -576,7 +575,6 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-
 		animation-name: changeImage1;
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
@@ -590,7 +588,6 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-
 		animation-name: changeImage2;
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
@@ -604,15 +601,8 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-
 		animation-name: changeImage3;
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
 	}
-
-	.footer {
-padding-bottom: 10px;
-	}
-
-
 }

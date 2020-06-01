@@ -1,16 +1,14 @@
 @charset"utf-8";
 
 
-@media screen and (min-width:643px) {
+@media screen and (min-width: 643px) {
 	main {
 		background: url(../image/special_bg_01.png);
-		position: relative;
-		z-index: 1;
 	}
 
 	h1 {
-		padding: 40px 0;
 		text-align: center;
+		padding: 40px 0;
 	}
 
 	h1 img {
@@ -24,10 +22,11 @@
 	}
 
 	.main_content-image img {
-		width: 900px;
-		border: 4px solid white;
 		position: relative;
 		z-index: 4;
+		width: 900px;
+		border: 4px solid white;
+
 	}
 
 	.main_content-icon {
@@ -39,52 +38,16 @@
 		width: 200px;
 	}
 
-	.main_content-img1 {
-		position: absolute;
-		bottom: 200px;
-		left: 50%;
-		transform: translateX(-50%);
-		opacity: 0;
-
-		animation-name: changeImage1;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
-	.main_content-img2 {
-		position: absolute;
-		bottom: 200px;
-		left: 50%;
-		transform: translateX(-50%);
-		opacity: 0;
-
-		animation-name: changeImage2;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
-	.main_content-img3 {
-		position: absolute;
-		bottom: 200px;
-		left: 50%;
-		transform: translateX(-50%);
-		opacity: 0;
-
-		animation-name: changeImage3;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-	}
-
 	.main_content-txt {
 		padding-left: 20px;
 	}
 
 	.main_content-txt p {
+		position: relative;
+		z-index: 4;
 		color: white;
 		font-weight: bold;
 		font-size: 32px;
-		position: relative;
-		z-index: 4;
 		padding-top: 40px;
 	}
 
@@ -106,7 +69,6 @@
 		position: absolute;
 		top: -20px;
 		left: 815px;
-		;
 	}
 
 	#mybutton img,
@@ -116,7 +78,6 @@
 
 	#youtube_content,
 	#youtube_content2 {
-
 		display: none;
 	}
 
@@ -134,5 +95,36 @@
 		height: 490px;
 	}
 
+	.main_content-img1 {
+		position: absolute;
+		bottom: 200px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+		animation-name: changeImage1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
 
+	.main_content-img2 {
+		position: absolute;
+		bottom: 200px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+		animation-name: changeImage2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.main_content-img3 {
+		position: absolute;
+		bottom: 200px;
+		left: 50%;
+		transform: translateX(-50%);
+		opacity: 0;
+		animation-name: changeImage3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
 }

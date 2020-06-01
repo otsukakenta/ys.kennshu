@@ -18,17 +18,17 @@
 	}
 
 	.main_content img {
-		width: 300px;
-		border: 4px solid red;
 		position: relative;
 		z-index: 4;
+		width: 300px;
+		border: 4px solid red;
 	}
 
 	.main_content-txt a {
+		position: relative;
+		z-index: 4;
 		color: white;
 		font-weight: bold;
 		font-size: 32px;
-		position: relative;
-		z-index: 4;
 	}
 }

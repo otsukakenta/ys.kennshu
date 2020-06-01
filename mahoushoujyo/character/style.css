@@ -1,60 +1,6 @@
 @charset"utf-8";
 
-@media screen and (min-width:643px) {
-
-	.main_bg {
-		padding: 50px 0 100px;
-	}
-
-	.main_content {
-		background-color: #8c0000;
-		position: absolute;
-		top:320px;
-		width: 100%;
-		height: 2030px;
-		z-index: 4;
-		transform: rotate(-5deg) scaleX(2);;
-	}
-
-	.main_character{
-
-		height: 2000px;
-		position: relative;
-		z-index: 5;
-		padding: 20px;
-	}
-		.main_character2,
-	.main_character3,
-	.main_character4,
-	.main_character5,
-	.main_character6,
-	.main_character7,
-	.main_character8,
-	.main_character9,
-	.main_character10,
-	.main_character11,
-	.main_character12,
-	.main_character13
-	{
-display: none;
-		height: 2000px;
-		position: relative;
-		z-index: 5;
-		padding: 20px;
-	}
-	.main_character-title12{
-		background: url(../image/bg_character12_sp.png);
-		background-size: cover;
-		position: relative;
-		
-		z-index: 1;
-		height: 1600px;
-	}
-	.character-image {
-		position: relative;
-		z-index: 2;
-	}
-
+@media screen and (min-width: 643px) {
 	h2 {
 		color: white;
 		text-align: center;
@@ -69,19 +15,64 @@ display: none;
 		padding: 0 10px;
 	}
 
-	.comment {
-		font-size: 65px;
-		line-height: 1em;
-		color: black;
-		transform: translate(-50px, 80px) rotate(-6deg) scale(0.8, 2);
-		position: relative;
-		z-index: 2;
+	p {
+		color: white;
+		font-size: 16px;
 	}
-		.comment-11 {
-		font-size: 36px;
-		line-height: 1em;
-		color: black;
-		transform: translate(60px, 100px) rotate(-6deg) scale(1, 2);
+
+	p img {
+		width: 20px;
+	}
+
+	.main_bg {
+		padding: 50px 0 100px;
+	}
+
+	.main_content {
+		background-color: #8c0000;
+		position: absolute;
+		top: 320px;
+		width: 100%;
+		height: 2030px;
+		z-index: 4;
+		transform: rotate(-5deg) scaleX(2);
+	}
+
+	.main_character {
+		height: 2000px;
+		position: relative;
+		z-index: 5;
+		padding: 20px;
+	}
+
+	.main_character2,
+	.main_character3,
+	.main_character4,
+	.main_character5,
+	.main_character6,
+	.main_character7,
+	.main_character8,
+	.main_character9,
+	.main_character10,
+	.main_character11,
+	.main_character12,
+	.main_character13 {
+		display: none;
+		height: 2000px;
+		position: relative;
+		z-index: 5;
+		padding: 20px;
+	}
+
+	.main_character-title12 {
+		background: url(../image/bg_character12_sp.png);
+		background-size: cover;
+		position: relative;
+		z-index: 1;
+		height: 1600px;
+	}
+
+	.character-image {
 		position: relative;
 		z-index: 2;
 	}
@@ -98,17 +89,37 @@ display: none;
 		width: 700px;
 	}
 
+	.comment {
+		font-size: 65px;
+		line-height: 1em;
+		color: black;
+		transform: translate(-50px, 80px) rotate(-6deg) scale(0.8, 2);
+		position: relative;
+		z-index: 2;
+	}
+
+	.comment-11 {
+		font-size: 36px;
+		line-height: 1em;
+		color: black;
+		transform: translate(60px, 100px) rotate(-6deg) scale(1, 2);
+		position: relative;
+		z-index: 2;
+	}
+
 	.main_character-content {
 		display: flex;
 	}
-	.main_character-content-12 img{
-				width: 750px;
+
+	.main_character-content-12 img {
+		width: 750px;
 		position: relative;
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%,-5%);
+		transform: translate(-50%, -5%);
 		z-index: 1;
 	}
+
 	.main_character-left img {
 		width: 500px;
 		position: relative;
@@ -133,21 +144,14 @@ display: none;
 	.sub_character img {
 		width: 400px;
 	}
-	.sub_character-men{
+
+	.sub_character-men {
 		text-align: center;
-		padding-top:90px;
+		padding-top: 90px;
 	}
-		.sub_character-men img{
+
+	.sub_character-men img {
 		width: 250px;
-	}
-
-	p {
-		color: white;
-		font-size: 16px;
-	}
-
-	p img {
-		width: 20px;
 	}
 
 	.story {
@@ -157,37 +161,42 @@ display: none;
 		margin: 15px;
 		line-height: 1.5em;
 	}
-		.story-12 {
+
+	.story-12 {
 		background-color: black;
 		font-size: 30px;
 		padding: 15px;
 		margin: 15px;
 		line-height: 1.5em;
 		position: relative;
-		top:-110px;
-			z-index: 1;
+		top: -110px;
+		z-index: 1;
 	}
-	.character_comment{
+
+	.character_comment {
 		padding: 30px 40px;
 		color: white;
 		font-size: 28px;
 	}
-		.character_comment-12{
+
+	.character_comment-12 {
 		padding: 30px 40px;
 		color: white;
 		font-size: 28px;
-			position: relative;
-			top:-130px;
-			z-index: 1;
+		position: relative;
+		top: -130px;
+		z-index: 1;
 	}
+
 	.main_select {
 		height: 1000px;
-
 	}
-	.main_select-image{
+
+	.main_select-image {
 		width: 300px;
 		padding: 200px 0px 50px 30;
 	}
+
 	.slider {
 		height: 500px;
 		padding: 0;
@@ -197,7 +206,6 @@ display: none;
 	.slider img {
 		height: 500px;
 		width: 250px;
-		background-color: rgba(255, 0, 0, 0.5)
+		background-color: rgba(255, 0, 0, 0.5);
 	}
-
 }
