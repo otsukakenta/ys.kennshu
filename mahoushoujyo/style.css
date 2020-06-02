@@ -390,7 +390,8 @@
 		opacity: 0;
 		z-index: 2;
 		animation-name: changeImage2;
-		animation-duration: 3s;
+        animation-duration: 5s;
+        animation-delay: 0s;
 		animation-iteration-count: infinite;
 	}
 
@@ -400,7 +401,8 @@
 		opacity: 0;
 		z-index: 2;
 		animation-name: changeImage3;
-		animation-duration: 3s;
+        animation-duration: 5s;
+        animation-delay: 0s;
 		animation-iteration-count: infinite;
 	}
 
@@ -409,8 +411,10 @@
 		right: 0;
 		opacity: 0;
 		z-index: 2;
+		transform: scale(1.8, 0.8);
 		animation-name: changeImage4;
-		animation-duration: 3s;
+        animation-duration: 5s;
+        animation-delay: 0s;
 		animation-iteration-count: infinite;
 	}
 
@@ -422,7 +426,7 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-		animation-name: changeImage1;
+		animation-name: main1;
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
 	}
@@ -435,7 +439,7 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-		animation-name: changeImage2;
+		animation-name: main2;
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
 	}
@@ -448,7 +452,7 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-		animation-name: changeImage3;
+		animation-name: main3;
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
 	}
@@ -459,8 +463,8 @@
 		left: 50%;
 		transform: translateX(-50%);
 		opacity: 0;
-		animation-name: changeImage1;
-		animation-duration: 3s;
+		animation-name: main1;
+		animation-duration: 3.5s;
 		animation-iteration-count: infinite;
 	}
 
@@ -470,8 +474,8 @@
 		left: 50%;
 		transform: translateX(-50%);
 		opacity: 0;
-		animation-name: changeImage2;
-		animation-duration: 3s;
+		animation-name: main2;
+		animation-duration: 3.5s;
 		animation-iteration-count: infinite;
 	}
 
@@ -481,6 +485,9 @@
 		left: 50%;
 		transform: translateX(-50%);
 		opacity: 0;
+		animation-name: main3;
+		animation-duration: 3.5s;
+		animation-iteration-count: infinite;
 	}
 
 	.main_introdction-img1,
@@ -492,7 +499,7 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-		animation-name: changeImage1;
+		animation-name: main1;
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
 	}
@@ -506,7 +513,7 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-		animation-name: changeImage2;
+		animation-name: main2;
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
 	}
@@ -520,7 +527,7 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-		animation-name: changeImage3;
+		animation-name: main3;
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
 	}
@@ -575,8 +582,8 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-		animation-name: changeImage1;
-		animation-duration: 3s;
+		animation-name: main1;
+		animation-duration: 3.5s;
 		animation-iteration-count: infinite;
 	}
 
@@ -588,8 +595,8 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-		animation-name: changeImage2;
-		animation-duration: 3s;
+		animation-name: main2;
+		animation-duration: 3.5s;
 		animation-iteration-count: infinite;
 	}
 
@@ -601,8 +608,8 @@
 		width: 100%;
 		opacity: 0;
 		z-index: 2;
-		animation-name: changeImage3;
-		animation-duration: 3s;
+		animation-name: main3;
+		animation-duration: 3.5s;
 		animation-iteration-count: infinite;
 	}
 }

@@ -100,8 +100,8 @@
 		left: 50%;
 		transform: translateY(-50%) translateX(-50%);
 		opacity: 0;
-		animation-name: changeImage1;
-		animation-duration: 3s;
+		animation-name: main1;
+		animation-duration: 2.5s;
 		animation-iteration-count: infinite;
 	}
 
@@ -111,8 +111,8 @@
 		left: 50%;
 		transform: translateY(-50%) translateX(-50%);
 		opacity: 0;
-		animation-name: changeImage2;
-		animation-duration: 3s;
+		animation-name: main2;
+		animation-duration: 2.5s;
 		animation-iteration-count: infinite;
 	}
 
@@ -122,8 +122,8 @@
 		left: 50%;
 		transform: translateY(-50%) translateX(-50%);
 		opacity: 0;
-		animation-name: changeImage3;
-		animation-duration: 3s;
+		animation-name: main3;
+		animation-duration: 2.5s;
 		animation-iteration-count: infinite;
 	}
 }
