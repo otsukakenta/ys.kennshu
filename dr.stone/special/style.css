@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    padding: 30px;
+}
+
+.header_img img {
+    width: 200px;
+}
+
+.header_nav {
+    padding: 50px 0;
+}
+
+.header_nav li {
+    padding: 15px 0;
+}
+
+.header_nav img {
+    width: 30px;
+}
