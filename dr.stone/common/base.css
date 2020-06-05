@@ -17,7 +17,7 @@ ul {
 header {
     background-color: black;
     position: fixed;
-    width: 15%;
+    width: 20%;
     height: 100%;
     float: left;
 }
@@ -36,17 +36,10 @@ header {
 }
 
 .header_nav li {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
-.header_nav li:nth-of-type(11)::before {
-    content: "";
-    display: inline-block;
-    width: 30px;
-    height: 2px;
-    margin: 5px 8px 5px 0;
-    background-color: #fff;
-}
+
 
 .header_nav li:last-of-type a {
     display: flex;
@@ -72,7 +65,7 @@ header {
 
 .right {
 
-    width: 85%;
+    width: 80%;
     float: right;
 }
 
@@ -92,9 +85,11 @@ main {
 .main_title {
     width: 200px;
 }
-
+.main_content{
+	width: 100%;
+}
 .main_content-border {
-    width: 900px;
+    width: 80%;
     height: 100%;
     border-top: 2px solid white;
     border-right: 2px solid white;
