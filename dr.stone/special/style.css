@@ -1,5 +1,45 @@
 @charset "utf-8";
 
+@keyframes slide {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-15px);
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(15px);
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(10px, -10px);
+    }
+}
+
+@keyframes slide4 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-10px, 10px);
+    }
+}
+
 .header_nav li:nth-of-type(11)::before {
     content: "";
     display: inline-block;
@@ -9,15 +49,79 @@
     background-color: #fff;
 }
 
-.main_content-img img {
+.main_content-imgBox {
+    color: black;
     position: absolute;
     top: 200px;
     left: 200px;
+    width: 500px;
+    height: 184px;
+}
+
+.main_content-img img {
+    position: relative;
+    z-index: 2;
     width: 500px;
     filter: brightness(50%) contrast(100%);
     border: 2px solid #F6821E;
 }
 
+.main_content-imgTxt {
+    position: absolute;
+    top: 370px;
+    left: 215px;
+    z-index: 2;
+    width: 505px;
+    height: 20px;
+    display: flex;
+
+}
+
+.main_content-imgBr {
+    position: absolute;
+    top: 210px;
+    left: 190px;
+    z-index: 1;
+    width: 500px;
+    height: 184px;
+    border: 2px solid white;
+}
+
+.main_content-imgTxt p {
+    text-align: center;
+    background-color: #F6821E;
+    font-weight: bold;
+    border: 2px solid #F6821E;
+    font-size: 14px;
+    width: 450px;
+}
+
+.main_content-imgTxt .icon {
+    text-align: center;
+    background-color: black;
+    width: 50px;
+    border: 2px solid black;
+    color: #F6821E;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
 .main_content-img img:hover {
     filter: brightness(80%) contrast(100%);
+}
+
+.main_content-imgBox:hover ~ .main_content-imgTxt {
+    animation: slide .3s ease-out forwards;
+}
+
+.main_content-imgBox ~ .main_content-imgTxt {
+    animation: slide2 .3s ease-out forwards;
+}
+
+.main_content-imgBox:hover ~ .main_content-imgBr {
+    animation: slide3 .3s ease-out forwards;
+}
+
+.main_content-imgBox ~ .main_content-imgBr {
+    animation: slide4 .3s ease-out forwards;
 }
