@@ -223,6 +223,10 @@ main {
 	font-weight: bold;
 }
 
+.main_content-imgPage a:hover{
+	color: #f6821e;
+}
+
 .main_content-imgMenu {
 	position: absolute;
 	top: 200px;
