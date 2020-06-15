@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+@keyframes slide {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-10px);
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(12px, -28px);
+    }
+}
+
+@keyframes slide4 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-12px, 28px);
+    }
+}
+.main_image{
+	width: 100%;
+	width: 100%;
+
+}
+.main_image li img{
+	width: 100%;
+	height: 100vh;
+	border-bottom: 5px solid gray;
+}
+
+.main_image-youtube img{
+	position: absolute;
+	top:77vh;
+	width: 250px;
+	padding-left: 50px;
+}
+
+.main_image-youtube img:hover{
+	opacity: 0.5;
+}
+
+
+
+.main_news{
+	width: 100%;
+	height: 400px;
+	border-bottom: 5px solid gray;
+	background-color: #F3EEE9;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main_news-title img{
+	width: 200px;
+	padding-right: 30px;
+}
+.main_news-list ul{
+	padding-bottom: 30px;
+}
+.main_news-list .news_list{
+	display: flex;
+	align-items: center;
+	padding-bottom: 20px;
+}
+.news_list span{
+	color: #f6821e;
+	font-size: 18px;
+	font-weight: bold;
+	padding-right: 20px;
+}
+
+.news_list p{
+	color: black;
+	font-weight: bold;
+}
+
+
+.news_list-btn a{
+	width: 130px;
+	padding: 5px 10px;
+	border: 1px solid #f6821e;
+	color: #f6821e;
+	width: 150px;
+	font-weight: bold;
+}
+
+.news_list-btn a:hover{
+	color: white;
+	background-color: #f6821e;
+}
+
+#b:hover ~ #a{
+	filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(144%) contrast(101%);
+}
+
+.news_list-btn img{
+	width: 20px;
+	padding-right: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_content{
+	width: 100%;
+	height: 80vh;
+	background: url(image/main_bg.png);
+	background-attachment: fixed;
+	background-size: cover;
+	filter: brightness(115%) contrast(110%);
+}
+
+
+.main_content-imgMenu {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 170px;
+}
+
+.main_content-imgMenu li {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.main_content-imgMenu a {
+    color: white;
+}
+
+.main_content-imgMenu li:first-of-type {
+    color: #f6821e;
+}
+
+.main_content-imgMenu li:first-of-type::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 2px;
+    margin: 5px 8px 5px 0;
+    background-color: #f6821e;
+}
