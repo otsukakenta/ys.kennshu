@@ -41,7 +41,7 @@
 }
 
 main {
-    height: 4000px;
+    height: 4200px;
 }
 
 .header_nav li:nth-of-type(7)::before {

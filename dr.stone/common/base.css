@@ -36,7 +36,7 @@ header {
 }
 
 .header_nav li {
-    width: 80%;
+    width: 90%;
     padding: 7% 1%;
 
 }
@@ -98,7 +98,6 @@ main {
     border-top: 2px solid white;
     border-right: 2px solid white;
     margin: 70px 0 0 20px;
-    ;
 }
 
 .main_content-imgBottom img {
