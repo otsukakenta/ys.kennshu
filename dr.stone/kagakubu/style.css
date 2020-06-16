@@ -1,5 +1,25 @@
 @charset "utf-8";
 
+@keyframes slide3 {
+	0% {
+		transform: translate(0, 0);
+	}
+
+	100% {
+		transform: translate(5px, -15px);
+	}
+}
+
+@keyframes slide4 {
+	0% {
+		transform: translate(0, 0);
+	}
+
+	100% {
+		transform: translate(-5px, 15px);
+	}
+}
+
 .header_nav li:nth-of-type(10) {
 	transform: translateX(0px);
 }
@@ -71,8 +91,28 @@ main {
 }
 
 .main_content-imgYoutube {
+	position: relative;
+	z-index: 2;
 	width: 95%;
 	background-color: #F6821E;
 	padding: 30px;
 	margin: 20px;
+}
+
+.main_content-imgBr {
+	position: relative;
+	top: -135px;
+	left: 15px;
+	z-index: 1;
+	width: 100%;
+	height: 125px;
+	border: 2px solid white;
+}
+
+.main_content-imgBox:hover ~ .main_content-imgBr {
+	animation: slide3 .3s ease-out forwards;
+}
+
+.main_content-imgBox ~ .main_content-imgBr {
+	animation: slide4 .3s ease-out forwards;
 }
