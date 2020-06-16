@@ -1,12 +1,7 @@
 @charset "utf-8";
 
-.header_nav li:nth-of-type(6)::before {
-	content: "";
-	display: inline-block;
-	width: 30px;
-	height: 2px;
-	margin: 5px 8px 5px 0;
-	background-color: #fff;
+.header_nav li:nth-of-type(6) {
+	transform: translateX(0px);
 }
 
 main {
@@ -223,7 +218,7 @@ main {
 	font-weight: bold;
 }
 
-.main_content-imgPage a:hover{
+.main_content-imgPage a:hover {
 	color: #f6821e;
 }
 
@@ -253,11 +248,53 @@ main {
 	color: #f6821e;
 }
 
-.main_content-imgMenu li:first-of-type::before {
+.main_content-imgMenu li::before {
 	content: "";
 	display: inline-block;
 	width: 15px;
 	height: 2px;
-	margin: 5px 8px 5px 0;
+	margin: 5px 5px 5px 0;
+	background-color: white;
+}
+
+.main_content-imgMenu li:first-of-type::before {
 	background-color: #f6821e;
+}
+
+.main_content-imgMenu li:nth-of-type(2)::before,
+.main_content-imgMenu li:nth-of-type(3)::before,
+.main_content-imgMenu li:nth-of-type(4)::before,
+.main_content-imgMenu li:nth-of-type(5)::before,
+.main_content-imgMenu li:nth-of-type(6)::before,
+.main_content-imgMenu li:nth-of-type(7)::before {
+	opacity: 0;
+}
+
+.main_content-imgMenu li:nth-of-type(2):hover::before,
+.main_content-imgMenu li:nth-of-type(3):hover::before,
+.main_content-imgMenu li:nth-of-type(4):hover::before,
+.main_content-imgMenu li:nth-of-type(5):hover::before,
+.main_content-imgMenu li:nth-of-type(6):hover::before,
+.main_content-imgMenu li:nth-of-type(7):hover::before {
+	opacity: 1;
+	transition: all .3s;
+}
+
+.main_content-imgMenu li:nth-of-type(2),
+.main_content-imgMenu li:nth-of-type(3),
+.main_content-imgMenu li:nth-of-type(4),
+.main_content-imgMenu li:nth-of-type(5),
+.main_content-imgMenu li:nth-of-type(6),
+.main_content-imgMenu li:nth-of-type(7) {
+	transform: translateX(-25px);
+}
+
+.main_content-imgMenu li:nth-of-type(2):hover,
+.main_content-imgMenu li:nth-of-type(3):hover,
+.main_content-imgMenu li:nth-of-type(4):hover,
+.main_content-imgMenu li:nth-of-type(5):hover,
+.main_content-imgMenu li:nth-of-type(6):hover,
+.main_content-imgMenu li:nth-of-type(7):hover {
+	transform: translateX(0px);
+	transition: all .3s;
 }

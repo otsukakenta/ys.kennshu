@@ -1,14 +1,10 @@
 @charset "utf-8";
-.header_nav li:nth-of-type(4)::before {
-    content: "";
-    display: inline-block;
-    width: 30px;
-    height: 2px;
-    margin: 5px 8px 5px 0;
-    background-color: #fff;
+
+.header_nav li:nth-of-type(4) {
+	transform: translateX(0px);
 }
 
-main{
+main {
 	height: 1800px;
 }
 
@@ -29,80 +25,85 @@ main{
 	filter: brightness(90%) contrast(90%);
 }
 
-.main_content-imgCara{
+.main_content-imgCara {
 	padding-bottom: 100px;
 }
 
-.main_content-imgCara li{
+.main_content-imgCara li {
 	display: flex;
 }
 
-.img_left img{
+.img_left img {
 	width: 400px;
 	padding-right: 50px;
 }
 
-.img_right-name img{
+.img_right-name img {
 	width: 500px;
 }
-.img_right-face img{
+
+.img_right-face img {
 	width: 500px;
 	padding: 30px 0;
 }
-.img_right-txt{
+
+.img_right-txt {
 	color: white;
 	width: 500px;
 	font-size: 20px;
 	line-height: 30px;
 }
-.main_content-imgBtn ul{
+
+.main_content-imgBtn ul {
 	display: flex;
 	padding-left: 100px;
 }
-.main_content-imgBtn li{
-	padding: 30px 0 ;
+
+.main_content-imgBtn li {
+	padding: 30px 0;
 }
-.main_content-imgBtn img{
+
+.main_content-imgBtn img {
 	width: 140px;
 }
+
 .main_content-imgBtn li:nth-of-type(2),
 .main_content-imgBtn li:nth-of-type(4),
 .main_content-imgBtn li:nth-of-type(6),
-.main_content-imgBtn li:nth-of-type(8){
+.main_content-imgBtn li:nth-of-type(8) {
 	position: relative;
 	top: 60px;
 	right: 40px;
 }
+
 .main_content-imgBtn li:nth-of-type(3),
 .main_content-imgBtn li:nth-of-type(5),
-.main_content-imgBtn li:nth-of-type(7){
+.main_content-imgBtn li:nth-of-type(7) {
 	position: relative;
 	right: 80px;
 }
 
-.main_content-imgBtn li:nth-of-type(4){
+.main_content-imgBtn li:nth-of-type(4) {
 	position: relative;
 	right: 120px;
 }
-.main_content-imgBtn li:nth-of-type(5){
+
+.main_content-imgBtn li:nth-of-type(5) {
 	position: relative;
 	right: 160px;
 }
-.main_content-imgBtn li:nth-of-type(6){
+
+.main_content-imgBtn li:nth-of-type(6) {
 	position: relative;
 	right: 200px;
 }
-.main_content-imgBtn li:nth-of-type(7){
+
+.main_content-imgBtn li:nth-of-type(7) {
 	position: relative;
 	right: 240px;
 }
 
-.main_content-imgBtn li:nth-of-type(8){
+.main_content-imgBtn li:nth-of-type(8) {
 	position: relative;
 	right: 280px;
 }
-
-
-
-
-

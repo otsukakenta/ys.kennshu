@@ -1,12 +1,7 @@
 @charset "utf-8";
 
-.header_nav li:nth-of-type(5)::before {
-	content: "";
-	display: inline-block;
-	width: 30px;
-	height: 2px;
-	margin: 5px 8px 5px 0;
-	background-color: #fff;
+.header_nav li:nth-of-type(5) {
+	transform: translateX(0px);
 }
 
 main {
