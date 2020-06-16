@@ -12,12 +12,6 @@ main {
 	width: 500px;
 }
 
-#tab1_box {
-	display: block;
-	animation: content 0.4s ease 0.4s 1 forwards;
-	opacity: 0;
-}
-
 .main_content-img {
 	position: absolute;
 	top: 170px;
@@ -75,7 +69,7 @@ main {
 	outline: none;
 }
 
-#btn17 {
+#content_18 {
 	position: relative;
 	left: -70px;
 }
@@ -103,4 +97,123 @@ main {
 	position: absolute;
 	content: '';
 	background-color: #f6821e;
+}
+
+
+
+#oll {
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 9998;
+}
+
+#modal_content_01,
+#modal_content_02,
+#modal_content_03,
+#modal_content_05,
+#modal_content_06,
+#modal_content_07,
+#modal_content_08,
+#modal_content_09,
+#modal_content_10,
+#modal_content_11,
+#modal_content_12,
+#modal_content_13,
+#modal_content_14,
+#modal_content_15,
+#modal_content_16,
+#modal_content_17,
+#modal_content_18 {
+	display: none;
+}
+
+.modal_content-eria {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	margin: auto;
+	z-index: 9999;
+}
+
+#oll a {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	width: 70px;
+	height: 70px;
+	border-bottom: 2px solid #f6821e;
+	border-left: 2px solid #f6821e;
+}
+
+#oll a {
+	color: #f6821e;
+	width: 70px;
+	height: 70px;
+}
+
+#oll span {
+	position: relative;
+	font-size: 70px;
+	bottom: 20px;
+	left: 10px;
+}
+
+#oll a:hover {
+	opacity: 0.5;
+}
+
+.modal_content-image {
+	width: 560px;
+	height: 300px;
+	background-color: black;
+	color: white;
+	padding: 80px 50px 50px;
+	border: 3px solid #f6821e;
+}
+
+.modal_content-image ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.modal_content-image li {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.modal_content-image li:first-of-type {
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+.modal_content-image span {
+	color: #f6b80b;
+}
+
+.modal_txt::-webkit-scrollbar {
+	display: none;
+}
+
+.modal_txt {
+	font-weight: bold;
+	overflow: scroll;
+	height: 200px;
+	line-height: 1.8;
+}
+
+.modal_content-image img {
+	width: 300px;
+	padding: 20px;
+	background-color: black;
+	position: absolute;
+	top: 90%;
+	right: 45%;
 }
