@@ -40,6 +40,7 @@
 	}
 }
 
+
 .main_image {
 	width: 100%;
 	height: 100vh;
@@ -53,7 +54,7 @@
 
 .main_image-youtube img {
 	position: absolute;
-	top: 77vh;
+	top: 75vh;
 	width: 250px;
 	padding-left: 50px;
 }
@@ -252,13 +253,25 @@
 }
 
 .main_content-twitterBd img {
-	width: 550px;
+	width: 500px;
 	position: relative;
 	top: -60px;
 }
 
 .main_content-twitterBd img:nth-of-type(2) {
-	height: 420px;
+	height: 435px;
+}
+
+.main_content-twitterTxt {
+	position: relative;
+	bottom: 570px;
+	left: 50px;
+	width: 400px;
+}
+
+.twitter-timeline:hover {
+	opacity: 0.5;
+	background-color: none;
 }
 
 .main_content-imgMenu {
