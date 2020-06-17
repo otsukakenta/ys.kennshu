@@ -99,8 +99,31 @@
 .news_list p {
 	color: black;
 	font-weight: bold;
+	width: 500px;
 }
 
+.news_list {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.news_list::after {
+	position: absolute;
+	bottom: 20px;
+	left: 130px;
+	content: '';
+	width: 80%;
+	height: 2px;
+	background: black;
+	transform: scale(0, 1);
+	transform-origin: left top;
+	transition: transform .3s;
+}
+
+.news_list:hover::after {
+	transform: scale(1, 1);
+}
 
 .news_list-btn a {
 	width: 130px;
@@ -114,10 +137,6 @@
 .news_list-btn a:hover {
 	color: white;
 	background-color: #f6821e;
-}
-
-#b:hover ~ #a {
-	filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(144%) contrast(101%);
 }
 
 .news_list-btn img {
