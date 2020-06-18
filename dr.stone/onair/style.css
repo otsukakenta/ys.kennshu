@@ -10,8 +10,8 @@
 	transform: translateX(0px);
 }
 
-main {
-	height: 1600px;
+#main {
+	height: 1200px;
 }
 
 #tab1_box {
@@ -64,7 +64,7 @@ main {
 	position: absolute;
 	top: 170px;
 	left: 12%;
-	width: 60%;
+	width: 50%;
 }
 
 .main_content-img2 h1 {
@@ -152,7 +152,7 @@ main {
 	padding-bottom: 10px;
 }
 
-.main_content-imgMenu li::before {
+#before1,#before2 {
 	content: "";
 	display: inline-block;
 	width: 15px;
@@ -168,31 +168,25 @@ main {
 	color: white;
 }
 
-.btn01 {
+#btn01 {
 	transform: translateX(0px);
 }
 
-.btn02 {
+#btn02 {
 	transform: translateX(-25px);
 }
 
-.btn01::before {
+#before1 {
 	opacity: 1;
 	background-color: #f6821e;
 }
 
-.btn02::before {
+#before2 {
 	opacity: 0;
 	background-color: white;
 }
 
-.btn02:hover::before {
-	opacity: 1;
-	transition: all .3s;
-}
-
-.btn01:hover,
-.btn02:hover {
-	transform: translateX(0px);
+#btn01:hover,
+#btn02:hover {
 	transition: all .3s;
 }

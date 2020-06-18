@@ -27,7 +27,7 @@ var myfunc2 = function () {
 	bd1.style.backgroundColor = "white";
 	bd2.style.opacity = "1";
 	bd2.style.backgroundColor = "#f6821e";
-	main.style.height = "1600px";
+	main.style.height = "2400px";
 }
 list2.addEventListener("click", myfunc2);
 
