@@ -59,6 +59,8 @@ main {
 	height: 550px;
 	padding-left: 20%;
 	margin-top: 5%;
+	box-shadow: none;
+	outline: none;
 }
 
 .main_content-imgBtn div:nth-of-type(2) {
