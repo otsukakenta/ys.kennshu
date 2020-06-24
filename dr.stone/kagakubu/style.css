@@ -39,15 +39,10 @@ main {
 	left: 15%;
 	width: 60%;
 	height: auto;
-
 }
 
 .main_content-img ul {
 	text-align: center;
-}
-
-.main_content-imgTxt {
-	text-align: left;
 }
 
 .main_content-img p {
@@ -61,6 +56,10 @@ main {
 
 .main_content-img span {
 	color: #f6b80b;
+}
+
+.main_content-imgTxt {
+	text-align: left;
 }
 
 .main_content-imgTitle {

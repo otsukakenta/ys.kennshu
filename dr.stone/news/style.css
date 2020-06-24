@@ -65,6 +65,10 @@ main {
 	height: 230px;
 }
 
+.main_content-img span {
+	color: #F6821E;
+	font-size: 16px;
+}
 
 .main_content-img a {
 	width: 800px;
@@ -72,6 +76,10 @@ main {
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
+}
+
+.main_content-img a p {
+	padding-top: 10px;
 }
 
 .main_content-imgBox-txt {
@@ -82,15 +90,6 @@ main {
 	border: 2px solid #F6821E;
 	background-color: black;
 	padding: 30px 40px;
-}
-
-.main_content-img span {
-	color: #F6821E;
-	font-size: 16px;
-}
-
-.main_content-img a p {
-	padding-top: 10px;
 }
 
 .main_content-imgBr {
@@ -111,10 +110,10 @@ main {
 }
 
 .main_content-imgTxt p {
-	text-align: center;
-	padding-top: 5px;
 	width: 100px;
 	height: 25px;
+	text-align: center;
+	padding-top: 5px;
 	font-weight: bold;
 	font-size: 14px;
 	background-color: #F6821E;
