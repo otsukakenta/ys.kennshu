@@ -327,25 +327,15 @@
 			</div>
 		</footer>
 	</div>
+	<div id="loadingBg"></div>
+	<div id="loading">
+		<div id="gauge"></div>
+		<div id="percent"><span id="percent-text"></span>％</div>
+	</div>
 	<script src="../common/js/nav_hover.js"></script>
-	<script>
-		$('.main_content-imgCara').slick({
-			asNavFor: '.main_content-imgBtn',
-			arrows: true,
-			slidesToShow: 1,
-			prevArrow: '<div class="arrow-prev"><img src="../image/bd_icon_001.png"></div>',
-			nextArrow: '<div class="arrow-next"><img src="../image/bd_icon_001.png"></div>',
-		});
-
-		$('.main_content-imgBtn').slick({
-			asNavFor: '.main_content-imgCara',
-			focusOnSelect: true,
-			arrows: false,
-			slidesToShow: 18,
-		});
-
-	</script>
+	<script src="../common/js/chara_slick.js"></script>
 	<script src="../common/js/active.js"></script>
+	<script src="../common/js/lord02.js"></script>
 </body>
 
 </html>

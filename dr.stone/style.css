@@ -365,47 +365,15 @@
 	border: 3px solid #f6821e;
 }
 
-#loadingBg {
-	position: fixed;
-	left: 0;
-	top: 0;
-	z-index: 9998;
-	width: auto;
-	min-width: 100%;
-	height: auto;
-	min-height: 100%;
-	background: black;
-}
-
-#loading {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	z-index: 9998;
-	width: 400px;
-	padding: 50px 20px;
-	margin: -70px 0 0 -220px;
-}
-
-#loading #percent {
+#gauge {
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	z-index: 9998;
-	margin-top: 100px;
-	color: aqua;
-	text-align: center;
-	font-size: 25px;
-	font-weight: bold
-}
-
-#loading #gauge {
-	position: absolute;
-	top: 50%;
-	left: 50%;
+	left: 45%;
 	z-index: 9999;
-}
-
-#gauge img {
-	width: 50px;
+	background: url(image/lord01.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
 }
