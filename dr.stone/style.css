@@ -369,7 +369,7 @@
 	position: fixed;
 	left: 0;
 	top: 0;
-	z-index: 9999;
+	z-index: 9998;
 	width: auto;
 	min-width: 100%;
 	height: auto;
@@ -381,16 +381,18 @@
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	z-index: 9999;
+	z-index: 9998;
 	width: 400px;
 	padding: 50px 20px;
 	margin: -70px 0 0 -220px;
 }
 
 #loading #percent {
-	position: relative;
-	z-index: 9999;
-	margin-top: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 9998;
+	margin-top: 100px;
 	color: aqua;
 	text-align: center;
 	font-size: 25px;
@@ -398,9 +400,12 @@
 }
 
 #loading #gauge {
-	position: relative;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 	z-index: 9999;
-	width: 0px;
-	height: 5px;
-	background: #ff0000;
+}
+
+#gauge img {
+	width: 50px;
 }
