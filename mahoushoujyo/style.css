@@ -345,7 +345,7 @@
 		padding: 100px 50px 0;
 	}
 
-	.main_news h2 {
+	.main_news time {
 		background: red;
 		color: black;
 		font-size: 40px;
@@ -390,8 +390,8 @@
 		opacity: 0;
 		z-index: 2;
 		animation-name: changeImage2;
-        animation-duration: 5s;
-        animation-delay: 0s;
+		animation-duration: 5s;
+		animation-delay: 0s;
 		animation-iteration-count: infinite;
 	}
 
@@ -401,8 +401,8 @@
 		opacity: 0;
 		z-index: 2;
 		animation-name: changeImage3;
-        animation-duration: 5s;
-        animation-delay: 0s;
+		animation-duration: 5s;
+		animation-delay: 0s;
 		animation-iteration-count: infinite;
 	}
 
@@ -413,8 +413,8 @@
 		z-index: 2;
 		transform: scale(1.8, 0.8);
 		animation-name: changeImage4;
-        animation-duration: 5s;
-        animation-delay: 0s;
+		animation-duration: 5s;
+		animation-delay: 0s;
 		animation-iteration-count: infinite;
 	}
 
