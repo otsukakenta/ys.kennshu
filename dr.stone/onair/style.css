@@ -37,7 +37,7 @@
 	padding-top: 50px;
 }
 
-.main_content-img h1 {
+.main_content-img h2 {
 	color: #F6D221;
 	font-size: 30px;
 	font-weight: bold;
@@ -71,7 +71,7 @@
 	width: 50%;
 }
 
-.main_content-img2 h1 {
+.main_content-img2 h2 {
 	color: #F6D221;
 	font-size: 30px;
 	font-weight: bold;
@@ -82,14 +82,14 @@
 	width: 25px;
 }
 
-.main_content-img2 h2 {
+.main_content-img2 h3 {
 	color: white;
 	font-size: 26px;
 	font-weight: bold;
 	margin: 0 10px 20px;
 }
 
-.main_content-img2 h2 span {
+.main_content-img2 h3 span {
 	color: #F6D221;
 	font-size: 30px;
 }
