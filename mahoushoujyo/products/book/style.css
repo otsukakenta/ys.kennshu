@@ -19,15 +19,19 @@
 		text-align: center;
 	}
 
-	.main_content span {
+	.main_content dl {
+		text-align: left;
+		font-weight: bold;
+		padding: 50px 0;
+	}
+
+	.main_content dt {
 		font-size: 20px;
 		font-weight: normal;
 	}
 
-	.main_content h2 {
-		text-align: left;
+	.main_content dd {
 		font-size: 36px;
-		padding: 50px 0;
 	}
 
 	.main_content p {
