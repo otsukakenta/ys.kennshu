@@ -1,1215 +1,1235 @@
 @charset "utf-8";
 
 @keyframes fadein {
-    0% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    40% {
-        opacity: 0;
-    }
+	40% {
+		opacity: 0;
+	}
 
-    41% {
-        opacity: 1;
-    }
+	41% {
+		opacity: 1;
+	}
 
-    100% {
-        opacity: 1;
-    }
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes txt {
-    100% {
-        opacity: 1;
-    }
+	100% {
+		opacity: 1;
+	}
 }
 
 /*666のkeyframes*/
 @keyframes left {
-    100% {
-        transform: translateX(-100%);
-    }
+	100% {
+		transform: translateX(-100%);
+	}
 }
 
 @keyframes right {
-    100% {
-        transform: translateX(100%);
-    }
+	100% {
+		transform: translateX(100%);
+	}
 }
 
 /* header_titleのkeyframes*/
 @keyframes changeImage1 {
-    0% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 1;
+	}
 
-    5% {
-        opacity: 1;
-    }
+	5% {
+		opacity: 1;
+	}
 
-    10% {
-        opacity: 1;
-    }
+	10% {
+		opacity: 1;
+	}
 
-    15% {
-        opacity: 0;
-    }
+	15% {
+		opacity: 0;
+	}
 
-    20% {
-        opacity: 0;
-    }
+	20% {
+		opacity: 0;
+	}
 
-    25% {
-        opacity: 0;
-    }
+	25% {
+		opacity: 0;
+	}
 
-    30% {
-        opacity: 0;
-    }
+	30% {
+		opacity: 0;
+	}
 
-    35% {
-        opacity: 0;
-    }
+	35% {
+		opacity: 0;
+	}
 
-    40% {
-        opacity: 0;
-    }
+	40% {
+		opacity: 0;
+	}
 
-    45% {
-        opacity: 1;
-    }
+	45% {
+		opacity: 1;
+	}
 
-    50% {
-        opacity: 1;
-    }
+	50% {
+		opacity: 1;
+	}
 
-    55% {
-        opacity: 0;
-    }
+	55% {
+		opacity: 0;
+	}
 
-    60% {
-        opacity: 1;
-    }
+	60% {
+		opacity: 1;
+	}
 
-    65% {
-        opacity: 0;
-    }
+	65% {
+		opacity: 0;
+	}
 
-    70% {
-        opacity: 1;
-    }
+	70% {
+		opacity: 1;
+	}
 
-    75% {
-        opacity: 1;
-    }
+	75% {
+		opacity: 1;
+	}
 
-    80% {
-        opacity: 0;
-    }
+	80% {
+		opacity: 0;
+	}
 
-    85% {
-        opacity: 1;
-    }
+	85% {
+		opacity: 1;
+	}
 
-    90% {
-        opacity: 0;
-    }
+	90% {
+		opacity: 0;
+	}
 
-    95% {
-        opacity: 0;
-    }
+	95% {
+		opacity: 0;
+	}
 
-    100% {
-        opacity: 1;
-    }
+	100% {
+		opacity: 1;
+	}
 
 }
 
 @keyframes changeImage2 {
-    0% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    5% {
-        opacity: 0;
-    }
+	5% {
+		opacity: 0;
+	}
 
-    10% {
-        opacity: 0;
-    }
+	10% {
+		opacity: 0;
+	}
 
-    15% {
-        opacity: 0.7;
-    }
+	15% {
+		opacity: 0.7;
+	}
 
-    20% {
-        opacity: 0.7;
-    }
+	20% {
+		opacity: 0.7;
+	}
 
-    25% {
-        opacity: 0.7;
-    }
+	25% {
+		opacity: 0.7;
+	}
 
-    30% {
-        opacity: 0;
-    }
+	30% {
+		opacity: 0;
+	}
 
-    35% {
-        opacity: 0.7;
-    }
+	35% {
+		opacity: 0.7;
+	}
 
-    40% {
-        opacity: 0.7;
-    }
+	40% {
+		opacity: 0.7;
+	}
 
-    45% {
-        opacity: 0;
-    }
+	45% {
+		opacity: 0;
+	}
 
-    50% {
-        opacity: 0;
-    }
+	50% {
+		opacity: 0;
+	}
 
-    55% {
-        opacity: 0;
-    }
+	55% {
+		opacity: 0;
+	}
 
-    60% {
-        opacity: 0;
-    }
+	60% {
+		opacity: 0;
+	}
 
-    65% {
-        opacity: 0;
-    }
+	65% {
+		opacity: 0;
+	}
 
-    70% {
-        opacity: 0;
-    }
+	70% {
+		opacity: 0;
+	}
 
-    75% {
-        opacity: 0;
-    }
+	75% {
+		opacity: 0;
+	}
 
-    80% {
-        opacity: 0;
-    }
+	80% {
+		opacity: 0;
+	}
 
-    85% {
-        opacity: 0;
-    }
+	85% {
+		opacity: 0;
+	}
 
-    90% {
-        opacity: 0;
-    }
+	90% {
+		opacity: 0;
+	}
 
-    95% {
-        opacity: 0.7;
-    }
+	95% {
+		opacity: 0.7;
+	}
 
-    100% {
-        opacity: 0;
-    }
+	100% {
+		opacity: 0;
+	}
 
 }
 
 @keyframes changeImage3 {
-    0% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    5% {
-        opacity: 0;
-    }
+	5% {
+		opacity: 0;
+	}
 
-    10% {
-        opacity: 0;
-    }
+	10% {
+		opacity: 0;
+	}
 
-    15% {
-        opacity: 0;
-    }
+	15% {
+		opacity: 0;
+	}
 
-    20% {
-        opacity: 0;
-    }
+	20% {
+		opacity: 0;
+	}
 
-    25% {
-        opacity: 0;
-    }
+	25% {
+		opacity: 0;
+	}
 
-    30% {
-        opacity: 0;
-    }
+	30% {
+		opacity: 0;
+	}
 
-    35% {
-        opacity: 0;
-    }
+	35% {
+		opacity: 0;
+	}
 
-    40% {
-        opacity: 0;
-    }
+	40% {
+		opacity: 0;
+	}
 
-    45% {
-        opacity: 0;
-    }
+	45% {
+		opacity: 0;
+	}
 
-    50% {
-        opacity: 0;
-    }
+	50% {
+		opacity: 0;
+	}
 
-    55% {
-        opacity: 1;
-    }
+	55% {
+		opacity: 1;
+	}
 
-    57% {
-        opacity: 0;
-    }
+	57% {
+		opacity: 0;
+	}
 
-    65% {
-        opacity: 1;
-    }
+	65% {
+		opacity: 1;
+	}
 
-    67% {
-        opacity: 0;
-    }
+	67% {
+		opacity: 0;
+	}
 
-    75% {
-        opacity: 0;
-    }
+	75% {
+		opacity: 0;
+	}
 
-    80% {
-        opacity: 0;
-    }
+	80% {
+		opacity: 0;
+	}
 
-    85% {
-        opacity: 0;
-    }
+	85% {
+		opacity: 0;
+	}
 
-    90% {
-        opacity: 0;
-    }
+	90% {
+		opacity: 0;
+	}
 
-    95% {
-        opacity: 0;
-    }
+	95% {
+		opacity: 0;
+	}
 
-    100% {
-        opacity: 0;
-    }
+	100% {
+		opacity: 0;
+	}
 
 }
 
 @keyframes changeImage4 {
-    0% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    5% {
-        opacity: 0;
-    }
+	5% {
+		opacity: 0;
+	}
 
-    10% {
-        opacity: 0;
-    }
+	10% {
+		opacity: 0;
+	}
 
-    15% {
-        opacity: 0;
-    }
+	15% {
+		opacity: 0;
+	}
 
-    20% {
-        opacity: 0;
-    }
+	20% {
+		opacity: 0;
+	}
 
-    25% {
-        opacity: 0;
-    }
+	25% {
+		opacity: 0;
+	}
 
-    30% {
-        opacity: 0;
-    }
+	30% {
+		opacity: 0;
+	}
 
-    35% {
-        opacity: 0;
-    }
+	35% {
+		opacity: 0;
+	}
 
-    40% {
-        opacity: 0;
-    }
+	40% {
+		opacity: 0;
+	}
 
-    45% {
-        opacity: 0;
-    }
+	45% {
+		opacity: 0;
+	}
 
-    50% {
-        opacity: 0;
-    }
+	50% {
+		opacity: 0;
+	}
 
-    55% {
-        opacity: 0;
-    }
+	55% {
+		opacity: 0;
+	}
 
-    60% {
-        opacity: 0;
-    }
+	60% {
+		opacity: 0;
+	}
 
-    65% {
-        opacity: 0;
-    }
+	65% {
+		opacity: 0;
+	}
 
-    70% {
-        opacity: 0;
-    }
+	70% {
+		opacity: 0;
+	}
 
-    75% {
-        opacity: 0;
-    }
+	75% {
+		opacity: 0;
+	}
 
-    80% {
-        opacity: 0.7;
-    }
+	80% {
+		opacity: 0.7;
+	}
 
-    85% {
-        opacity: 0;
-    }
+	85% {
+		opacity: 0;
+	}
 
-    90% {
-        opacity: 0.7;
-    }
+	90% {
+		opacity: 0.7;
+	}
 
-    95% {
-        opacity: 0;
-    }
+	95% {
+		opacity: 0;
+	}
 
-    100% {
-        opacity: 0;
-    }
+	100% {
+		opacity: 0;
+	}
 
 }
 
 @keyframes main1 {
-    0% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 1;
+	}
 
-    30% {
-        opacity: 0;
-    }
+	30% {
+		opacity: 0;
+	}
 
-    35% {
-        opacity: 0;
-    }
+	35% {
+		opacity: 0;
+	}
 
-    40% {
-        opacity: 1;
-    }
+	40% {
+		opacity: 1;
+	}
 
-    75% {
-        opacity: 0;
-    }
+	75% {
+		opacity: 0;
+	}
 
-    80% {
-        opacity: 0;
-    }
+	80% {
+		opacity: 0;
+	}
 
-    85% {
-        opacity: 1;
-    }
+	85% {
+		opacity: 1;
+	}
 
-    100% {
-        opacity: 1;
-    }
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes main2 {
-    0% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    30% {
-        opacity: 1;
-    }
+	30% {
+		opacity: 1;
+	}
 
-    35% {
-        opacity: 0;
-    }
+	35% {
+		opacity: 0;
+	}
 
-    40% {
-        opacity: 0;
-    }
+	40% {
+		opacity: 0;
+	}
 
-    75% {
-        opacity: 1;
-    }
+	75% {
+		opacity: 1;
+	}
 
-    80% {
-        opacity: 0;
-    }
+	80% {
+		opacity: 0;
+	}
 
-    85% {
-        opacity: 0;
-    }
+	85% {
+		opacity: 0;
+	}
 
-    100% {
-        opacity: 0;
-    }
+	100% {
+		opacity: 0;
+	}
 }
 
 @keyframes main3 {
-    0% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    30% {
-        opacity: 0;
-    }
+	30% {
+		opacity: 0;
+	}
 
-    35% {
-        opacity: 1;
-    }
+	35% {
+		opacity: 1;
+	}
 
-    40% {
-        opacity: 0;
-    }
+	40% {
+		opacity: 0;
+	}
 
-    45% {
-        opacity: 1;
-    }
+	45% {
+		opacity: 1;
+	}
 
-    75% {
-        opacity: 0;
-    }
+	75% {
+		opacity: 0;
+	}
 
-    80% {
-        opacity: 1;
-    }
+	80% {
+		opacity: 1;
+	}
 
-    85% {
-        opacity: 0;
-    }
+	85% {
+		opacity: 0;
+	}
 
-    100% {
-        opacity: 0;
-    }
+	100% {
+		opacity: 0;
+	}
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
 
 body {
-    font-family: sans-serif;
+	font-family: sans-serif;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 @media screen and (min-width:643px) {
-    .anime {
-        background: url(../image/top_bg2.png);
-        background-size: cover;
-        background-attachment: fixed;
-        width: 100%;
-        height: 100%;
-        position: relative;
-        z-index: 3;
-    }
+	.anime {
+		background: url(../image/top_bg2.png);
+		background-size: cover;
+		background-attachment: fixed;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 3;
+	}
 
-    .anime_bg {
-        background: url(../image/top_bg3.png);
-        background-size: cover;
-        background-attachment: fixed;
-        width: 100%;
-        height: 100%;
-        position: relative;
-        z-index: 3;
-        animation-name: fadein;
-        animation-duration: 1.5s;
-        opacity: 0;
-    }
+	.anime_bg {
+		background: url(../image/top_bg3.png);
+		background-size: cover;
+		background-attachment: fixed;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 3;
+		animation-name: fadein;
+		animation-duration: 1.5s;
+		opacity: 0;
+	}
 
-    /*	ここからヘッダー*/
-    header {
-        background-color: black;
-        padding: 20px;
-    }
+	/*	ここからヘッダー*/
+	header {
+		background-color: black;
+		padding: 20px;
+	}
 
-    .header_title {
-        position: relative;
-        z-index: 2;
-        overflow: hidden;
-        display: block;
-    }
+	.header_title {
+		position: relative;
+		z-index: 2;
+		overflow: hidden;
+		display: block;
+	}
 
-    .header_title img {
-        width: 500px;
-        display: block;
-        margin: auto;
-    }
+	.header_title img {
+		width: 500px;
+		display: block;
+		margin: auto;
+	}
 
-    .header_title-sub img {
-        width: 300px;
-        padding-top: 10px;
-    }
+	.header_title-sub img {
+		width: 300px;
+		padding-top: 10px;
+	}
 
-    .header_title-img1 {
-        opacity: 0;
+	.header_title-img1 {
+		opacity: 0;
 
-        animation-name: changeImage1;
-        animation-duration: 5s;
-        animation-delay: 0s;
-        animation-iteration-count: infinite;
-    }
+		animation-name: changeImage1;
+		animation-duration: 5s;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+	}
 
-    .header_title-img2 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
+	.header_title-img2 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
 
-        opacity: 0;
-        z-index: 2;
+		opacity: 0;
+		z-index: 2;
 
-        animation-name: changeImage2;
-        animation-duration: 5s;
-        animation-delay: 0s;
-        animation-iteration-count: infinite;
-    }
+		animation-name: changeImage2;
+		animation-duration: 5s;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+	}
 
-    .header_title-img3 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
+	.header_title-img3 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
 
-        animation-name: changeImage3;
-        animation-duration: 5s;
-        animation-delay: 0s;
-        animation-iteration-count: infinite;
-    }
+		animation-name: changeImage3;
+		animation-duration: 5s;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+	}
 
-    .header_title-img4 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-        transform: scale(1.8, 0.8);
-        transition-timing-function: step-start;
+	.header_title-img4 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+		transform: scale(1.8, 0.8);
+		transition-timing-function: step-start;
 
-        animation-name: changeImage4;
-        animation-duration: 5s;
-        animation-delay: 0s;
-        animation-iteration-count: infinite;
-    }
+		animation-name: changeImage4;
+		animation-duration: 5s;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+	}
 
-    /*ここまでヘッダー
+	/*ここまでヘッダー
 	ここからメイン*/
 
-    main {
-        background: url(../image/bg.png);
-        position: relative;
-        z-index: 1;
-    }
+	main {
+		background: url(../image/bg.png);
+		position: relative;
+		z-index: 1;
+	}
 
-    .main_bg {
-        text-align: center;
-        padding: 50px 0;
-    }
+	.main_bg {
+		text-align: center;
+		padding: 50px 0;
+	}
 
-    .main_bg img {
-        width: 650px;
-    }
+	.main_bg img {
+		width: 650px;
+	}
 
-    .main_title {
-        text-align: center;
-    }
+	.main_title {
+		text-align: center;
+	}
 
-    .main_title img {
-        height: 90px;
-    }
+	.main_title img {
+		height: 90px;
+	}
 
-    .main_title-img1 {
-        position: absolute;
-        top: 50px;
-        left: 0;
-        right: 0;
-        width: 100%;
-        opacity: 0;
-        z-index: 2;
+	.main_title-img1 {
+		position: absolute;
+		top: 50px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
 
-        animation-name: main1;
-        animation-duration: 3s;
-        animation-delay: 0s;
-        animation-iteration-count: infinite;
-    }
+		animation-name: main1;
+		animation-duration: 3s;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+	}
 
-    .main_title-img2 {
-        position: absolute;
-        top: 50px;
-        left: 0;
-        right: 0;
-        width: 100%;
-        opacity: 0;
-        z-index: 2;
+	.main_title-img2 {
+		position: absolute;
+		top: 50px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
 
-        animation-name: main2;
-        animation-duration: 3s;
-        animation-delay: 0s;
-        animation-iteration-count: infinite;
-    }
+		animation-name: main2;
+		animation-duration: 3s;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+	}
 
-    .main_title-img3 {
-        position: absolute;
-        top: 50px;
-        left: 0;
-        right: 0;
-        width: 100%;
-        opacity: 0;
-        z-index: 2;
+	.main_title-img3 {
+		position: absolute;
+		top: 50px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		opacity: 0;
+		z-index: 2;
 
-        animation-name: main3;
-        animation-duration: 3s;
-        animation-delay: 0s;
-        animation-iteration-count: infinite;
-    }
+		animation-name: main3;
+		animation-duration: 3s;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+	}
 
-    .main_pagelink {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        padding: 50px 0 200px;
-        opacity: 0.5;
-    }
+	.main_pagelink {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		padding: 50px 0 200px;
+		opacity: 0.5;
+	}
 
-    .main_pagelink p {
-        font-size: 50px;
-        font-weight: bold;
-        padding: 0 50px;
-    }
+	.main_pagelink p {
+		font-size: 50px;
+		font-weight: bold;
+		padding: 0 50px;
+	}
 
-    .main_pagelink img {
-        width: 36px;
-    }
+	.main_pagelink img {
+		width: 36px;
+	}
 
-    .main_666-animation01 {
-        position: fixed;
-        top: 420px;
-        right: 200px;
-        z-index: 3;
-        opacity: 0.7;
-        animation: right 8s linear infinite;
-    }
+	.main_666-animation01 {
+		position: fixed;
+		top: 420px;
+		right: 200px;
+		z-index: 3;
+		opacity: 0.7;
+		animation: right 8s linear infinite;
+	}
 
-    .main_666-animation01 img {
-        height: 60px;
-    }
+	.main_666-animation01 img {
+		height: 60px;
+	}
 
-    .main_666-animation02 {
-        position: fixed;
-        top: 620px;
-        left: 400px;
-        z-index: 3;
-        opacity: 0.7;
-        animation: left 10s linear infinite;
-        transform: translateX(100%);
-    }
+	.main_666-animation02 {
+		position: fixed;
+		top: 620px;
+		left: 400px;
+		z-index: 3;
+		opacity: 0.7;
+		animation: left 10s linear infinite;
+		transform: translateX(100%);
+	}
 
-    .main_666-animation02 img {
-        height: 80px;
-    }
+	.main_666-animation02 img {
+		height: 80px;
+	}
 
-    .main_666-animation03 {
-        position: fixed;
-        top: 900px;
-        left: 400px;
-        z-index: 2;
-        opacity: 0.7;
-        animation: left 15s linear infinite;
-        transform: translateX(100%);
-    }
+	.main_666-animation03 {
+		position: fixed;
+		top: 900px;
+		left: 400px;
+		z-index: 2;
+		opacity: 0.7;
+		animation: left 15s linear infinite;
+		transform: translateX(100%);
+	}
 
-    .main_666-animation03 img {
-        height: 40px;
-    }
+	.main_666-animation03 img {
+		height: 40px;
+	}
 
-    /*ここまで
+	/*ここまで
 	ここからフッター*/
-    footer {
-        background-color: black;
-        padding: 100px 0 20px 0;
-        position: relative;
-        z-index: 4;
-    }
-
-    .shere ul {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .footer_icon img {
-        width: 100px;
-    }
-
-    .header_title-sub img {
-        width: 300px;
-        padding-top: 10px;
-    }
-
-    .footer_name {
-        position: relative;
-        bottom: 20px;
-        width: 250px;
-    }
-
-    .footer_name img {
-        width: 250px;
-    }
-
-    .footer_share-img1 {
-        position: absolute;
-        opacity: 0;
-
-        animation-name: main1;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-
-    .footer_share-img2 {
-        position: absolute;
-        opacity: 0;
-
-        animation-name: main2;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-
-    .footer_share-img3 {
-        position: absolute;
-        opacity: 0;
-
-        animation-name: main3;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-
-    .footer_border img {
-        width: 160px;
-        margin: 0 20px;
-    }
-
-    .to_top {
-        position: relative;
-        padding: 150px 0;
-    }
-
-    .to_top img {
-        width: 250px;
-    }
-
-    .footer_totop-img1 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-        opacity: 0;
-
-        animation-name: main1;
-        animation-duration: 3s;
-        animation-delay: 1s;
-        animation-iteration-count: infinite;
-    }
-
-    .footer_totop-img2 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-        opacity: 0;
-
-        animation-name: main2;
-        animation-duration: 3s;
-        animation-delay: 1s;
-        animation-iteration-count: infinite;
-    }
-
-    .footer_totop-img3 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-        opacity: 0;
-
-        animation-name: main3;
-        animation-duration: 3s;
-        animation-delay: 1s;
-        animation-iteration-count: infinite;
-    }
-
-    .footer {
-        text-align: center;
-        color: white;
-        font-size: 25px;
-    }
-
-    /*	ここまで*/
-
-    .wrapper {
-        height: 100%;
-        overflow-x: hidden;
-        position: relative;
-        display: none;
-    }
-
-    .overlay {
-        content: "";
-        display: block;
-        width: 0;
-        height: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 2;
-        opacity: 0;
-        transition: opacity .5s;
-    }
-
-    .overlay.open {
-        width: 100%;
-        height: 100%;
-        opacity: 1;
-    }
-
-    .menu-trigger {
-        display: inline-block;
-        width: 36px;
-        height: 28px;
-        vertical-align: middle;
-        cursor: pointer;
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        z-index: 100;
-    }
-
-    .menu-trigger img {
-        display: block;
-        width: 150px;
-    }
-
-    .menu-trigger.active img {
-        display: none;
-    }
-
-    .menu-trigger.active {
-        transform: translate(500px);
-        transition: all .3s;
-        width: 150px;
-        height: 150px;
-        background-color: red;
-    }
-
-    .menu-trigger span {
-        display: none;
-        box-sizing: border-box;
-        position: absolute;
-        background-color: #000;
-        transition: all .3s;
-    }
-
-    .menu-trigger.active span {
-        display: block;
-        background-color: black;
-    }
-
-    .menu-trigger.active span:nth-of-type(1) {
-        transform: translateY(12px) rotate(-45deg);
-        width: 120px;
-        height: 8px;
-        top: 52px;
-    }
-
-    .menu-trigger.active span:nth-of-type(2) {
-        opacity: 0;
-    }
-
-    .menu-trigger.active span:nth-of-type(3) {
-        transform: translateY(-12px) rotate(45deg);
-        width: 120px;
-        height: 8px;
-        top: 75px;
-    }
-
-    .menu-trigger {
-        transition: all .3s;
-    }
-
-    nav {
-        width: 500px;
-        height: 100%;
-        padding-top: 100px;
-        background-color: red;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 10;
-        transform: translate(-500px);
-        transition: all .3s;
-    }
-
-    nav.open {
-        transform: translateZ(0);
-    }
-
-    nav ul {
-        padding: 0 20px;
-    }
-
-    nav li {
-        padding: 40px 0;
-    }
-
-    nav li:nth-child(7)::before,
-    nav li:nth-child(8)::before,
-    nav li:nth-child(9)::before {
-        content: "";
-        display: inline-block;
-        background: black;
-        width: 75px;
-        height: 5px;
-        position: relative;
-        bottom: 20px;
-        left: -80px;
-    }
-
-    nav li:nth-child(7),
-    nav li:nth-child(8),
-    nav li:nth-child(9) {
-        padding-left: 100px;
-    }
-
-    .side_nav {
-        position: relative;
-        font-size: 30px;
-    }
-
-    .side_nav img {
-        height: 50px;
-    }
-
-    .side_nav-img1 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main1;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img2 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main2;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img3 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main3;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img4 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main1;
-        animation-duration: 3s;
-        animation-delay: 2s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img5 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main2;
-        animation-duration: 3s;
-        animation-delay: 2s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img6 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main3;
-        animation-duration: 3s;
-        animation-delay: 2s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img7 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main1;
-        animation-duration: 3s;
-        animation-delay: 1s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img8 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main2;
-        animation-duration: 3s;
-        animation-delay: 1s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img9 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main3;
-        animation-duration: 3s;
-        animation-delay: 1s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img10 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main1;
-        animation-duration: 3s;
-        animation-delay: 2.5s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img11 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main2;
-        animation-duration: 3s;
-        animation-delay: 2.5s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img12 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main3;
-        animation-duration: 3s;
-        animation-delay: 2.5s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img13 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main1;
-        animation-duration: 3s;
-        animation-delay: 3s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img14 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main2;
-        animation-duration: 3s;
-        animation-delay: 3s;
-        animation-iteration-count: infinite;
-    }
-
-    .side_nav-img15 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        z-index: 2;
-
-        animation-name: main3;
-        animation-duration: 3s;
-        animation-delay: 3s;
-        animation-iteration-count: infinite;
-    }
+	footer {
+		background-color: black;
+		padding: 100px 0 20px 0;
+		position: relative;
+		z-index: 4;
+	}
+
+	.shere ul {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.footer_icon img {
+		width: 100px;
+	}
+
+	.header_title-sub img {
+		width: 300px;
+		padding-top: 10px;
+	}
+
+	.footer_name {
+		position: relative;
+		bottom: 20px;
+		width: 250px;
+	}
+
+	.footer_name img {
+		width: 250px;
+	}
+
+	.footer_name::before {
+		position: absolute;
+		top: 25px;
+		left: -154px;
+		content: "";
+		width: 150px;
+		height: 5px;
+		background-color: white;
+	}
+
+	.footer_name::after {
+		position: absolute;
+		top: 25px;
+		right: -154px;
+		content: "";
+		width: 150px;
+		height: 5px;
+		background-color: white;
+	}
+
+	.footer_share-img1 {
+		position: absolute;
+		opacity: 0;
+
+		animation-name: main1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.footer_share-img2 {
+		position: absolute;
+		opacity: 0;
+
+		animation-name: main2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.footer_share-img3 {
+		position: absolute;
+		opacity: 0;
+
+		animation-name: main3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.footer_border img {
+		width: 160px;
+		margin: 0 20px;
+	}
+
+	.to_top {
+		position: relative;
+		padding: 150px 0;
+	}
+
+	.to_top img {
+		width: 250px;
+	}
+
+	.footer_totop-img1 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		opacity: 0;
+
+		animation-name: main1;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+	}
+
+	.footer_totop-img2 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		opacity: 0;
+
+		animation-name: main2;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+	}
+
+	.footer_totop-img3 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		opacity: 0;
+
+		animation-name: main3;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+	}
+
+	.footer {
+		text-align: center;
+		color: white;
+		font-size: 25px;
+	}
+
+	/*	ここまで*/
+
+	.wrapper {
+		height: 100%;
+		overflow-x: hidden;
+		position: relative;
+		display: none;
+	}
+
+	.overlay {
+		content: "";
+		display: block;
+		width: 0;
+		height: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity .5s;
+	}
+
+	.overlay.open {
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+	}
+
+	.menu-trigger {
+		display: inline-block;
+		width: 36px;
+		height: 28px;
+		vertical-align: middle;
+		cursor: pointer;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: 100;
+	}
+
+	.menu-trigger img {
+		display: block;
+		width: 150px;
+	}
+
+	.menu-trigger.active img {
+		display: none;
+	}
+
+	.menu-trigger.active {
+		transform: translate(500px);
+		transition: all .3s;
+		width: 150px;
+		height: 150px;
+		background-color: red;
+	}
+
+	.menu-trigger span {
+		display: none;
+		box-sizing: border-box;
+		position: absolute;
+		background-color: #000;
+		transition: all .3s;
+	}
+
+	.menu-trigger.active span {
+		display: block;
+		background-color: black;
+	}
+
+	.menu-trigger.active span:nth-of-type(1) {
+		transform: translateY(12px) rotate(-45deg);
+		width: 120px;
+		height: 8px;
+		top: 52px;
+	}
+
+	.menu-trigger.active span:nth-of-type(2) {
+		opacity: 0;
+	}
+
+	.menu-trigger.active span:nth-of-type(3) {
+		transform: translateY(-12px) rotate(45deg);
+		width: 120px;
+		height: 8px;
+		top: 75px;
+	}
+
+	.menu-trigger {
+		transition: all .3s;
+	}
+
+	nav {
+		width: 500px;
+		height: 100%;
+		padding-top: 100px;
+		background-color: red;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 10;
+		transform: translate(-500px);
+		transition: all .3s;
+	}
+
+	nav.open {
+		transform: translateZ(0);
+	}
+
+	nav ul {
+		padding: 0 20px;
+	}
+
+	nav li {
+		padding: 40px 0;
+	}
+
+	nav li:nth-child(7)::before,
+	nav li:nth-child(8)::before,
+	nav li:nth-child(9)::before {
+		content: "";
+		display: inline-block;
+		background: black;
+		width: 75px;
+		height: 5px;
+		position: relative;
+		bottom: 20px;
+		left: -80px;
+	}
+
+	nav li:nth-child(7),
+	nav li:nth-child(8),
+	nav li:nth-child(9) {
+		padding-left: 100px;
+	}
+
+	.side_nav {
+		position: relative;
+		font-size: 30px;
+	}
+
+	.side_nav img {
+		height: 50px;
+	}
+
+	.side_nav-img1 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main1;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img2 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main2;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img3 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main3;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img4 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main1;
+		animation-duration: 3s;
+		animation-delay: 2s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img5 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main2;
+		animation-duration: 3s;
+		animation-delay: 2s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img6 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main3;
+		animation-duration: 3s;
+		animation-delay: 2s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img7 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main1;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img8 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main2;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img9 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main3;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img10 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main1;
+		animation-duration: 3s;
+		animation-delay: 2.5s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img11 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main2;
+		animation-duration: 3s;
+		animation-delay: 2.5s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img12 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main3;
+		animation-duration: 3s;
+		animation-delay: 2.5s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img13 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main1;
+		animation-duration: 3s;
+		animation-delay: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img14 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main2;
+		animation-duration: 3s;
+		animation-delay: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	.side_nav-img15 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		z-index: 2;
+
+		animation-name: main3;
+		animation-duration: 3s;
+		animation-delay: 3s;
+		animation-iteration-count: infinite;
+	}
 
 }
