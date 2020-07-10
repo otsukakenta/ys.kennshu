@@ -136,6 +136,10 @@ main {
 	animation: slide4 .3s ease-out forwards;
 }
 
+.main_content-imgPage {
+	display: flex;
+}
+
 .main_content-imgPage ul {
 	text-align: center;
 	padding-top: 50px;
@@ -153,13 +157,6 @@ main {
 	padding-left: 150px;
 }
 
-.main_content-imgPage li img {
-	position: relative;
-	top: 7px;
-	width: 20px;
-	padding-left: 5px;
-}
-
 .main_content-imgPage a {
 	color: white;
 	font-size: 30px;
@@ -168,6 +165,15 @@ main {
 
 .main_content-imgPage a:hover {
 	color: #f6821e;
+}
+
+.link_icon {
+	padding-top: 55px;
+}
+
+.link_icon img {
+	width: 20px;
+	padding-left: 10px;
 }
 
 .main_content-imgMenu {
