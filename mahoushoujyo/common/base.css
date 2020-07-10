@@ -685,14 +685,8 @@ ul {
 		justify-content: center;
 		color: white;
 		padding: 50px 0 200px;
-		opacity: 0.5;
 	}
 
-	.main_pagelink p {
-		font-size: 50px;
-		font-weight: bold;
-		padding: 0 50px;
-	}
 
 	.main_pagelink img {
 		width: 36px;

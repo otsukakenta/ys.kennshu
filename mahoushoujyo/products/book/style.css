@@ -89,6 +89,14 @@
 		color: white;
 	}
 
+	.link_btn1 img {
+		padding-bottom: 10px;
+	}
+
+	.link_btn1 img {
+		opacity: 0.5;
+	}
+
 	#oll {
 		display: none;
 		position: fixed;

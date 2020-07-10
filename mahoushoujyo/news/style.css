@@ -58,8 +58,21 @@
 		display: block;
 	}
 
-	.main_pagelink li:nth-child(1),
-	.main_pagelink li:nth-child(2) {
+	.link_btn1 {
+		padding-right: 20px;
+	}
+
+	.link_btn2 {
+		padding-left: 20px;
+	}
+
+	.link_btn1 img,
+	.link_btn2 img {
+		padding-bottom: 10px;
+	}
+
+	.link_btn1 img,
+	.main_pagelink li:nth-child(1) {
 		opacity: 0.5;
 	}
 }
