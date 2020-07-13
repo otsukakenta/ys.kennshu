@@ -85,7 +85,7 @@ main {
 	height: 20px;
 }
 
-.main_content-imgTxt p {
+.main_content-imgTxt figcaption {
 	width: 450px;
 	text-align: center;
 	background-color: #F6821E;

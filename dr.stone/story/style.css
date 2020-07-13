@@ -132,7 +132,7 @@
 	z-index: 2;
 }
 
-.main_content-imgTxt p {
+.main_content-imgTxt figcaption {
 	text-align: center;
 	width: 80px;
 	height: 16px;

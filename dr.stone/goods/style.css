@@ -56,7 +56,7 @@
 	filter: brightness(90%) contrast(90%);
 }
 
-.main_content-img p {
+.main_content-img figcaption {
 	position: relative;
 	z-index: 2;
 	background-color: #F6821E;

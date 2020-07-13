@@ -195,7 +195,7 @@
 	text-decoration: none;
 }
 
-.news_list span {
+.news_list time {
 	color: #f6821e;
 	font-size: 18px;
 	font-weight: bold;
@@ -291,7 +291,7 @@
 	height: 20px;
 }
 
-.main_content-imgTxt p {
+.main_content-imgTxt figcaption {
 	width: 300px;
 	text-align: center;
 	background-color: #F6821E;

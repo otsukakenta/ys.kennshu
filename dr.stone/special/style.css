@@ -72,7 +72,7 @@
 	display: flex;
 }
 
-.main_content-imgTxt p {
+.main_content-imgTxt figcaption {
 	text-align: center;
 	width: 450px;
 	background-color: #F6821E;
