@@ -66,7 +66,7 @@
 		width: 300px;
 	}
 
-	.main_content-image p {
+	.main_content-image figcaption {
 		width: 300px;
 		text-align: center;
 		font-weight: bold;

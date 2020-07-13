@@ -34,13 +34,13 @@
 		font-size: 36px;
 	}
 
-	.main_content p {
+	.main_content figcaption {
 		text-align: left;
 		font-size: 14px;
 		padding: 50px 0;
 	}
 
-	.main_content p a {
+	.main_content figcaption a {
 		color: white;
 		font-weight: bold;
 		text-decoration: underline;

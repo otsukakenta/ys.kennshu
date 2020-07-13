@@ -78,7 +78,7 @@
 		height: 350px;
 	}
 
-	.main_content-image li p {
+	.main_content-image li figcaption {
 		text-align: center;
 		font-weight: bold;
 		font-size: 32px;

@@ -27,7 +27,7 @@
 		display: block;
 	}
 
-	.main_content-image p {
+	.main_content-image figcaption {
 		position: relative;
 		z-index: 4;
 		color: white;
