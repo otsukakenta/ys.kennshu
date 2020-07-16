@@ -41,7 +41,7 @@
 }
 
 .right {
-	width: 87%;
+	width: 86%;
 }
 
 .main_image-content {
@@ -313,7 +313,9 @@
 .main_content-movieTtl img {
 	width: 220px;
 }
-
+.main_content-movieBd{
+	height: 0;
+}
 .main_content-movieBd img {
 	position: relative;
 	top: -500px;
