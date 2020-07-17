@@ -85,7 +85,9 @@
 		font-size: 32px;
 		padding-top: 80px;
 	}
-
+	.main_content-image li:first-of-type figcaption {
+		font-size: 30px;
+	}
 	.main_content-image a {
 		display: block;
 		padding: 50px;

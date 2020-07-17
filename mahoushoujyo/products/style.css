@@ -85,7 +85,14 @@
 		width: 300px;
 		padding-top: 80px;
 	}
-
+	.main_content-image li:first-of-type figcaption {
+		font-size: 30px;
+	}
+	
+		.main_content-image li:nth-of-type(2) figcaption {
+		font-size: 28px;
+	}
+	
 	.main_content-image a {
 		color: white;
 		display: block;
@@ -130,8 +137,6 @@
 	.main_pagelink li:nth-child(1) {
 		opacity: 0.5;
 	}
-}
-
 
 .main_content-search01 {
 	position: absolute;
