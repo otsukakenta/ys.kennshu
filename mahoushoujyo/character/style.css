@@ -201,7 +201,7 @@
 		overflow: hidden;
 	}
 
-	.slider img {
+	.btn_img {
 		position: relative;
 		bottom: 50px;
 		height: 700px;
@@ -211,10 +211,11 @@
 		transform: rotate(5deg) scaleX(1);
 		filter: brightness(50%) contrast(100%);
 		background: rgba(0, 0, 0, 1);
-
 	}
-}
 
-#chara1 {
+
+.active img{
 	background: rgba(255, 0, 0, 1);
+	filter: brightness(70%) contrast(100%);
+}
 }
