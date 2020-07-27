@@ -95,16 +95,14 @@
 	z-index: 9998;
 }
 
-#mybutton,
-#mybutton2 {
+.mybutton {
 	width: 30px;
 	position: absolute;
 	top: -20px;
 	left: 815px;
 }
 
-#mybutton img,
-#mybutton2 img {
+.mybutton img {
 	width: 30px;
 }
 

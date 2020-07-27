@@ -1,42 +1,36 @@
-var button = document.getElementById("mybutton");
 var youtube = document.getElementById("youtube_content");
-var ollcontent = document.getElementById("oll");
+var oll = document.getElementById("oll");
 var youtube2 = document.getElementById("youtube_content2");
 
-var myfunc = function () {
-	youtube.style.display = "none";
-	oll.style.display = "none";
-	youtube2.style.display = "none";
+
+var ytbtn = document.getElementsByClassName('yt_button');
+for (var i = ytbtn.length - 1; i >= 0; i--) {
+	ytbtnAction(ytbtn[i], i);
 }
-button.addEventListener("click", myfunc);
 
-
-var button2 = document.getElementById("yt_button");
-var button5 = document.getElementById("yt_button3");
-var myfunc2 = function () {
-	youtube.style.display = "block";
-	oll.style.display = "block";
-	youtube2.style.display = "none";
+function ytbtnAction(ytbtnDOM, btnId) {
+	ytbtnDOM.addEventListener("click", function () {
+		if (btnId < 2) {
+			youtube.style.display = "block";
+			oll.style.display = "block";
+			youtube2.style.display = "none";
+		} else {
+			youtube.style.display = "none";
+			oll.style.display = "block";
+			youtube2.style.display = "block";
+		}
+	})
 }
-button2.addEventListener("click", myfunc2);
-button5.addEventListener("click", myfunc2);
 
-
-
-var button3 = document.getElementById("mybutton2");
-var myfunc3 = function () {
-	youtube.style.display = "none";
-	oll.style.display = "none";
-	youtube2.style.display = "none";
+var btn = document.getElementsByClassName('mybutton');
+for (var i = btn.length - 1; i >= 0; i--) {
+	btnAction(btn[i]);
 }
-button3.addEventListener("click", myfunc3);
 
-var button4 = document.getElementById("yt_button2");
-var button6 = document.getElementById("yt_button4");
-var myfunc4 = function () {
-	youtube.style.display = "none";
-	oll.style.display = "block";
-	youtube2.style.display = "block";
+function btnAction(btnDOM) {
+	btnDOM.addEventListener("click", function () {
+		youtube.style.display = "none";
+		oll.style.display = "none";
+		youtube2.style.display = "none";
+	})
 }
-button4.addEventListener("click", myfunc4);
-button6.addEventListener("click", myfunc4);
