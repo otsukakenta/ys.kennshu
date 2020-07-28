@@ -97,23 +97,7 @@ h2 {
 	z-index: 9998;
 }
 
-#modal_content_01,
-#modal_content_02,
-#modal_content_03,
-#modal_content_05,
-#modal_content_06,
-#modal_content_07,
-#modal_content_08,
-#modal_content_09,
-#modal_content_10,
-#modal_content_11,
-#modal_content_12,
-#modal_content_13,
-#modal_content_14,
-#modal_content_15,
-#modal_content_16,
-#modal_content_17,
-#modal_content_18 {
+.modal_content {
 	display: none;
 }
 

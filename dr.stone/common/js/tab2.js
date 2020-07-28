@@ -4,7 +4,7 @@ var list1 = document.getElementById("list1");
 var list2 = document.getElementById("list2");
 var bd1 = document.getElementById("before1");
 var bd2 = document.getElementById("before2");
-var main= document.getElementById("main");
+var main = document.getElementById("main");
 var myfunc = function () {
 	list1.style.color = "#f6821e";
 	list2.style.color = "white";
@@ -42,4 +42,3 @@ var myfunc4 = function () {
 	button01.style.transform = "translateX(0px)";
 }
 button01.addEventListener("mouseover", myfunc4);
-
