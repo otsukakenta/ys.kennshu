@@ -10,211 +10,224 @@
 		width: 20px;
 	}
 
-	.main_bg {
-		padding: 50px 0 100px;
-	}
-
-	.main_content {
-		background-color: #8c0000;
-		position: absolute;
-		top: 320px;
-		width: 100%;
-		height: 2030px;
-		z-index: 4;
-		transform: rotate(-5deg) scaleX(2);
-	}
-
-	.main_character {
-		height: 2000px;
-		position: relative;
-		z-index: 5;
-		padding: 20px;
-	}
-
-	.main_character-title12 {
-		background: url(../image/bg_character12_sp.png);
-		background-size: cover;
-		position: relative;
-		z-index: 1;
-		height: 1600px;
-	}
-
-	.character-image {
-		position: relative;
-		z-index: 2;
-	}
-
-	.character_bg {
-		height: 300px;
-
-	}
-
-	.character_bg img {
-		position: relative;
-		bottom: 300px;
-		z-index: 1;
-		width: 700px;
-		display: block;
-		margin: 0 0 0 auto;
-	}
-
-	.character_name {
-		display: flex;
-		justify-content: center;
-		color: white;
-		text-align: center;
-		font-size: 50px;
-		font-weight: bold;
-		padding: 30px;
-		position: relative;
-		z-index: 2;
-	}
-
-	.character_name img {
-		width: 40px;
-		padding: 0 10px;
-	}
-
-	.comment {
-		font-size: 65px;
-		line-height: 1em;
-		color: black;
-		transform: translate(-50px, 80px) rotate(-6deg) scale(0.8, 2);
-		position: relative;
-		z-index: 2;
-	}
-
-	.comment-11 {
-		font-size: 36px;
-		line-height: 1em;
-		color: black;
-		transform: translate(60px, 100px) rotate(-6deg) scale(1, 2);
-		position: relative;
-		z-index: 2;
-	}
-
-	.main_character-content {
-		display: flex;
-	}
-
-	.main_character-content-12 img {
-		width: 750px;
-		position: relative;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -5%);
-		z-index: 1;
-	}
-
-	.main_character-left img {
-		width: 500px;
-		position: relative;
-		bottom: 50px;
-		z-index: 1;
-	}
-
-	.main_content-right {
-		width: 430px;
-		position: relative;
-		z-index: 1;
-		display: block;
-	}
-
-	.main_content-right p {
-		background-color: black;
-		display: inline-block;
-		font-size: 30px;
-		margin: 20px 0;
-		padding: 4px;
-	}
-
-
-	.sub_character img {
-		width: 400px;
-	}
-
-	.sub_character-men {
-		text-align: center;
-		padding-top: 90px;
-	}
-
-	.sub_character-men img {
-		width: 250px;
-	}
-
-	.story {
-		background-color: black;
-		font-size: 30px;
-		padding: 15px;
-		margin: 15px;
-		line-height: 1.5em;
-	}
-
-	.story-12 {
-		background-color: black;
-		font-size: 30px;
-		padding: 15px;
-		margin: 15px;
-		line-height: 1.5em;
-		position: relative;
-		top: -110px;
-		z-index: 1;
-	}
-
-	.character_comment {
-		padding: 30px 40px;
-		color: white;
-		font-size: 28px;
-	}
-
-	.character_comment-12 {
-		padding: 30px 40px;
-		color: white;
-		font-size: 28px;
-		position: relative;
-		top: -130px;
-		z-index: 1;
-	}
-
-	.main_select {
-		height: 1000px;
-		padding-bottom: 100px;
-	}
-
-	.main_select-image {
-		width: 300px;
-		padding: 200px 0px 50px 30;
-	}
-
-	.slider {
-		position: relative;
-		z-index: 5;
-		width: 100%;
-		height: 550px;
-		padding: 0;
-		margin: 0;
-		transform: rotate(-5deg) scaleX(1);
-	}
-
-	.slider .a {
-		width: 230px;
+	main {
 		overflow: hidden;
 	}
 
-	.btn_img {
+	.wrapper {
+		height: 100%;
+		overflow-x: hidden;
 		position: relative;
-		bottom: 50px;
-		height: 700px;
-		width: 250px;
-		padding-top: 50px;
-		margin: 0 20px;
-		transform: rotate(5deg) scaleX(1);
-		filter: brightness(50%) contrast(100%);
-		background: rgba(0, 0, 0, 1);
+		display: block;
+		z-index: 1
 	}
+}
+
+.main_bg {
+	padding: 50px 0 100px;
+}
+
+.main_content {
+	background-color: #8c0000;
+	position: absolute;
+	top: 320px;
+	width: 100%;
+	height: 2030px;
+	z-index: 4;
+	transform: rotate(-5deg) scaleX(2);
+}
+
+.main_character {
+	height: 2000px;
+	position: relative;
+	z-index: 5;
+	padding: 20px;
+}
+
+.main_character-title12 {
+	background: url(../image/bg_character12_sp.png);
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	height: 1600px;
+}
+
+.character-image {
+	position: relative;
+	z-index: 2;
+}
+
+.character_bg {
+	height: 300px;
+
+}
+
+.character_bg img {
+	position: relative;
+	bottom: 300px;
+	z-index: 1;
+	width: 700px;
+	display: block;
+	margin: 0 0 0 auto;
+}
+
+.character_name {
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 30px;
+	position: relative;
+	z-index: 2;
+}
+
+.character_name img {
+	width: 40px;
+	padding: 0 10px;
+}
+
+.comment {
+	font-size: 65px;
+	line-height: 1em;
+	color: black;
+	transform: translate(-50px, 80px) rotate(-6deg) scale(0.8, 2);
+	position: relative;
+	z-index: 2;
+}
+
+.comment-11 {
+	font-size: 36px;
+	line-height: 1em;
+	color: black;
+	transform: translate(60px, 100px) rotate(-6deg) scale(1, 2);
+	position: relative;
+	z-index: 2;
+}
+
+.main_character-content {
+	display: flex;
+}
+
+.main_character-content-12 img {
+	width: 750px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -5%);
+	z-index: 1;
+}
+
+.main_character-left img {
+	width: 500px;
+	position: relative;
+	bottom: 50px;
+	z-index: 1;
+}
+
+.main_content-right {
+	width: 430px;
+	position: relative;
+	z-index: 1;
+	display: block;
+}
+
+.main_content-right p {
+	background-color: black;
+	display: inline-block;
+	font-size: 30px;
+	margin: 20px 0;
+	padding: 4px;
+}
 
 
-.active img{
+.sub_character img {
+	width: 400px;
+}
+
+.sub_character-men {
+	text-align: center;
+	padding-top: 90px;
+}
+
+.sub_character-men img {
+	width: 250px;
+}
+
+.story {
+	background-color: black;
+	font-size: 30px;
+	padding: 15px;
+	margin: 15px;
+	line-height: 1.5em;
+}
+
+.story-12 {
+	background-color: black;
+	font-size: 30px;
+	padding: 15px;
+	margin: 15px;
+	line-height: 1.5em;
+	position: relative;
+	top: -110px;
+	z-index: 1;
+}
+
+.character_comment {
+	padding: 30px 40px;
+	color: white;
+	font-size: 28px;
+}
+
+.character_comment-12 {
+	padding: 30px 40px;
+	color: white;
+	font-size: 28px;
+	position: relative;
+	top: -130px;
+	z-index: 1;
+}
+
+.main_select {
+	height: 1000px;
+	padding-bottom: 100px;
+}
+
+.main_select-image {
+	width: 300px;
+	padding: 200px 0px 50px 30;
+}
+
+.slider {
+	position: relative;
+	z-index: 5;
+	width: 100%;
+	height: 550px;
+	padding: 0;
+	margin: 0;
+	transform: rotate(-5deg) scaleX(1);
+}
+
+.slider .a {
+	width: 230px;
+	overflow: hidden;
+}
+
+.btn_img {
+	position: relative;
+	bottom: 50px;
+	height: 700px;
+	width: 250px;
+	padding-top: 50px;
+	margin: 0 20px;
+	transform: rotate(5deg) scaleX(1);
+	filter: brightness(50%) contrast(100%);
+	background: rgba(0, 0, 0, 1);
+}
+
+
+.active img {
 	background: rgba(255, 0, 0, 1);
 	filter: brightness(70%) contrast(100%);
 }
