@@ -66,7 +66,7 @@
 	opacity: 0.5;
 }
 
-#nav {
+.main_nav {
 	position: absolute;
 	top: 75vh;
 	right: 0;
@@ -78,47 +78,43 @@
 #block1 {
 	position: absolute;
 	top: -5vh;
-	right: 2.5%;
+	right: 0;
 	width: 180px;
 	overflow: hidden;
 }
 
 #block2 {
-	position: relative;
-	left: 263%;
+	position: absolute;
+	right: 0;
 	width: 180px;
 	overflow: hidden;
 }
 
 #block3 {
-	position: relative;
+	position: absolute;
+	right: 0;
 	top: 5vh;
-	left: 163%;
 	width: 180px;
 	overflow: hidden;
 }
 
 #block4 {
-	position: relative;
+	position: absolute;
+	right: 0;
 	top: 10vh;
-	left: 63%;
 	width: 180px;
 	overflow: hidden;
 }
 
 #block5 {
-	position: relative;
+	position: absolute;
+	right: 0;
 	top: 15vh;
-	right: 37%;
 	width: 180px;
 	overflow: hidden;
 }
 
-#block1:hover {
-	width: 180px;
-}
-
-#nav a::before {
+.main_nav a::before {
 	content: "Key Visual";
 	display: inline-block;
 	background-color: black;
@@ -132,7 +128,23 @@
 	z-index: 9998;
 }
 
-#nav a {
+.slick-current a p {
+	transform: translateX(140px);
+}
+
+.slick-current li a {
+	width: 200px;
+	color: white;
+	background-color: black;
+}
+
+.slick-current li a::before {
+	transform: translateX(0px);
+	opacity: 1;
+	transition: all .3s;
+}
+
+.main_nav a {
 	display: block;
 	color: black;
 	background-color: gray;
@@ -141,24 +153,24 @@
 	margin: 0 0 0 auto;
 }
 
-#nav a p {
+.main_nav a p {
 	margin: 0 0 0 auto;
 	position: relative;
 	z-index: 9999;
 	bottom: 30px;
 }
 
-#nav a p:hover {
+.main_nav a p:hover {
 	transform: translateX(140px);
 }
 
-#nav a:hover {
+.main_nav a:hover {
 	width: 200px;
 	color: white;
 	background-color: black;
 }
 
-#nav a:hover::before {
+.main_nav a:hover::before {
 	transform: translateX(0px);
 	opacity: 1;
 	transition: all .3s;
@@ -313,9 +325,11 @@
 .main_content-movieTtl img {
 	width: 220px;
 }
-.main_content-movieBd{
+
+.main_content-movieBd {
 	height: 0;
 }
+
 .main_content-movieBd img {
 	position: relative;
 	top: -500px;
@@ -345,6 +359,8 @@
 
 .main_content-twitter {
 	width: 600px;
+	position: relative;
+	z-index: 2;
 }
 
 .main_content-twitterTtl img {

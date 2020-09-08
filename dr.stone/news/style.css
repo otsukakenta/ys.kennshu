@@ -47,6 +47,7 @@ main {
 .header_nav li:first-of-type {
 	transform: translateX(0px);
 }
+
 .main_content-img {
 	position: absolute;
 	top: 170px;
@@ -96,7 +97,7 @@ main {
 	top: -54%;
 	left: -1.2%;
 	z-index: 1;
-	width:80%;
+	width: 80%;
 	height: 59%;
 	border: 2px solid white;
 }
@@ -138,6 +139,8 @@ main {
 
 .main_content-imgPage {
 	display: flex;
+	position: relative;
+	z-index: 2;
 }
 
 .main_content-imgPage ul {
@@ -156,7 +159,7 @@ main {
 	color: #f6821e;
 	font-size: 30px;
 	font-weight: bold;
-	padding-left: 150px;
+	padding-left: 0;
 }
 
 .main_content-imgPage a {

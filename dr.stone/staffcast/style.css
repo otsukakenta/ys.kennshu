@@ -47,6 +47,11 @@ h2 {
 	color: #f6b80b;
 }
 
+.main_content-cast {
+	position: relative;
+	z-index: 2;
+}
+
 .btn {
 	width: 22px;
 	height: 22px;

@@ -127,6 +127,7 @@ main {
 	right: 100px;
 	width: 140px;
 	filter: brightness(70%) contrast(100%);
+	z-index: 1;
 }
 
 footer {
